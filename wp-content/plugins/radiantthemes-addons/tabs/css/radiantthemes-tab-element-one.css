@@ -1,0 +1,42 @@
+﻿/* rt-tab element-one */
+
+.rt-tab.element-one{
+}
+
+.rt-tab.element-one > ul.nav-tabs{
+    border:none;
+}
+
+.rt-tab.element-one > ul.nav-tabs > li{
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-one > ul.nav-tabs > li > a{
+	display:block;
+	padding:10px 20px 13px 20px;
+	color:inherit;
+	line-height:35px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-one > ul.nav-tabs > li > a.text-left{
+	text-align:left;
+}
+
+.rt-tab.element-one > ul.nav-tabs > li > a.text-center{
+	text-align:center;
+}
+
+.rt-tab.element-one > ul.nav-tabs > li > a.text-right{
+	text-align:right;
+}
+
+.rt-tab.element-one > ul.nav-tabs > li > a:hover,
+.rt-tab.element-one > ul.nav-tabs > li.active > a{
+}
+
+.rt-tab.element-one > ul.nav-tabs > li > a i{
+	margin-right:10px;
+}

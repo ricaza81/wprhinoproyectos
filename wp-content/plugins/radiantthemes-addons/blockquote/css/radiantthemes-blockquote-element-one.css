@@ -1,0 +1,62 @@
+﻿/* rt-blockquote element-one */
+
+.rt-blockquote.element-one{
+}
+
+.rt-blockquote.element-one > blockquote{
+	position:relative;
+}
+
+.rt-blockquote.element-one[data-blockquote-icon-position=left] > blockquote{
+	padding-left:90px;
+}
+
+.rt-blockquote.element-one[data-blockquote-icon-position=center] > blockquote{
+	padding-top:80px;
+}
+
+.rt-blockquote.element-one[data-blockquote-icon-position=right] > blockquote{
+	padding-right:90px;
+}
+
+.rt-blockquote.element-one[data-blockquote-align=left] > blockquote{
+	text-align:left;
+}
+
+.rt-blockquote.element-one[data-blockquote-align=center] > blockquote{
+	text-align:center;
+}
+
+.rt-blockquote.element-one[data-blockquote-align=right] > blockquote{
+	text-align:right;
+}
+
+.rt-blockquote.element-one > blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-blockquote.element-one > blockquote > i.fa{
+	position:absolute;
+	font-size:70px;
+	line-height:70px;
+}
+
+.rt-blockquote.element-one[data-blockquote-icon-position=left] > blockquote > i.fa{
+	top:4px;
+	left:0;
+}
+
+.rt-blockquote.element-one[data-blockquote-icon-position=center] > blockquote > i.fa{
+	top:0;
+	left:50%;
+	margin-left:-33px;
+}
+
+.rt-blockquote.element-one[data-blockquote-icon-position=right] > blockquote > i.fa{
+	top:4px;
+	right:0;
+}
+
+.rt-blockquote.element-one > blockquote p{
+	margin-bottom:10px;
+}

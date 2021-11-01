@@ -1,0 +1,157 @@
+﻿/* rt-alert-box element-one */
+
+.rt-alert-box[class*='element-']{
+    position:relative;
+    margin:0;
+    border-width:1px;
+    border-style:solid;
+    border-radius:0;
+    font-weight:400;
+}
+
+.rt-alert-box.element-one{
+    padding:13px 25px 12px 25px;
+    font-size:15px;
+    line-height:25px;
+    border-radius:5px;
+    text-align:left;
+}
+
+.rt-alert-box.element-two{
+    padding:22px 20px 25px 20px;
+    font-size:16px;
+    line-height:27px;
+    text-align:center;
+}
+
+.rt-alert-box.element-one.info-style-one,
+.rt-alert-box.element-two.info-style-two{
+    background-color:#cce5ff;
+    border-color:#c5ddf5;
+    color:#556779;
+}
+
+.rt-alert-box.element-one.info-style-two{
+    background-color:#fff;
+    border-color:#b8d0ea;
+    color:#0078bc;
+}
+
+.rt-alert-box.element-two.info-style-one{
+    background-color:#cce5ff;
+    border-color:#c5ddf5;
+    color:#556779;
+}
+
+.rt-alert-box.element-one.success-style-one,
+.rt-alert-box.element-two.success-style-two{
+    background-color:#9abc44;
+    border-color:#82a132;
+    color:#fff;
+}
+
+.rt-alert-box.element-one.success-style-two{
+    background-color:#c5ebd4;
+    border-color:#b1dac1;
+    color:#01742f;
+}
+
+.rt-alert-box.element-two.success-style-one{
+    background-color:#00a63f;
+    border-color:#85a23b;
+    color:#fff;
+}
+
+.rt-alert-box.element-one.warning-style-one,
+.rt-alert-box.element-two.warning-style-two{
+    background-color:#fce1b6;
+    border-color:#f0d4a7;
+    color:#744701;
+}
+
+.rt-alert-box.element-one.warning-style-two{
+    background-color:#fff;
+    border-color:#f0d4a7;
+    color:#744701;
+}
+
+.rt-alert-box.element-two.warning-style-one{
+    background-color:#6846dd;
+    border-color:#5e40c8;
+    color:#fff;
+}
+
+.rt-alert-box.element-one.error-style-one,
+.rt-alert-box.element-two.error-style-two{
+    background-color:#f8d7da;
+    border-color:#e4c2c5;
+    color:#c01d2b;
+}
+
+.rt-alert-box.element-one.error-style-two{
+    background-color:#fff;
+    border-color:#e4c2c5;
+    color:#c01d2b;
+}
+
+.rt-alert-box.element-two.error-style-one{
+    background-color:#f34e4e;
+    border-color:#db4545;
+    color:#fff;
+}
+
+.rt-alert-box[class*='element-'] > .close{
+    position:absolute;
+    z-index:1;
+}
+
+.rt-alert-box.element-one > .close{
+    top:50%;
+    right:15px;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+}
+
+.rt-alert-box.element-two > .close{
+    top:10px;
+    right:10px;
+}
+
+.rt-alert-box[class*='element-'] > .close i{
+    vertical-align:top;
+    font-size:20px;
+    line-height:20px;
+}
+
+.rt-alert-box[class*='element-'] > .icon{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.rt-alert-box.element-one > .icon{
+    margin-right:13px;
+}
+
+.rt-alert-box.element-two > .icon{
+    width:100%;
+    margin-bottom:13px;
+}
+
+.rt-alert-box.element-one > .icon i{
+    font-size:20px;
+}
+
+.rt-alert-box.element-two > .icon i{
+    font-size:36px;
+}
+
+.rt-alert-box.element-one > strong{
+    font-weight:600;
+}
+
+.rt-alert-box.element-two > strong{
+    display:block;
+    margin-bottom:10px;
+    font-weight:700;
+    font-size:20px;
+}

@@ -1,0 +1,156 @@
+﻿/* rt-pricing-table element-three */
+
+.rt-pricing-table.element-three{
+}
+
+.rt-pricing-table.element-three.spotlight{
+	position:relative;
+	z-index:1;
+	transform:translateY(-30px);
+	-webkit-transform:translateY(-30px);
+}
+
+.rt-pricing-table.element-three > .holder{
+	padding:30px 15px 50px 15px;
+	background:#fff;
+	border:1px rgba(0,0,0,0.03) solid;
+	text-align:center;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder{
+	position:relative;
+	padding-top:60px;
+	border:none;
+	box-shadow:0px 0px 40px rgba(5,6,6,0.1);
+}
+
+.rt-pricing-table.element-three > .holder > .title{
+	margin-bottom:40px;
+}
+
+.rt-pricing-table.element-three > .holder > .title > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-three > .holder > .title h4{
+	margin-bottom:7px;
+	font-size:18px;
+	color:#232a30;
+	line-height:30px;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .title h4,
+.rt-pricing-table.element-three.spotlight > .holder > .title h5,
+.rt-pricing-table.element-three.spotlight > .holder > .title h5 strong,
+.rt-pricing-table.element-three.spotlight > .holder > .list ul li{
+	color:#fff;
+}
+
+.rt-pricing-table.element-three > .holder > .title h5{
+	margin-bottom:20px;
+	font-size:14px;
+	color:#797979;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-three > .holder > .title h5 strong{
+	display:block;
+	font-size:48px;
+	line-height:55px;
+}
+
+.rt-pricing-table.element-three > .holder > .list{
+	margin-bottom:40px;
+}
+
+.rt-pricing-table.element-three > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul{
+	display:inline-block;
+	vertical-align:top;
+	width:100%;
+	max-width:220px;
+	text-align:left;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul li{
+	position:relative;
+	margin-bottom:15px;
+	padding-left:22px;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul li:last-child,
+.rt-pricing-table.element-three > .holder > .list ul li:only-child{
+	margin-bottom:0;
+}
+
+.rt-pricing-table.element-three > .holder > .list ul li:before{
+	position:absolute;
+	top:10px;
+	left:0;
+	content:" ";
+	z-index:0;
+	width:10px;
+	height:10px;
+	border:1px solid;
+	border-radius:50%;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .list ul li:before{
+	border-color:#fff;
+}
+
+.rt-pricing-table.element-three > .holder > .data{
+}
+
+.rt-pricing-table.element-three > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-three > .holder > .data .btn{
+	margin-bottom:15px;
+	padding:10px 25px 10px 25px;
+	background-color:#fff;
+	border:1px solid;
+	border-radius:35px;
+	font-size:17px;
+	color:#232a30;
+	line-height:28px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .data .btn{
+	display:none;
+}
+
+.rt-pricing-table.element-three > .holder > .data .btn-hover{
+	display:none;
+	vertical-align:top;
+	margin-bottom:15px;
+	width:67px;
+	height:67px;
+	background-color:#fff;
+	border-radius:50%;
+	font-size:20px;
+	line-height:67px;
+	animation:HeartBeatButton 2s infinite;
+}
+
+@keyframes HeartBeatButton{
+    0%{
+    	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.2);
+    }
+    50%{
+    	box-shadow:0px 0px 0px 20px rgba(255,255,255,0.4);
+    }
+    100%{
+    	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.2);
+    }
+}
+
+.rt-pricing-table.element-three.spotlight > .holder > .data .btn-hover{
+	display:inline-block;
+}

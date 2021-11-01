@@ -1,0 +1,159 @@
+﻿/* rt-loan-calculator element-one */
+
+.rt-loan-calculator.element-one{
+}
+
+.rt-loan-calculator.element-one > ul.nav-tabs{
+	margin-bottom:25px;
+	border-bottom:none;
+}
+
+.rt-loan-calculator.element-one > ul.nav-tabs > li{
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+	margin-right:10px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-loan-calculator.element-one > ul.nav-tabs > li > a{
+	display:block;
+	margin:0;
+	padding:10px 35px 10px 35px;
+	background-color:#fff;
+	border:1px #e5e5e5 solid;
+	border-radius:30px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:13px;
+	color:#001a57;
+	line-height:26px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-loan-calculator.element-one > ul.nav-tabs > li.active > a{
+	color:#fff;
+}
+
+.rt-loan-calculator.element-one > ul.nav-tabs > li > a i{
+	margin-right:10px;
+}
+
+.rt-loan-calculator.element-one > .tab-content{
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form{
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row{
+	margin-right:-8px;
+	margin-left:-8px;
+	margin-bottom:16px;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row > [class*='col-']{
+	padding-right:8px;
+	padding-left:8px;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-label{
+	text-align:right;
+	font-weight:300;
+	font-size:30px;
+	color:#7e7e7e;
+	line-height:35px;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-label label{
+	display:block;
+	font-weight:400;
+	font-size:13px;
+	line-height:26px;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-label .input-group > .input-group-addon{
+    padding:0px 0px 0px 6px;
+    background-color:initial;
+    border:initial;
+	border-radius:initial;
+	font-weight:inherit;
+	font-size:inherit;
+    color:inherit;
+    line-height:inherit;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-label .input-group > .input-group-addon{
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-label input[type=text]{
+	padding:0;
+	background:none;
+	border:none;
+	box-shadow:initial;
+	text-align:right;
+	font-weight:inherit;
+	font-size:inherit;
+    color:inherit;
+    line-height:inherit;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-slider{
+	border-bottom:1px #f1f1f1 solid;
+	font-weight:400;
+	font-size:13px;
+	color:#7e7e7e;
+	line-height:26px;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-slider .slider{
+	width:100%;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-slider .slider .slider-track{
+	background-color:#f5f5f5;
+	background-image:none;
+	box-shadow:initial;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-slider .slider .slider-track > .slider-selection{
+	background-image:none;
+	box-shadow:initial;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-slider .slider .slider-handle{
+	background:#c9c9c9;
+	border:2px #fff solid;
+	box-shadow:initial;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .form-row .form-row-slider .slider .tooltip{
+	display:none;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .result-row{
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .result-row .result-row-label{
+	text-align:left;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .result-row .result-row-amount{
+	text-align:right;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .result-row .result-row-label p{
+	margin-top:5px;
+	font-weight:500;
+	font-size:14px;
+	color:#7e7e7e;
+	line-height:26px;
+}
+
+.rt-loan-calculator.element-one .rt-loan-calculator-form .result-row .result-row-amount p{
+	font-weight:300;
+	font-size:30px;
+	line-height:35px;
+}

@@ -1,0 +1,145 @@
+﻿/* rt-pricing-table element-two */
+
+.rt-pricing-table.element-two{
+}
+
+.rt-pricing-table.element-two > .holder{
+	padding:20px 20px 40px 20px;
+	background-color:#fff;
+	border:1px #ebebeb solid;
+	text-align:center;
+}
+
+.rt-pricing-table.element-two.spotlight > .holder{
+	background-color:#f7f7fa;
+	border-color:#ebebeb;
+}
+
+.rt-pricing-table.element-two > .holder > .heading{
+	margin-bottom:15px;
+	padding-top:5px;
+	padding-bottom:12px;
+	border-bottom:1px #ebebeb solid;
+}
+
+.rt-pricing-table.element-two > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .heading .title{
+	margin-bottom:7px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:15px;
+	line-height:28px;
+}
+
+.rt-pricing-table.element-two > .holder > .heading .subtitle{
+	margin-bottom:10px;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:13px;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .price{
+	margin-bottom:20px;
+	font-weight:500;
+	font-size:55px;
+	color:#030712;
+	line-height:55px;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .price strong{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:-5px;
+	margin-right:8px;
+	font-weight:500;
+	font-size:65%;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .period{
+	display:inline-block;
+	vertical-align:top;
+	margin-bottom:10px;
+	padding:5px 15px 5px 15px;
+	background-color:#ebebeb;
+	border-radius:30px;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:13px;
+	color:#030712;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .period{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:12px;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-two > .holder > .list{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-two > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .list ul{
+}
+
+.rt-pricing-table.element-two > .holder > .list ul li{
+	position:relative;
+	margin-bottom:15px;
+}
+
+.rt-pricing-table.element-two > .holder > .list ul li:before{
+	margin-right:10px;
+	content:"\f058";
+	font-family:'FontAwesome';
+}
+
+.rt-pricing-table.element-two > .holder > .more{
+}
+
+.rt-pricing-table.element-two > .holder > .more > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .more .btn{
+	margin-bottom:15px;
+	padding:10px 20px 9px 20px;
+	background-color:transparent;
+	border-width:2px;
+	border-style:solid;
+	border-radius:35px;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:14px;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-two.spotlight > .holder > .more .btn{
+	color:#fff !important;
+}
+
+.rt-pricing-table.element-two > .holder > .more .btn i{
+	margin-left:10px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-two > .holder > .more .btn:hover i{
+	margin-left:15px;
+}

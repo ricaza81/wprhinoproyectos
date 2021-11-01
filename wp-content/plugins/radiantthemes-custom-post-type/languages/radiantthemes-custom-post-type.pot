@@ -1,0 +1,745 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Radiantthemes Custom Post Type\n"
+"POT-Creation-Date: 2018-01-24 19:17+0530\n"
+"PO-Revision-Date: 2018-01-24 19:17+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: radiantthemes-custom-post-type.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: header-banner.php:15
+msgid "Banner Details"
+msgstr ""
+
+#: header-banner.php:53
+msgid "Banner Custom Title"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:30
+msgctxt "Post type general name"
+msgid "Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:31
+msgctxt "Post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:32
+msgctxt "Admin Menu text"
+msgid "Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:33
+msgctxt "Add New on Toolbar"
+msgid "Testimonial"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:34
+msgid "Add New Testimonial"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:35
+msgid "Add New Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:36
+msgid "New Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:37
+msgid "Edit Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:38
+msgid "View Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:39
+msgid "All Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:40
+msgid "Search Testimonials"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:41
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:42
+msgid "No Testimonials found."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:43
+msgid "No Testimonials found in Trash."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:44
+msgctxt ""
+"Overrides the \"Featured Image\" phrase for this post type. Added in 4.3"
+msgid "Client Cover Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:45
+msgctxt ""
+"Overrides the \"Set featured image\" phrase for this post type. Added in 4.3"
+msgid "Set Client Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:46 radiantthemes-custom-post-type.php:262
+msgctxt ""
+"Overrides the \"Remove featured image\" phrase for this post type. Added in "
+"4.3"
+msgid "Remove Client image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:47 radiantthemes-custom-post-type.php:263
+msgctxt ""
+"Overrides the \"Use as featured image\" phrase for this post type. Added in "
+"4.3"
+msgid "Use as Client image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:48
+msgctxt ""
+"The post type archive label used in nav menus. Default \"Post Archives\". "
+"Added in 4.4"
+msgid "Testimonials archives"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:49
+msgctxt ""
+"Overrides the \"Insert into post\"/\"Insert into page\" phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into testimonial"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:50
+msgctxt ""
+"Overrides the \"Uploaded to this post\"/\"Uploaded to this page\" phrase "
+"(used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this testimonial"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:51
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default \"Filter posts list\"/\"Filter pages list\". Added in 4.4"
+msgid "Filter testimonials list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:52
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default \"Posts list navigation\"/\"Pages list navigation\". Added "
+"in 4.4"
+msgid "Testimonials list navigation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:53
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default \"Posts list\"/\"Pages list\". Added in 4.4"
+msgid "Testimonials list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:78
+msgctxt "Post type general name"
+msgid "Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:79
+msgctxt "Post type singular name"
+msgid "Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:80
+msgctxt "Admin Menu text"
+msgid "Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:81
+msgctxt "Add New on Toolbar"
+msgid "Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:82 radiantthemes-custom-post-type.php:83
+msgid "Add New Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:84
+msgid "New Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:85
+msgid "Edit Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:86
+msgid "View Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:87
+msgid "All Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:88
+msgid "Search Team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:89
+msgid "Parent Team:"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:90
+msgid "No Team found."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:91
+msgid "No Team found in Trash."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:92
+msgctxt ""
+"Overrides the \"Featured Image\", phrase for this post type. Added in 4.3"
+msgid "Team Member Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:93
+msgctxt ""
+"Overrides the \"Set featured image\", phrase for this post type. Added in 4.3"
+msgid "Set Team Member Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:94
+msgctxt ""
+"Overrides the \"Remove featured image\" phrase for this post type. Added in "
+"4.3"
+msgid "Remove Team Member Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:95
+msgctxt ""
+"Overrides the \"Use as featured image\" phrase for this post type. Added in "
+"4.3"
+msgid "Use as Team Member Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:96
+msgctxt ""
+"The post type archive label used in nav menus. Default \"Post Archives\". "
+"Added in 4.4"
+msgid "Team archives"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:97
+msgctxt ""
+"Overrides the \"Insert into post\"/\"Insert into page\" phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:98
+msgctxt ""
+"Overrides the \"Uploaded to this post\"/\"Uploaded to this page\" phrase "
+"(used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this team"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:99
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default \"Filter posts list\"/\"Filter pages list\". Added in 4.4"
+msgid "Filter team list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:100
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default \"Posts list navigation\"/\"Pages list navigation\". Added "
+"in 4.4"
+msgid "Team list navigation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:101
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default \"Posts list\"/\"Pages list\". Added in 4.4"
+msgid "Team list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:127
+msgctxt "Taxonomy General Name"
+msgid "Professions"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:128
+msgctxt "Taxonomy Singular Name"
+msgid "Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:129
+msgid "Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:130
+msgid "All Professions"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:131
+msgid "Parent Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:132
+msgid "Parent Profession:"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:133
+msgid "New Profession Name"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:134
+msgid "Add New Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:135
+msgid "Edit Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:136
+msgid "Update Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:137
+msgid "View Profession"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:138
+msgid "Separate Professions with commas"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:139
+msgid "Add or remove Professions"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:140
+#: radiantthemes-custom-post-type.php:224
+msgid "Choose from the most used"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:141
+msgid "Popular Professions"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:142
+msgid "Search Professions"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:143
+#: radiantthemes-custom-post-type.php:227
+msgid "Not Found"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:144
+msgid "No Professions"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:145
+msgid "Professions list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:146
+msgid "Professions list navigation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:161
+msgctxt "Post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:162
+msgctxt "Post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:163
+msgctxt "Admin Menu text"
+msgid "Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:164
+msgctxt "Add New on Toolbar"
+msgid "Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:165
+#: radiantthemes-custom-post-type.php:166
+msgid "Add New Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:167
+msgid "New Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:168
+msgid "Edit Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:169
+msgid "View Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:170
+msgid "All Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:171
+msgid "Search Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:172
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:173
+msgid "No Portfolio found."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:174
+msgid "No Portfolio found in Trash."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:175
+msgctxt ""
+"Overrides the \"Featured Image\", phrase for this post type. Added in 4.3"
+msgid "Portfolio Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:176
+msgctxt ""
+"Overrides the \"Set featured image\", phrase for this post type. Added in 4.3"
+msgid "Set Portfolio Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:177
+msgctxt ""
+"Overrides the \"Remove featured image\" phrase for this post type. Added in "
+"4.3"
+msgid "Remove Portfolio Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:178
+msgctxt ""
+"Overrides the \"Use as featured image\" phrase for this post type. Added in "
+"4.3"
+msgid "Use as Portfolio Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:179
+msgctxt ""
+"The post type archive label used in nav menus. Default \"Post Archives\". "
+"Added in 4.4"
+msgid "Portfolio archives"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:180
+msgctxt ""
+"Overrides the \"Insert into post\"/\"Insert into page\" phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:181
+msgctxt ""
+"Overrides the \"Uploaded to this post\"/\"Uploaded to this page\" phrase "
+"(used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Portfolio"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:182
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default \"Filter posts list\"/\"Filter pages list\". Added in 4.4"
+msgid "Filter Portfolio list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:183
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default \"Posts list navigation\"/\"Pages list navigation\". Added "
+"in 4.4"
+msgid "Portfolio list navigation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:184
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default \"Posts list\"/\"Pages list\". Added in 4.4"
+msgid "Portfolio list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:211
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:212
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:213
+msgid "Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:214
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:215
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:216
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:217
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:218
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:219
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:220
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:221
+msgid "View Portfolio Category"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:222
+msgid "Separate Portfolio Categories with commas"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:223
+msgid "Add or remove Portfolio Categories"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:225
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:226
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:228
+msgid "No Portfolio Categories"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:229
+msgid "Portfolio Categories list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:230
+msgid "Portfolio Categories list navigation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:246
+msgctxt "Post type general name"
+msgid "Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:247
+msgctxt "Post type singular name"
+msgid "Client"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:248
+msgctxt "Admin Menu text"
+msgid "Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:249
+msgctxt "Add New on Toolbar"
+msgid "Client"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:250
+msgid "Add New Client"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:251
+msgid "Add New Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:252
+msgid "New Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:253
+msgid "Edit Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:254
+msgid "View Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:255
+msgid "All Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:256
+msgid "Search Clients"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:257
+msgid "Parent Clients:"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:258
+msgid "No Clients found."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:259
+msgid "No Clients found in Trash."
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:260
+msgctxt ""
+"Overrides the \"Featured Image\", phrase for this post type. Added in 4.3"
+msgid "Client Cover Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:261
+msgctxt ""
+"Overrides the \"Set featured image\", phrase for this post type. Added in 4.3"
+msgid "Set Client Image"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:264
+msgctxt ""
+"The post type archive label used in nav menus. Default \"Post Archives\". "
+"Added in 4.4"
+msgid "Clients archives"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:265
+msgctxt ""
+"Overrides the \"Insert into post\"/\"Insert into page\" phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Client"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:266
+msgctxt ""
+"Overrides the \"Uploaded to this post\"/\"Uploaded to this page\" phrase "
+"(used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Client"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:267
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default \"Filter posts list\"/\"Filter pages list\". Added in 4.4"
+msgid "Filter Clients list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:268
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default \"Posts list navigation\"/\"Pages list navigation\". Added "
+"in 4.4"
+msgid "Clients list navigation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:269
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default \"Posts list\"/\"Pages list\". Added in 4.4"
+msgid "Clients list"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:309
+msgid "CLIENT INFORMATION"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:346
+msgid "Designation"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:349
+#: radiantthemes-custom-post-type.php:489
+msgid "Facebook Link"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:354
+#: radiantthemes-custom-post-type.php:494
+msgid "Twitter Link"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:359
+#: radiantthemes-custom-post-type.php:499
+msgid "Google Plus Link"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:364
+#: radiantthemes-custom-post-type.php:504
+msgid "Pinterest Link"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:369
+msgid "Rating"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:441
+msgid "PERSON INFORMATION"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:479
+msgid "Phone"
+msgstr ""
+
+#: radiantthemes-custom-post-type.php:484
+msgid "Email"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Radiantthemes Custom Post Type"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Basic Custom Post Types. Custom Post Types include  Team, Clients, "
+"Portfolios, Our Story and Testimonials."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Radiantthemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.radiantthemes.com"
+msgstr ""

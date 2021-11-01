@@ -1,0 +1,196 @@
+﻿/* rt-call-to-action-wraper element-two */
+
+.rt-call-to-action-wraper.element-two{
+	position:relative;
+	overflow:hidden;
+	padding-left:30px;
+	padding-right:30px;
+	clear:both;
+}
+
+.rt-call-to-action-wraper.element-two > .rt-call-to-action-wraper-overlay{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:0;
+	width:calc(50% - 400px);
+	height:100%;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']{
+	padding-right:0;
+	padding-left:0;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item{
+	padding:15px 0px 15px 0px;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']:nth-child(1) .rt-call-to-action-item{
+	margin-right:20px;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']:nth-child(2) .rt-call-to-action-item{
+	position:relative;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']:nth-child(2) .rt-call-to-action-item:before{
+	position:absolute;
+	top:0;
+	left:-20px;
+	z-index:0;
+	content: " ";
+	width:0;
+	height:100%;
+	border-left:10px rgba(255,255,255,0.2) solid;
+	border-right:10px rgba(255,255,255,0.13) solid;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item > .table > .table-cell > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item h3{
+	margin-bottom:10px;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item h4{
+	margin-bottom:15px;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item h4 strong{
+	display:block;
+	margin-top:3px;
+	font-size:140%;
+	line-height:120%;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item p{
+	margin-bottom:20px;
+}
+
+.rt-call-to-action-wraper.element-two .rt-call-to-action-item .btn{
+	margin-bottom:20px;
+	padding:7px 20px 7px 20px;
+	border-radius:0;
+	cursor:pointer;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+	.rt-call-to-action-wraper.element-two{
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-call-to-action-wraper.element-two{
+		padding-left:15px;
+		padding-right:15px;
+	}
+
+	.rt-call-to-action-wraper.element-two > .rt-call-to-action-wraper-overlay{
+		width:calc(50% - 200px);
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action-item h4 strong{
+		font-size:140%;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.rt-call-to-action-wraper.element-two > .rt-call-to-action-wraper-overlay{
+		display:none;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action-item{
+		padding:30px 20px 30px 20px;
+		text-align:center;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']:nth-child(2) .rt-call-to-action-item{
+		margin-left:-10px;
+		margin-right:-30px;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.rt-call-to-action-wraper.element-two > .rt-call-to-action-wraper-overlay{
+		display:none;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action-item{
+		padding:30px 20px 30px 20px;
+		text-align:center;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']:nth-child(2) .rt-call-to-action-item{
+		margin-left:-10px;
+		margin-right:-30px;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action-item h4 strong{
+		font-size:140%;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-call-to-action-wraper.element-two > .rt-call-to-action-wraper-overlay{
+		display:none;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action-item{
+		padding:30px 20px 30px 20px;
+		text-align:center;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action > [class*='col-']:nth-child(2) .rt-call-to-action-item{
+		margin-left:-10px;
+		margin-right:-30px;
+	}
+
+	.rt-call-to-action-wraper.element-two .rt-call-to-action-item h4 strong{
+		font-size:140%;
+	}
+
+}

@@ -1,0 +1,87 @@
+/* rt-twitter-box */
+
+.rt-twitter-box{
+}
+
+.rt-twitter-box ul{
+}
+
+.rt-twitter-box ul li{
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:1px #e2e2e2 solid;
+}
+
+.rt-twitter-box ul li:first-child{
+	padding-top:0;
+}
+
+.rt-twitter-box ul li:last-child{
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-twitter-box ul li:only-child{
+	padding-top:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-twitter-box ul li > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-twitter-box ul li .user{
+	min-width:50px;
+	margin-bottom:12px;
+	text-align:left;
+}
+
+.rt-twitter-box ul li .user span:nth-last-child(1),
+.rt-twitter-box ul li .user span:nth-last-child(2){
+	display:none;
+}
+
+.rt-twitter-box ul li .user img{
+	max-width:50px;
+	margin-right:10px;
+	border-radius:50%;
+}
+
+.rt-twitter-box ul li .tweet{
+	margin-bottom:12px;
+	text-align:left;
+}
+
+.rt-twitter-box ul li .timePosted{
+	margin-bottom:17px;
+	text-align:left;
+}
+
+.rt-twitter-box ul li .interact{
+	margin-bottom:20px;
+	text-align:left;
+	font-size:0;
+}
+
+.rt-twitter-box ul li .interact > a{
+	display:inline-block;
+	vertical-align:top;
+	width:30px;
+	height:30px;
+	margin:0px 4px 5px 4px;
+	background-color:#1bb2e9;
+	border-radius:50%;
+	text-align:center;
+}
+
+.rt-twitter-box ul li .interact > a i{
+	font-size:13px;
+	color:#fff;
+	line-height:31px;
+}
+
+.rt-twitter-box ul li .media{
+	margin-bottom:20px;
+	text-align:left;
+}

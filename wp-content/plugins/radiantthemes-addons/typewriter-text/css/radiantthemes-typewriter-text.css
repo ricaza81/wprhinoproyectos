@@ -1,0 +1,42 @@
+/* ================================== */
+/* RadiantThemes Element CSS */
+/* Typewriter Text */
+/* ================================== */
+
+.radiantthemes-typewriter-text.element-one{
+}
+
+.radiantthemes-typewriter-text.element-one > .typed-strings{
+}
+
+.radiantthemes-typewriter-text.element-one > .typed-writer:after{
+	content:"|";
+	font-weight:300;
+	opacity:1;
+	animation:blink 0.5s infinite;
+	-webkit-animation:blink 0.5s infinite;
+}
+
+@-keyframes blink{
+	0% {
+		opacity:1;
+	}
+	50% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-webkit-keyframes blink{
+	0% {
+		opacity:1;
+	}
+	50% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}

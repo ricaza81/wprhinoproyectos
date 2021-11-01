@@ -1,0 +1,135 @@
+﻿/* rt-tab element-five */
+
+.rt-tab.element-five{
+}
+
+.rt-tab.element-five > ul.nav-tabs{
+	border:none;
+	border-bottom:1px rgba(0,0,0,0.15) solid;
+}
+
+.rt-tab.element-five > ul.nav-tabs:not(.nav-justified){
+	font-size:0;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li{
+	margin-right:30px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-five > ul.nav-tabs:not(.nav-justified) > li{
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+}
+
+.rt-tab.element-five > ul.nav-tabs:not(.nav-justified) > li:last-child,
+.rt-tab.element-five > ul.nav-tabs:not(.nav-justified) > li:only-child{
+	margin-right:0;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li > a{
+	position:relative;
+	display:block;
+	padding-bottom:16px;
+	background-color:transparent;
+	border:none;
+	border-radius:0;
+	text-align:center;
+	font-weight:500;
+	font-size:14px;
+	color:#010101;
+	line-height:22px;
+	opacity:0.8;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li > a:hover,
+.rt-tab.element-five > ul.nav-tabs > li.active > a{
+	opacity:1;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li > a:before{
+	position:absolute;
+	bottom:-1px;
+	left:0;
+	right:0;
+	content:" ";
+	display:block;
+	height:3px;
+	background-color:#f5b315;
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li.active > a:before{
+	transform:scaleX(1);
+	-webkit-transform:scaleX(1);
+}
+
+.rt-tab.element-five > ul.nav-tabs > li > a i{
+	display:block;
+	margin-bottom:7px;
+	font-size:120%;
+}
+
+.rt-tab.element-five > .tab-content{
+	padding-top:16px;
+	border-top:none;
+	font-weight:300;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* rt-tab element-five */
+
+	.rt-tab.element-five > ul.nav-tabs > li{
+		width:100%;
+		margin-right:0;
+		margin-bottom:19px;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* rt-tab element-five */
+
+	.rt-tab.element-five > ul.nav-tabs > li{
+		width:100%;
+		margin-right:0;
+		margin-bottom:19px;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* rt-tab element-five */
+
+	.rt-tab.element-five > ul.nav-tabs > li{
+		width:100%;
+		margin-right:0;
+		margin-bottom:19px;
+	}
+
+}

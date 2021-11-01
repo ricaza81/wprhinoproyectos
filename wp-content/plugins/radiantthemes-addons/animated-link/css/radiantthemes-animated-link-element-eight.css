@@ -1,0 +1,51 @@
+/* rt-animated-link element-eight */
+
+.rt-animated-link.element-eight{
+    text-align:center;
+}
+
+.rt-animated-link.element-eight > .holder{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    perspective:800px;
+    text-align:center;
+}
+
+.rt-animated-link.element-eight > .holder > .main-link-fliper,
+.rt-animated-link.element-eight > .holder > .main-link{
+    display:block;
+    padding:10px 20px 10px 20px;
+    font-weight:400;
+    font-size:25px;
+    line-height:35px;
+}
+
+.rt-animated-link.element-eight > .holder > .main-link-fliper{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:1;
+    display:block;
+    background-color:#fff;
+    color:#252525;
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+    transform:rotateX(268deg);
+    -webkit-transform:rotateX(268deg);
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-animated-link.element-eight > .holder:hover > .main-link-fliper{
+    transform:rotateX(0);
+    -webkit-transform:rotateX(0);
+}
+
+.rt-animated-link.element-eight > .holder > .main-link{
+    background-color:rgba(0,0,0,0.3);
+    border-top:2px rgba(0,0,0,0.7) solid;
+    color:#fff;
+}

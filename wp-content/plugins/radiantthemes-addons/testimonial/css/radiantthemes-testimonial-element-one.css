@@ -1,0 +1,169 @@
+﻿/* testimonial element-one */
+
+.testimonial.element-one{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.testimonial.element-one *{
+	margin:0 auto;
+}
+
+.testimonial.element-one .testimonial-item{
+	padding:5px 15px 10px 15px;
+}
+
+.testimonial.element-one:not(.owl-carousel) .testimonial-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.testimonial.element-one .testimonial-item > .holder{
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data{
+	position:relative;
+	margin:0px 0px 40px 0px;
+	padding:22px 20px 35px 20px;
+	background-color:rgba(0,0,0,0.03);
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data:before{
+	position:absolute;
+	top:100%;
+	left:0;
+	z-index:0;
+	content:" ";
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:30px 30px 0 0;
+	border-top-color:rgba(0,0,0,0.03);
+	border-right-color:transparent;
+	border-bottom-color:transparent;
+	border-left-color:transparent;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data blockquote{
+	position:relative;
+	margin:0px 0px 20px 0px;
+	padding:20px 0px 0px 50px;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data blockquote:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:"\f10d";
+	font-family:'FontAwesome';
+	font-size:40px;
+	color:#807e7d;
+	line-height:40px;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .data blockquote p{
+	margin:0px 0px 20px 0px;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .title{
+	position:relative;
+	min-height:75px;
+	padding:12px 0px 0px 90px;
+}
+
+.testimonial.element-one .testimonial-item.no-image > .holder > .title{
+	padding-left:0;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .title > .pic{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	width:auto;
+	height:auto;
+	text-align:center;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .title > .pic img{
+	width:75px;
+	border:2px #fff solid;
+	box-shadow:0px 0px 5px rgba(1,1,1,0.25);
+}
+
+.testimonial.element-one.image-square .testimonial-item > .holder > .title > .pic img{
+	border-radius:0;
+}
+
+.testimonial.element-one.image-round .testimonial-item > .holder > .title > .pic img{
+	border-radius:5px;
+}
+
+.testimonial.element-one.image-circle .testimonial-item > .holder > .title > .pic img{
+	border-radius:50%;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .title h5{
+	margin-bottom:6px;
+	font-weight:400;
+	font-size:18px;
+	color:#171c30;
+	line-height:28px;
+}
+
+.testimonial.element-one .testimonial-item > .holder > .title p{
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:15px;
+	color:#534b4b;
+	line-height:25px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.testimonial.element-one:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.testimonial.element-one:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.testimonial.element-one:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}

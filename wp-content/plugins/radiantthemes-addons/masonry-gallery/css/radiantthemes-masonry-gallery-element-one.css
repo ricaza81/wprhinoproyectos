@@ -1,0 +1,111 @@
+﻿/* rt-masonry-gallery element-one */
+
+.rt-masonry-gallery.element-one{
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item{
+	margin-bottom:30px;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder{
+	position:relative;
+	overflow:hidden;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .pic{
+	display:block;
+	transition:all 0.7s ease-in-out;
+	-webkit-transition:all 0.7s ease-in-out;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder:hover > .pic{
+	transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .pic img{
+	width:100%;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .data{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	padding:25px;
+	background-color:rgba(227,15,95,0.8);
+	opacity:0;
+	visibility:hidden;
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder:hover > .data{
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .data > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .data > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:bottom;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .data > .table > .table-cell > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .data h5{
+	margin-bottom:12px;
+	font-weight:400;
+	font-size:30px;
+	color:#fff;
+	line-height:40px;
+}
+
+.rt-masonry-gallery.element-one .rt-masonry-gallery-item > .holder > .data p{
+	margin-bottom:20px;
+	font-weight:400;
+	font-size:16px;
+	color:#fff;
+	line-height:28px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

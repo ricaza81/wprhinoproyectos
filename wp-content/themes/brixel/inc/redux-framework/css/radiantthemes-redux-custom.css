@@ -1,0 +1,328 @@
+/*--------------------------------------------------------------
+>>> RadiantTheme Redux Custom CSS
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Redux Header
+# Redux Sidebar
+# Redux Infobar
+# Redux Main
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Redux Container
+--------------------------------------------------------------*/
+
+.redux-container{
+    background-color:#1f2935;
+    background-image:none;
+}
+
+/*--------------------------------------------------------------
+# Redux Header
+--------------------------------------------------------------*/
+
+.admin-color-fresh #redux-header,
+.wp-customizer #redux-header{
+    background-color:#3c4355;
+    border-bottom:none;
+}
+
+.redux-container #redux-header:after{
+    position:absolute;
+    bottom:16px;
+    right:20px;
+    content:"Version: 2.1 (Brixel)";
+    font-weight:600;
+    font-size:15px;
+    color:rgba(255,255,255,0.7);
+    line-height:25px;
+}
+
+.redux-container #redux-header .display_header{
+    margin:4px 0px 0px 7px;
+    text-align:left;
+}
+
+.redux-container #redux-header .display_header h2{
+    margin:0;
+    font-size:0;
+    width:184px;
+    height:74px;
+    background:url(img/Radiant-Admin-Logo.png) 0px 0px no-repeat;
+    background-size:100% auto;
+}
+
+.redux-container #redux-header .display_header span{
+    font-size:0;
+}
+
+.redux-container #redux-header .display_header span{
+    font-size:0;
+}
+
+.redux-container #redux-header .rAds{
+    display:none !important;
+}
+
+/*--------------------------------------------------------------
+# Redux Sidebar
+--------------------------------------------------------------*/
+
+.redux-sidebar .redux-group-menu > li > a,
+.redux-sidebar .redux-group-menu > li > ul > li > a{
+    padding:10px 4px 10px 14px !important;
+    background-color:#1f2935;
+    border:none;
+    opacity:1;
+    font-family:"Poppins", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:400;
+    font-size:13px;
+    color:#fff;
+    line-height:25px;
+}
+
+.redux-sidebar .redux-group-menu > li > a:hover,
+.redux-sidebar .redux-group-menu > li.activeChild > a,
+.redux-sidebar .redux-group-menu > li > ul > li > a:hover{
+    background:none !important;
+    color:#01a89e !important;
+    text-shadow:none !important;
+}
+
+.redux-sidebar .redux-group-menu > li.active > a,
+.redux-sidebar .redux-group-menu > li > ul > li.active > a{
+    background-color:#01a89e !important;
+    color:#fff !important;
+    text-shadow:none !important;
+}
+
+.redux-sidebar .redux-group-menu > li.active > a:after,
+.redux-sidebar .redux-group-menu > li > ul > li.active > a:after{
+    display:none;
+}
+
+.redux-sidebar .redux-group-menu > li > a > i,
+.redux-sidebar .redux-group-menu > li > ul > li > a > i{
+    font-size:17px;
+    color:#fff;
+    line-height:24px;
+}
+
+.redux-sidebar .redux-group-menu > li > a:hover > i,
+.redux-sidebar .redux-group-menu > li.activeChild > a > i,
+.redux-sidebar .redux-group-menu > li > ul > li > a:hover > i{
+    color:#01a89e !important;
+}
+
+.redux-sidebar .redux-group-menu > li.active > a > i,
+.redux-sidebar .redux-group-menu > li > ul > li.active > a > i{
+    color:#fff !important;
+}
+
+.redux-sidebar .redux-group-menu > li > a i.el-chevron-down{
+    font-size:10px;
+    line-height:21px;
+}
+
+.redux-sidebar .redux-group-menu > li > ul > li:not(.active) > a,
+.redux-sidebar .redux-group-menu > li > ul > li:not(.active) > a:hover{
+    background-color:#161d27 !important;
+}
+
+/*--------------------------------------------------------------
+# Redux Infobar
+--------------------------------------------------------------*/
+
+.redux-main #redux-sticky #info_bar{
+    height:35px;
+}
+
+.redux-container .expand_options,
+.redux-container .expand_options.expanded{
+    background-image:url(img/slider-admin.png);
+}
+
+.redux-container .redux-action_bar{
+    font-size:0;
+}
+
+.redux-container .redux-main input.button:not(.ed_button),
+.redux-container .redux-main input.button:not(.ed_button):hover,
+.redux-container .redux-main input.button:not(.ed_button):active,
+.redux-container .redux-main input.button:not(.ed_button):focus{
+    height:auto;
+    margin:0px 0px 0px 5px;
+    padding:7px 10px 5px 10px;
+    background-color:#3b4354;
+    border:1px #3b4354 solid;
+    border-radius:0;
+    box-shadow:initial;
+    font-family:"Poppins", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:400;
+    font-size:13px;
+    color:#fff;
+    text-shadow:none;
+}
+
+.redux-container .redux-main input.button:not(.ed_button)#redux_save,
+.redux-container .redux-main input.button:not(.ed_button)#redux_save:hover,
+.redux-container .redux-main input.button:not(.ed_button)#redux_save:active,
+.redux-container .redux-main input.button:not(.ed_button)#redux_save:focus{
+    background-color:#01a89e;
+    border-color:#01a89e;
+}
+
+/*--------------------------------------------------------------
+# Redux Main
+--------------------------------------------------------------*/
+
+.radiant-subheader{
+    padding:11px 10px 10px 10px;
+    background-color:#e3ebff;
+    border-left:5px #c3cee9 solid;
+}
+
+.radiant-subheader.enable-toggle{
+    position:relative;
+    cursor:pointer;
+}
+
+.radiant-subheader.enable-toggle:before{
+    position:absolute;
+    top:50%;
+    right:15px;
+    content:"";
+    font-family:"Elusive-Icons";
+    font-size:20px;
+    color:#001545;
+    line-height:20px;
+    transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+}
+
+.radiant-subheader.enable-toggle.i-am-toggled:before{
+    content:"";
+}
+
+.radiant-subheader p.redux-info-desc{
+    margin:0;
+    padding:0;
+    font-family:"Poppins", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:400;
+    font-size:14px;
+    color:#001545;
+    line-height:25px;
+}
+
+.radiant-subheader p.redux-info-desc b{
+    font-weight:500;
+    font-size:18px;
+    line-height:30px;
+}
+
+.redux-container .redux_field_th{
+    font-family:"Poppins", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:500;
+    font-size:14px;
+    color:#00174d;
+    line-height:25px;
+}
+
+.redux-container .redux_field_th .description{
+    font-family:"Poppins", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:400;
+    font-size:12px;
+    color:#686868;
+    line-height:22px;
+}
+
+.redux-container .redux-main .redux-field-container{
+    padding-left:20px;
+    border-left:1px #e7e7e7 solid;
+}
+
+.redux-container-image_select .redux-image-select img{
+    border-color:#e3ebff;
+}
+
+.redux-container-image_select .redux-image-select span{
+	display:block;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.admin-color-fresh .redux-container-image_select .redux-image-select-selected img{
+    border-color:#88a6f2;
+}
+
+.admin-color-fresh .redux-container-switch .cb-enable,
+.admin-color-fresh .redux-container-switch .cb-enable.selected,
+.admin-color-fresh .redux-container-switch .cb-disable,
+.admin-color-fresh .redux-container-switch .cb-disable.selected{
+    width:50px;
+    padding:5px 12px 3px 12px;
+    background-image:none !important;
+    border-radius:0;
+    border:none;
+    box-shadow:initial !important;
+    text-align:center;
+}
+
+.admin-color-fresh .redux-container-switch .cb-enable,
+.admin-color-fresh .redux-container-switch .cb-disable{
+    background-color:#e8e8e8 !important;
+}
+
+.admin-color-fresh .redux-container-switch .cb-enable.selected{
+    background-color:#539300 !important;
+}
+
+.admin-color-fresh .redux-container-switch .cb-disable.selected{
+    background-color:#d10000 !important;
+}
+
+.admin-color-fresh .redux-container-switch .cb-enable span,
+.admin-color-fresh .redux-container-switch .cb-enable.selected span,
+.admin-color-fresh .redux-container-switch .cb-disable span,
+.admin-color-fresh .redux-container-switch .cb-disable.selected span{
+    display:inline-block;
+    vertical-align:top;
+    float:none;
+    font-family:"Poppins", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight:600;
+    font-size:15px;
+    line-height:27px;
+}
+
+.sp-replacer,
+.sp-replacer:hover{
+    background-color:#fffeee;
+    border:1px #dadada solid;
+    color:#333;
+    box-shadow:initial;
+}
+
+.redux-main .wp-picker-container{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.redux-main .color-transparency-check{
+    margin:0;
+}
+
+.redux-main .redux-container-palette label.ui-button.ui-widget{
+    width:40px !important;
+    height:40px;
+    margin-right:10px !important;
+    border:none;
+    border-radius:0;
+    overflow:hidden;
+}
+
+.redux-main .redux-container-palette label.ui-button.ui-widget > .ui-button-text > span{
+    width:40px;
+    height:40px;
+    padding:0;
+    font-size:0;
+}

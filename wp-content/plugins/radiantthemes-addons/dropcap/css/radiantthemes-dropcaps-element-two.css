@@ -1,0 +1,47 @@
+﻿/* rt-dropcaps element-two */
+
+.rt-dropcaps.element-two{
+}
+
+.rt-dropcaps.element-two > .holder{
+}
+
+.rt-dropcaps.element-two[data-dropcaps-direction=left] > .holder{
+	text-align:left;
+}
+
+.rt-dropcaps.element-two[data-dropcaps-direction=center] > .holder{
+	text-align:center;
+}
+
+.rt-dropcaps.element-two[data-dropcaps-direction=right] > .holder{
+	text-align:right;
+}
+
+.rt-dropcaps.element-two > .holder > .rt-dropcap-letter{
+	width:60px;
+	height:60px;
+	margin-top:8px;
+	border:1px solid;
+	border-radius:50%;
+	text-align:center;
+	font-size:30px;
+	color:#fff;
+	line-height:54px;
+}
+
+.rt-dropcaps.element-two[data-dropcaps-direction=left] > .holder > .rt-dropcap-letter{
+	float:left;
+	margin-right:15px;
+	margin-bottom:7px;
+}
+
+.rt-dropcaps.element-two[data-dropcaps-direction=center] > .holder > .rt-dropcap-letter{
+	margin-bottom:15px;
+}
+
+.rt-dropcaps.element-two[data-dropcaps-direction=right] > .holder > .rt-dropcap-letter{
+	float:right;
+	margin-left:15px;
+	margin-bottom:7px;
+}

@@ -1,0 +1,40 @@
+/* rt-animated-link element-four */
+
+.rt-animated-link.element-four{
+}
+
+.rt-animated-link.element-four > .holder{
+    text-align:center;
+}
+
+.rt-animated-link.element-four > .holder > .main-link{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    padding-bottom:10px;
+    font-weight:400;
+    font-size:25px;
+    color:#fff;
+    line-height:35px;
+}
+
+.rt-animated-link.element-four > .holder > .main-link:before{
+    position:absolute;
+    bottom:10px;
+    left:0;
+    right:0;
+    z-index:0;
+    content:" ";
+    height:2px;
+    background-color:rgba(0,0,0,0.25);
+    opacity:0;
+    visibility:hidden;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-four > .holder > .main-link:hover:before{
+    bottom:0;
+    opacity:1;
+    visibility:visible;
+}

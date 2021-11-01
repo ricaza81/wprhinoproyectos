@@ -1,0 +1,136 @@
+﻿/* rt-tab element-seven */
+
+.rt-tab.element-seven{
+}
+
+.rt-tab.element-seven > ul.nav-tabs{
+	border:none;
+	border-bottom:2px #fdbe21 solid;
+}
+
+.rt-tab.element-seven > ul.nav-tabs:not(.nav-justified){
+	font-size:0;
+}
+
+.rt-tab.element-seven > ul.nav-tabs > li{
+	margin-right:8px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-seven > ul.nav-tabs:not(.nav-justified) > li{
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+}
+
+.rt-tab.element-seven > ul.nav-tabs:not(.nav-justified) > li:last-child,
+.rt-tab.element-seven > ul.nav-tabs:not(.nav-justified) > li:only-child{
+	margin-right:0;
+}
+
+.rt-tab.element-seven > ul.nav-tabs > li > a{
+	position:relative;
+	display:block;
+	margin:0px 0px 1px 0px;
+	padding:7px 28px 8px 28px;
+	background-color:transparent;
+	border:2px #e6e5e1 solid;
+	border-bottom:none;
+	border-radius:7px 7px 0px 0px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:15px;
+	color:#1e2440;
+	line-height:26px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-seven > ul.nav-tabs > li > a:hover,
+.rt-tab.element-seven > ul.nav-tabs > li.active > a{
+	border-color:#fdbe21;
+}
+
+.rt-tab.element-seven > ul.nav-tabs > li > a:before{
+	display:block;
+	position:absolute;
+	bottom:-2px;
+	left:0;
+	right:0;
+	content:" ";
+	height:2px;
+	background-color:#fff;
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-seven > ul.nav-tabs > li.active > a:before{
+	transform:scaleX(1);
+	-webkit-transform:scaleX(1);
+}
+
+.rt-tab.element-seven > ul.nav-tabs > li > a i{
+	display:block;
+	margin-bottom:7px;
+	font-size:120%;
+}
+
+.rt-tab.element-seven > .tab-content{
+	padding-top:35px;
+	border-top:none;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* rt-tab element-five */
+
+	.rt-tab.element-seven > ul.nav-tabs > li{
+		width:100%;
+		margin-right:0;
+		margin-bottom:19px;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* rt-tab element-five */
+
+	.rt-tab.element-seven > ul.nav-tabs > li{
+		width:100%;
+		margin-right:0;
+		margin-bottom:19px;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* rt-tab element-five */
+
+	.rt-tab.element-seven > ul.nav-tabs > li{
+		width:100%;
+		margin-right:0;
+		margin-bottom:19px;
+	}
+
+}

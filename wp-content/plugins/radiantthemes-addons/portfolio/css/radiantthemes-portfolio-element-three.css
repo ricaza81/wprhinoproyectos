@@ -1,0 +1,187 @@
+﻿/* rt-portfolio-box element-three */
+
+.rt-portfolio-box.element-three{
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item{
+	padding-left:0;
+	padding-right:0;
+	text-align:center;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder{
+	position:relative;
+	overflow:hidden;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .pic{
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .pic > img{
+	width:100%;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder:hover > .pic > img{
+	transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .overlay{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-color:rgba(24,24,24,0.8);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder:hover > .overlay{
+	opacity:1;
+	visibility:visible;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .overlay > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .overlay > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .overlay .btn{
+	width:50px;
+	height:50px;
+	margin-left:7px;
+	margin-right:7px;
+	background-color:#fff;
+	border-radius:50%;
+	box-shadow:0px 2px 3px rgba(0,0,0,0.8);
+	font-size:22px;
+	color:#252525;
+	line-height:50px;
+	transform:translateY(-50px);
+	-webkit-transform:translateY(-50px);
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder:hover > .overlay .btn{
+	transform:translateY(0);
+	-webkit-transform:translateY(0);
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .data{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:1;
+	padding:0px 28px 25px 28px;
+	transform:translateY(100%);
+	-webkit-transform:translateY(100%);
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder:hover > .data{
+	transform:translateY(0);
+	-webkit-transform:translateY(0);
+}
+
+.rt-portfolio-box.element-three[data-portfolio-box-align=left] .rt-portfolio-box-item > .holder > .data{
+	text-align:left;
+}
+
+.rt-portfolio-box.element-three[data-portfolio-box-align=center] .rt-portfolio-box-item > .holder > .data{
+	text-align:center;
+}
+
+.rt-portfolio-box.element-three[data-portfolio-box-align=right] .rt-portfolio-box-item > .holder > .data{
+	text-align:right;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .data h4{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:14px;
+	color:#fff;
+	line-height:22px;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .data h4 a{
+	color:inherit;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .data p{
+	margin-bottom:20px;
+	font-weight:400;
+	font-size:12px;
+	color:#fff;
+	line-height:22px;
+}
+
+.rt-portfolio-box.element-three .rt-portfolio-box-item > .holder > .data p a{
+	color:inherit;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-portfolio-box.element-three .rt-portfolio-box-item{
+		width:33.33% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.rt-portfolio-box.element-three .rt-portfolio-box-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.rt-portfolio-box.element-three .rt-portfolio-box-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-portfolio-box.element-three .rt-portfolio-box-item{
+		width:100% !important;
+	}
+
+}

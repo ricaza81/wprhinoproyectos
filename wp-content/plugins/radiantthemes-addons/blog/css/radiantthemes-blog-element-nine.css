@@ -1,0 +1,128 @@
+﻿/* blog element-nine */
+
+.blog.element-nine{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.blog.element-nine .blog-item{
+	padding:0px 15px 0px 15px;
+}
+
+.blog.element-nine:not(.owl-carousel) .blog-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.blog.element-nine .blog-item > .holder{
+	background-color:#fff;
+	border:1px #e1e1e1 solid;
+}
+
+.blog.element-nine .blog-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+}
+
+.blog.element-nine .blog-item > .holder > .pic > img{
+	width:100%;
+}
+
+.blog.element-nine .blog-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.blog.element-nine .blog-item > .holder > .data{
+	padding:17px 20px 22px 20px;
+}
+
+.blog.element-nine .blog-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.blog.element-nine .blog-item > .holder .data ul.meta{
+}
+
+.blog.element-nine .blog-item > .holder .data ul.meta li{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:20px;
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:15px;
+}
+
+.blog.element-nine .blog-item > .holder .data ul.meta li:last-child{
+	margin-right:0;
+}
+
+.blog.element-nine .blog-item > .holder .data ul.meta li a{
+}
+
+.blog.element-nine .blog-item > .holder .data h4{
+	margin:0px 0px 10px 0px;
+	font-size:18px;
+	line-height:27px;
+}
+
+.blog.element-nine .blog-item > .holder .data h4 a{
+	color:initial;
+}
+
+.blog.element-nine .blog-item > .holder .data p{
+	margin:0px 0px 20px 0px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* blog element-nine */
+
+	.blog.element-nine:not(.owl-carousel) .blog-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* blog element-nine */
+
+	.blog.element-nine:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* blog element-nine */
+
+	.blog.element-nine:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}

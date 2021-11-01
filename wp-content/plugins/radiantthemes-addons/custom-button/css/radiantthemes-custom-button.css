@@ -1,0 +1,148 @@
+/* ================================== */
+/* RadiantThemes Custom Button CSS */
+/* TABLE OF INDEX */
+/* ================================== */
+/* ==================================
+# Main CSS
+	## Hover Style One
+	## Hover Style Two
+	## Hover Style Three
+	## Hover Style Four
+================================== */
+
+/* ==================================
+# Main CSS
+================================== */
+
+.radiantthemes-custom-button{
+}
+
+.radiantthemes-custom-button[data-button-direction=left]{
+	text-align:left;
+}
+
+.radiantthemes-custom-button[data-button-direction=center]{
+	text-align:center;
+}
+
+.radiantthemes-custom-button[data-button-direction=right]{
+	text-align:right;
+}
+
+.radiantthemes-custom-button .radiantthemes-custom-button-main{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	transition:all 0.3s ease-in-out !important;
+	-webkit-transition:all 0.3s ease-in-out !important;
+}
+
+.radiantthemes-custom-button[data-button-fullwidth=true] .radiantthemes-custom-button-main{
+	width:100%;
+}
+
+.radiantthemes-custom-button[class*='hover-style-'] .radiantthemes-custom-button-main > .overlay{
+	position:absolute;
+	z-index:0;
+	content:" ";
+}
+
+.radiantthemes-custom-button .radiantthemes-custom-button-main > .placeholder{
+	position:relative;
+}
+
+.radiantthemes-custom-button .radiantthemes-custom-button-main i{
+	transition:margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	-webkit-transition:margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.radiantthemes-custom-button[data-button-icon-position=left] .radiantthemes-custom-button-main i{
+	margin-right:10px;
+}
+
+.radiantthemes-custom-button[data-button-icon-position=right] .radiantthemes-custom-button-main i{
+	margin-left:10px;
+}
+
+/* ==================================
+# Hover Style One
+================================== */
+
+/* ==================================
+# Hover Style Two
+================================== */
+
+.radiantthemes-custom-button.hover-style-two .radiantthemes-custom-button-main{
+	overflow:hidden;
+}
+
+.radiantthemes-custom-button.hover-style-two .radiantthemes-custom-button-main > .overlay{
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	width:0;
+	border-radius:inherit;
+	transition:width 0.3s ease-in-out;
+	-webkit-transition:width 0.3s ease-in-out;
+}
+
+.radiantthemes-custom-button.hover-style-two .radiantthemes-custom-button-main:hover > .overlay{
+	width:100%;
+}
+
+/* ==================================
+# Hover Style Three
+================================== */
+
+.radiantthemes-custom-button.hover-style-three .radiantthemes-custom-button-main > .overlay{
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	border-radius:inherit;
+	opacity:0;
+	visibility:hidden;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-custom-button.hover-style-three .radiantthemes-custom-button-main:hover > .overlay{
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+}
+
+/* ==================================
+# Hover Style Four
+================================== */
+
+.radiantthemes-custom-button.hover-style-four .radiantthemes-custom-button-main i{
+	opacity:0;
+	visibility:hidden;
+}
+
+.radiantthemes-custom-button.hover-style-four .radiantthemes-custom-button-main:hover i{
+	opacity:1;
+	visibility:visible;
+}
+
+.radiantthemes-custom-button[data-button-icon-position=left].hover-style-four .radiantthemes-custom-button-main i{
+	margin-right:-3px;
+}
+
+.radiantthemes-custom-button[data-button-icon-position=left].hover-style-four .radiantthemes-custom-button-main:hover i{
+	margin-right:10px;
+}
+
+.radiantthemes-custom-button[data-button-icon-position=right].hover-style-four .radiantthemes-custom-button-main i{
+	margin-left:-3px;
+}
+
+.radiantthemes-custom-button[data-button-icon-position=right].hover-style-four .radiantthemes-custom-button-main:hover i{
+	margin-left:10px;
+}

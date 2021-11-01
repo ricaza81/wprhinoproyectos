@@ -1,0 +1,113 @@
+﻿/* rt-call-to-action-wraper element-three */
+
+.rt-call-to-action-wraper.element-three{
+	clear:both;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action > [class*='col-']{
+	padding-right:0;
+	padding-left:0;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item{
+	padding:30px 25px 30px 25px;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item > .table > .table-cell > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item h3{
+	margin-bottom:10px;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item h4{
+	margin-bottom:15px;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item h4 strong{
+	display:block;
+	margin-top:3px;
+	font-size:170%;
+	line-height:120%;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item p{
+	margin-bottom:20px;
+}
+
+.rt-call-to-action-wraper.element-three .rt-call-to-action-item .btn{
+	margin-bottom:20px;
+	padding:7px 20px 7px 20px;
+	border-radius:30px;
+	cursor:pointer;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.rt-call-to-action-wraper.element-three .rt-call-to-action-item{
+		text-align:center;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.rt-call-to-action-wraper.element-three .rt-call-to-action-item{
+		text-align:center;
+	}
+
+	.rt-call-to-action-wraper.element-three .rt-call-to-action-item h4 strong{
+		font-size:140%;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-call-to-action-wraper.element-three .rt-call-to-action-item{
+		text-align:center;
+	}
+
+	.rt-call-to-action-wraper.element-three .rt-call-to-action-item h4 strong{
+		font-size:140%;
+	}
+
+}

@@ -1,0 +1,148 @@
+﻿/* blog element-eight */
+
+.blog.element-eight{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.blog.element-eight .blog-item{
+	padding:5px 15px 10px 15px;
+}
+
+.blog.element-eight:not(.owl-carousel) .blog-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.blog.element-eight .blog-item > .holder{
+	background:#fff;
+	box-shadow:0px 0px 5px rgba(1,1,1,0.25);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-eight .blog-item:hover > .holder{
+	box-shadow:0px 0px 25px rgba(1,1,1,0.3);
+}
+
+.blog.element-eight .blog-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+}
+
+.blog.element-eight .blog-item > .holder > .pic > img{
+	width:100%;
+}
+
+.blog.element-eight .blog-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.blog.element-eight .blog-item > .holder > .data{
+	padding:17px 15px 20px 15px;
+}
+
+.blog.element-eight .blog-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.blog.element-eight .blog-item > .holder .data h4{
+	margin:0px 0px 10px 0px;
+	font-size:17px;
+	line-height:25px;
+}
+
+.blog.element-eight .blog-item > .holder .data h4 a{
+	color:#1a1a1a;
+}
+
+.blog.element-eight .blog-item > .holder .data ul.meta{
+}
+
+.blog.element-eight .blog-item > .holder .data ul.meta li{
+	display:inline-block;
+	vertical-align:top;
+	margin:0px 10px 10px 0px;
+	font-size:13px;
+}
+
+.blog.element-eight .blog-item > .holder .data ul.meta li:last-child{
+	margin-right:0;
+}
+
+.blog.element-eight .blog-item > .holder .data ul.meta li a{
+}
+
+.blog.element-eight .blog-item > .holder .data p{
+	margin:0px 0px 20px 0px;
+}
+
+.blog.element-eight .blog-item > .holder .data hr{
+	margin:10px 0px 15px 0px;
+	border-top-color:#d9d5d5;
+}
+
+.blog.element-eight .blog-item > .holder .data .btn{
+	padding:0;
+	border:none;
+	border-radius:0;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:14px;
+	color:#1a1a1a;
+	line-height:22px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* blog element-eight */
+
+	.blog.element-eight:not(.owl-carousel) .blog-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* blog element-eight */
+
+	.blog.element-eight:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* blog element-eight */
+
+	.blog.element-eight:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}

@@ -1,0 +1,188 @@
+﻿/*--------------------------------------------------------------
+# Nav Style
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Nav Style One
+--------------------------------------------------------------*/
+
+.team[class*='element-'].owl-nav-style-one .owl-nav{
+	margin-top:20px;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:center;
+	font-size:0;
+}
+
+.team[class*='element-'].owl-nav-style-one .owl-nav > .owl-prev,
+.team[class*='element-'].owl-nav-style-one .owl-nav > .owl-next{
+	display:inline-block;
+	vertical-align:top;
+	width:40px;
+	height:40px;
+	margin-left:7px;
+	margin-right:7px;
+	background-color:initial;
+	border:1px #f5b315 solid;
+	text-align:center;
+}
+
+.team[class*='element-'].owl-nav-style-one .owl-nav > .owl-prev:before,
+.team[class*='element-'].owl-nav-style-one .owl-nav > .owl-next:before{
+	font-family:"FontAwesome";
+	font-size:30px;
+	color:#f5b315;
+	line-height:36px;
+}
+
+.team[class*='element-'].owl-nav-style-one .owl-nav > .owl-prev:before{
+	content:"\f104";
+}
+
+.team[class*='element-'].owl-nav-style-one .owl-nav > .owl-next:before{
+	content:"\f105";
+}
+
+/*--------------------------------------------------------------
+# Nav Style Two
+--------------------------------------------------------------*/
+
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-prev,
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-next{
+	position:absolute;
+	top:50%;
+	font-size:0;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team[class*='element-'].owl-nav-style-two:hover .owl-nav > .owl-prev,
+.team[class*='element-'].owl-nav-style-two:hover .owl-nav > .owl-next{
+	opacity:1;
+	visibility:visible;
+}
+
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-prev{
+	left:10px;
+}
+
+.team[class*='element-'].owl-nav-style-two:hover .owl-nav > .owl-prev{
+	left:25px;
+}
+
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-next{
+	right:10px;
+}
+
+.team[class*='element-'].owl-nav-style-two:hover .owl-nav > .owl-next{
+	right:25px;
+}
+
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-prev:before,
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-next:before{
+	font-family:"FontAwesome";
+	font-size:45px;
+	color:#fff;
+	line-height:45px;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.3);
+}
+
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-prev:before{
+	content:"\f104";
+}
+
+.team[class*='element-'].owl-nav-style-two .owl-nav > .owl-next:before{
+	content:"\f105";
+}
+
+/*--------------------------------------------------------------
+# Dot Style
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Dot Style One
+--------------------------------------------------------------*/
+
+.team[class*='element-'] .owl-dots{
+	margin-top:20px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.team[class*='element-'].owl-dot-style-one .owl-dots{
+	text-align:center;
+}
+
+.team[class*='element-'].owl-dot-style-two .owl-dots{
+	text-align:right;
+}
+
+.team[class*='element-'] .owl-dots > .owl-dot{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.team[class*='element-'].owl-dot-style-one .owl-dots > .owl-dot{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.team[class*='element-'].owl-dot-style-two .owl-dots > .owl-dot{
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.team[class*='element-'].owl-dot-style-one .owl-dots > .owl-dot > span{
+	display:block;
+	width:12px;
+	height:12px;
+	background-color:#f5b315;
+	border-radius:50%;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team[class*='element-'].owl-dot-style-one .owl-dots > .owl-dot.active > span{
+	background-color:#90a0c7;
+}
+
+.team[class*='element-'].owl-dot-style-two .owl-dots > .owl-dot > span{
+	display:block;
+	width:15px;
+	height:3px;
+	background-color:#fff;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team[class*='element-'].owl-dot-style-two .owl-dots > .owl-dot.active > span{
+	background-color:#90a0c7;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

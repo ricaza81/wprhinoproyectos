@@ -1,0 +1,3212 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Radiantthemes Addons\n"
+"POT-Creation-Date: 2018-01-24 19:09+0530\n"
+"PO-Revision-Date: 2018-01-24 19:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-radiantthemes-addons.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: accordion/class-radiantthemes-style-accordion.php:26
+msgid "Accordion"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:31
+#: alert-box/class-radiantthemes-style-alert.php:24
+#: animated-link/class-radiantthemes-style-animated-link.php:25
+#: beforeafter/class-radiantthemes-style-beforeafter.php:24
+#: blockquote/class-radiantthemes-style-blockquote.php:24
+#: blog/class-radiantthemes-style-blog.php:50
+#: button/class-radiantthemes-style-button.php:25
+#: calltoaction/class-radiantthemes-style-calltoaction.php:24
+#: cf7/class-radiantthemes-style-cf7.php:24
+#: clients/class-radiantthemes-style-clients.php:24
+#: countdown/class-radiantthemes-style-countdown.php:40
+#: counterup/class-radiantthemes-style-counterup.php:25
+#: custom-button/class-radiantthemes-style-custom-button.php:25
+#: custom-menu/class-radiantthemes-style-menu.php:44
+#: dropcap/class-radiantthemes-style-dropcap.php:25
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:25
+#: flip-box/class-radiantthemes-style-flip-box.php:25
+#: highlight-box/class-radiantthemes-style-highlight-box.php:25
+#: ihover/class-radiantthemes-style-ihover.php:25
+#: image-gallery/class-radiantthemes-style-image-gallery.php:24
+#: image-slider/class-radiantthemes-style-image-slider.php:24
+#: list/class-radiantthemes-style-list.php:25
+#: loan-calculator/class-radiantthemes-loan-calculator.php:25
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:25
+#: popup-video/class-radiantthemes-style-popup-video.php:25
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:25
+#: portfolio/class-radiantthemes-style-portfolio.php:25
+#: pricingtable/class-radiantthemes-style-pricing-table.php:25
+#: progressbar/class-radiantthemes-style-progressbar.php:24
+#: quote-box/class-radiantthemes-style-quote-box.php:25
+#: separator/class-radiantthemes-style-separator.php:24
+#: tabs/class-radiantthemes-style-tabs.php:123
+#: team/class-radiantthemes-style-team.php:24
+#: testimonial/class-radiantthemes-style-testimonial.php:24
+msgid "Radiant Elements"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:36
+#: accordion/class-radiantthemes-style-accordion.php:97
+msgid "Accordion Content"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:40
+msgid "Select Accordion Style"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:43
+#: alert-box/class-radiantthemes-style-alert.php:32
+#: alert-box/class-radiantthemes-style-alert.php:54
+#: animated-link/class-radiantthemes-style-animated-link.php:33
+#: beforeafter/class-radiantthemes-style-beforeafter.php:32
+#: blockquote/class-radiantthemes-style-blockquote.php:32
+#: blog/class-radiantthemes-style-blog.php:58
+#: blog/class-radiantthemes-style-blog.php:106
+#: blog/class-radiantthemes-style-blog.php:134
+#: calltoaction/class-radiantthemes-style-calltoaction.php:32
+#: cf7/class-radiantthemes-style-cf7.php:36
+#: clients/class-radiantthemes-style-clients.php:32
+#: clients/class-radiantthemes-style-clients.php:67
+#: clients/class-radiantthemes-style-clients.php:95
+#: countdown/class-radiantthemes-style-countdown.php:48
+#: counterup/class-radiantthemes-style-counterup.php:33
+#: custom-menu/class-radiantthemes-style-menu.php:52
+#: dropcap/class-radiantthemes-style-dropcap.php:33
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:118
+#: flip-box/class-radiantthemes-style-flip-box.php:33
+#: highlight-box/class-radiantthemes-style-highlight-box.php:33
+#: ihover/class-radiantthemes-style-ihover.php:33
+#: image-gallery/class-radiantthemes-style-image-gallery.php:32
+#: image-slider/class-radiantthemes-style-image-slider.php:32
+#: loan-calculator/class-radiantthemes-loan-calculator.php:33
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:33
+#: popup-video/class-radiantthemes-style-popup-video.php:33
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:33
+#: portfolio/class-radiantthemes-style-portfolio.php:33
+#: portfolio/class-radiantthemes-style-portfolio.php:55
+#: pricingtable/class-radiantthemes-style-pricing-table.php:33
+#: quote-box/class-radiantthemes-style-quote-box.php:33
+#: separator/class-radiantthemes-style-separator.php:86
+#: tabs/class-radiantthemes-style-tabs.php:135
+#: team/class-radiantthemes-style-team.php:32
+#: team/class-radiantthemes-style-team.php:75
+#: team/class-radiantthemes-style-team.php:103
+#: testimonial/class-radiantthemes-style-testimonial.php:32
+#: testimonial/class-radiantthemes-style-testimonial.php:129
+#: testimonial/class-radiantthemes-style-testimonial.php:157
+msgid "Style One"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:44
+#: alert-box/class-radiantthemes-style-alert.php:33
+#: alert-box/class-radiantthemes-style-alert.php:55
+#: animated-link/class-radiantthemes-style-animated-link.php:34
+#: beforeafter/class-radiantthemes-style-beforeafter.php:33
+#: blog/class-radiantthemes-style-blog.php:59
+#: blog/class-radiantthemes-style-blog.php:107
+#: blog/class-radiantthemes-style-blog.php:135
+#: calltoaction/class-radiantthemes-style-calltoaction.php:33
+#: cf7/class-radiantthemes-style-cf7.php:37
+#: clients/class-radiantthemes-style-clients.php:33
+#: clients/class-radiantthemes-style-clients.php:68
+#: clients/class-radiantthemes-style-clients.php:96
+#: dropcap/class-radiantthemes-style-dropcap.php:34
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:119
+#: highlight-box/class-radiantthemes-style-highlight-box.php:34
+#: ihover/class-radiantthemes-style-ihover.php:34
+#: portfolio/class-radiantthemes-style-portfolio.php:34
+#: portfolio/class-radiantthemes-style-portfolio.php:56
+#: pricingtable/class-radiantthemes-style-pricing-table.php:34
+#: separator/class-radiantthemes-style-separator.php:87
+#: tabs/class-radiantthemes-style-tabs.php:136
+#: team/class-radiantthemes-style-team.php:33
+#: team/class-radiantthemes-style-team.php:76
+#: team/class-radiantthemes-style-team.php:104
+#: testimonial/class-radiantthemes-style-testimonial.php:33
+#: testimonial/class-radiantthemes-style-testimonial.php:130
+#: testimonial/class-radiantthemes-style-testimonial.php:158
+msgid "Style Two"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:45
+#: animated-link/class-radiantthemes-style-animated-link.php:35
+#: beforeafter/class-radiantthemes-style-beforeafter.php:34
+#: blog/class-radiantthemes-style-blog.php:60
+#: calltoaction/class-radiantthemes-style-calltoaction.php:34
+#: cf7/class-radiantthemes-style-cf7.php:38
+#: clients/class-radiantthemes-style-clients.php:34
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:95
+#: highlight-box/class-radiantthemes-style-highlight-box.php:35
+#: ihover/class-radiantthemes-style-ihover.php:35
+#: portfolio/class-radiantthemes-style-portfolio.php:35
+#: portfolio/class-radiantthemes-style-portfolio.php:57
+#: pricingtable/class-radiantthemes-style-pricing-table.php:35
+#: separator/class-radiantthemes-style-separator.php:88
+#: tabs/class-radiantthemes-style-tabs.php:137
+#: team/class-radiantthemes-style-team.php:34
+#: testimonial/class-radiantthemes-style-testimonial.php:34
+msgid "Style Three"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:46
+#: animated-link/class-radiantthemes-style-animated-link.php:36
+#: blog/class-radiantthemes-style-blog.php:61
+#: cf7/class-radiantthemes-style-cf7.php:39
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:96
+#: highlight-box/class-radiantthemes-style-highlight-box.php:36
+#: ihover/class-radiantthemes-style-ihover.php:36
+#: portfolio/class-radiantthemes-style-portfolio.php:58
+#: pricingtable/class-radiantthemes-style-pricing-table.php:36
+#: separator/class-radiantthemes-style-separator.php:89
+#: tabs/class-radiantthemes-style-tabs.php:138
+#: team/class-radiantthemes-style-team.php:35
+#: testimonial/class-radiantthemes-style-testimonial.php:35
+msgid "Style Four"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:54
+#: alert-box/class-radiantthemes-style-alert.php:85
+#: animated-link/class-radiantthemes-style-animated-link.php:61
+#: beforeafter/class-radiantthemes-style-beforeafter.php:58
+#: blockquote/class-radiantthemes-style-blockquote.php:154
+#: blog/class-radiantthemes-style-blog.php:257
+#: button/class-radiantthemes-style-button.php:223
+#: calltoaction/class-radiantthemes-style-calltoaction.php:105
+#: cf7/class-radiantthemes-style-cf7.php:352
+#: clients/class-radiantthemes-style-clients.php:217
+#: countdown/class-radiantthemes-style-countdown.php:61
+#: counterup/class-radiantthemes-style-counterup.php:64
+#: custom-button/class-radiantthemes-style-custom-button.php:273
+#: custom-menu/class-radiantthemes-style-menu.php:66
+#: dropcap/class-radiantthemes-style-dropcap.php:78
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:309
+#: flip-box/class-radiantthemes-style-flip-box.php:59
+#: highlight-box/class-radiantthemes-style-highlight-box.php:75
+#: ihover/class-radiantthemes-style-ihover.php:74
+#: image-gallery/class-radiantthemes-style-image-gallery.php:52
+#: image-slider/class-radiantthemes-style-image-slider.php:46
+#: list/class-radiantthemes-style-list.php:70
+#: loan-calculator/class-radiantthemes-loan-calculator.php:48
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:55
+#: popup-video/class-radiantthemes-style-popup-video.php:65
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:100
+#: portfolio/class-radiantthemes-style-portfolio.php:160
+#: pricingtable/class-radiantthemes-style-pricing-table.php:143
+#: progressbar/class-radiantthemes-style-progressbar.php:96
+#: quote-box/class-radiantthemes-style-quote-box.php:77
+#: separator/class-radiantthemes-style-separator.php:96
+#: tabs/class-radiantthemes-style-tabs.php:312
+#: team/class-radiantthemes-style-team.php:560
+#: testimonial/class-radiantthemes-style-testimonial.php:290
+msgid "Extra class name for the container"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:56
+#: alert-box/class-radiantthemes-style-alert.php:87
+#: animated-link/class-radiantthemes-style-animated-link.php:63
+#: beforeafter/class-radiantthemes-style-beforeafter.php:60
+#: blockquote/class-radiantthemes-style-blockquote.php:156
+#: blog/class-radiantthemes-style-blog.php:259
+#: button/class-radiantthemes-style-button.php:225
+#: calltoaction/class-radiantthemes-style-calltoaction.php:107
+#: cf7/class-radiantthemes-style-cf7.php:354
+#: clients/class-radiantthemes-style-clients.php:219
+#: countdown/class-radiantthemes-style-countdown.php:63
+#: counterup/class-radiantthemes-style-counterup.php:66
+#: custom-button/class-radiantthemes-style-custom-button.php:275
+#: custom-menu/class-radiantthemes-style-menu.php:68
+#: dropcap/class-radiantthemes-style-dropcap.php:80
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:311
+#: flip-box/class-radiantthemes-style-flip-box.php:61
+#: highlight-box/class-radiantthemes-style-highlight-box.php:77
+#: ihover/class-radiantthemes-style-ihover.php:76
+#: image-gallery/class-radiantthemes-style-image-gallery.php:54
+#: image-slider/class-radiantthemes-style-image-slider.php:48
+#: list/class-radiantthemes-style-list.php:72
+#: loan-calculator/class-radiantthemes-loan-calculator.php:50
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:57
+#: popup-video/class-radiantthemes-style-popup-video.php:67
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:102
+#: portfolio/class-radiantthemes-style-portfolio.php:162
+#: pricingtable/class-radiantthemes-style-pricing-table.php:145
+#: progressbar/class-radiantthemes-style-progressbar.php:98
+#: quote-box/class-radiantthemes-style-quote-box.php:79
+#: separator/class-radiantthemes-style-separator.php:98
+#: tabs/class-radiantthemes-style-tabs.php:314
+#: team/class-radiantthemes-style-team.php:562
+#: testimonial/class-radiantthemes-style-testimonial.php:292
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:61
+#: alert-box/class-radiantthemes-style-alert.php:93
+#: animated-link/class-radiantthemes-style-animated-link.php:68
+#: beforeafter/class-radiantthemes-style-beforeafter.php:65
+#: blockquote/class-radiantthemes-style-blockquote.php:160
+#: blog/class-radiantthemes-style-blog.php:263
+#: button/class-radiantthemes-style-button.php:231
+#: calltoaction/class-radiantthemes-style-calltoaction.php:111
+#: cf7/class-radiantthemes-style-cf7.php:359
+#: clients/class-radiantthemes-style-clients.php:223
+#: countdown/class-radiantthemes-style-countdown.php:68
+#: counterup/class-radiantthemes-style-counterup.php:71
+#: custom-button/class-radiantthemes-style-custom-button.php:280
+#: custom-menu/class-radiantthemes-style-menu.php:72
+#: dropcap/class-radiantthemes-style-dropcap.php:85
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:316
+#: flip-box/class-radiantthemes-style-flip-box.php:66
+#: highlight-box/class-radiantthemes-style-highlight-box.php:82
+#: ihover/class-radiantthemes-style-ihover.php:81
+#: image-gallery/class-radiantthemes-style-image-gallery.php:59
+#: image-slider/class-radiantthemes-style-image-slider.php:53
+#: list/class-radiantthemes-style-list.php:77
+#: loan-calculator/class-radiantthemes-loan-calculator.php:55
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:62
+#: popup-video/class-radiantthemes-style-popup-video.php:72
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:106
+#: portfolio/class-radiantthemes-style-portfolio.php:166
+#: pricingtable/class-radiantthemes-style-pricing-table.php:150
+#: progressbar/class-radiantthemes-style-progressbar.php:103
+#: quote-box/class-radiantthemes-style-quote-box.php:84
+#: separator/class-radiantthemes-style-separator.php:103
+#: tabs/class-radiantthemes-style-tabs.php:319
+#: team/class-radiantthemes-style-team.php:566
+#: testimonial/class-radiantthemes-style-testimonial.php:296
+msgid "Element ID"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:68
+#: calltoaction/class-radiantthemes-style-calltoaction.php:215
+#: cf7/class-radiantthemes-style-cf7.php:367
+#: custom-button/class-radiantthemes-style-custom-button.php:287
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:323
+#: tabs/class-radiantthemes-style-tabs.php:326
+#: tabs/class-radiantthemes-style-tabs.php:337
+msgid "CSS"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:70
+msgid "Accordion Content Design"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:78
+msgid "Accordion Item"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:80
+#: tabs/class-radiantthemes-style-tabs.php:353
+msgid "Add the title and content"
+msgstr ""
+
+#: accordion/class-radiantthemes-style-accordion.php:90
+msgid "Accordion Title"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:20
+msgid "Alert Box"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:29
+msgid "Select Style"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:39
+msgid "Select Type"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:42
+msgid "Info"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:43
+msgid "Success"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:44
+msgid "Warning"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:45
+msgid "Error"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:51
+msgid "Select Type Style"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:61
+msgid "Type Alert Title"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:63
+msgid "Info!"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:68
+msgid "Type Alert Text"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:70
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adi pisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis ipsum dolor sit amet"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:76
+#: animated-link/class-radiantthemes-style-animated-link.php:53
+#: beforeafter/class-radiantthemes-style-beforeafter.php:50
+#: blockquote/class-radiantthemes-style-blockquote.php:146
+#: button/class-radiantthemes-style-button.php:214
+#: custom-button/class-radiantthemes-style-custom-button.php:264
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:300
+#: flip-box/class-radiantthemes-style-flip-box.php:51
+#: highlight-box/class-radiantthemes-style-highlight-box.php:67
+#: ihover/class-radiantthemes-style-ihover.php:66
+#: list/class-radiantthemes-style-list.php:62
+#: loan-calculator/class-radiantthemes-loan-calculator.php:40
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:47
+#: pricingtable/class-radiantthemes-style-pricing-table.php:134
+#: quote-box/class-radiantthemes-style-quote-box.php:69
+#: team/class-radiantthemes-style-team.php:264
+#: team/class-radiantthemes-style-team.php:288
+#: team/class-radiantthemes-style-team.php:307
+#: team/class-radiantthemes-style-team.php:326
+#: team/class-radiantthemes-style-team.php:349
+#: team/class-radiantthemes-style-team.php:372
+#: team/class-radiantthemes-style-team.php:391
+#: team/class-radiantthemes-style-team.php:406
+#: team/class-radiantthemes-style-team.php:425
+#: team/class-radiantthemes-style-team.php:444
+#: team/class-radiantthemes-style-team.php:462
+#: team/class-radiantthemes-style-team.php:480
+#: team/class-radiantthemes-style-team.php:499
+#: team/class-radiantthemes-style-team.php:518
+msgid "Animation Style"
+msgstr ""
+
+#: alert-box/class-radiantthemes-style-alert.php:78
+#: animated-link/class-radiantthemes-style-animated-link.php:55
+#: beforeafter/class-radiantthemes-style-beforeafter.php:52
+#: blockquote/class-radiantthemes-style-blockquote.php:148
+#: button/class-radiantthemes-style-button.php:216
+#: custom-button/class-radiantthemes-style-custom-button.php:266
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:302
+#: flip-box/class-radiantthemes-style-flip-box.php:53
+#: highlight-box/class-radiantthemes-style-highlight-box.php:69
+#: ihover/class-radiantthemes-style-ihover.php:68
+#: list/class-radiantthemes-style-list.php:64
+#: loan-calculator/class-radiantthemes-loan-calculator.php:42
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:49
+#: pricingtable/class-radiantthemes-style-pricing-table.php:136
+#: quote-box/class-radiantthemes-style-quote-box.php:71
+#: team/class-radiantthemes-style-team.php:267
+#: team/class-radiantthemes-style-team.php:291
+#: team/class-radiantthemes-style-team.php:310
+#: team/class-radiantthemes-style-team.php:329
+#: team/class-radiantthemes-style-team.php:352
+#: team/class-radiantthemes-style-team.php:375
+#: team/class-radiantthemes-style-team.php:394
+#: team/class-radiantthemes-style-team.php:409
+#: team/class-radiantthemes-style-team.php:428
+#: team/class-radiantthemes-style-team.php:447
+#: team/class-radiantthemes-style-team.php:465
+#: team/class-radiantthemes-style-team.php:483
+#: team/class-radiantthemes-style-team.php:502
+#: team/class-radiantthemes-style-team.php:521
+msgid "Choose your animation style"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:20
+msgid "Animated Link"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:22
+msgid "Add Animated Link with multiple styles."
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:30
+msgid "Animated Link Style"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:37
+#: blog/class-radiantthemes-style-blog.php:62
+#: cf7/class-radiantthemes-style-cf7.php:40
+#: ihover/class-radiantthemes-style-ihover.php:37
+#: pricingtable/class-radiantthemes-style-pricing-table.php:37
+#: separator/class-radiantthemes-style-separator.php:90
+#: team/class-radiantthemes-style-team.php:36
+#: testimonial/class-radiantthemes-style-testimonial.php:36
+msgid "Style Five"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:38
+#: blog/class-radiantthemes-style-blog.php:63
+#: cf7/class-radiantthemes-style-cf7.php:41
+#: ihover/class-radiantthemes-style-ihover.php:38
+#: pricingtable/class-radiantthemes-style-pricing-table.php:38
+#: team/class-radiantthemes-style-team.php:37
+#: testimonial/class-radiantthemes-style-testimonial.php:37
+msgid "Style Six"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:39
+#: blog/class-radiantthemes-style-blog.php:64
+#: ihover/class-radiantthemes-style-ihover.php:39
+#: team/class-radiantthemes-style-team.php:38
+#: testimonial/class-radiantthemes-style-testimonial.php:38
+msgid "Style Seven"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:40
+#: blog/class-radiantthemes-style-blog.php:65
+#: ihover/class-radiantthemes-style-ihover.php:40
+#: team/class-radiantthemes-style-team.php:39
+#: testimonial/class-radiantthemes-style-testimonial.php:39
+msgid "Style Eight"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:47
+msgid "Link"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:75
+#: highlight-box/class-radiantthemes-style-highlight-box.php:89
+#: ihover/class-radiantthemes-style-ihover.php:88
+#: list/class-radiantthemes-style-list.php:84
+#: loan-calculator/class-radiantthemes-loan-calculator.php:62
+msgid "Css"
+msgstr ""
+
+#: animated-link/class-radiantthemes-style-animated-link.php:77
+#: highlight-box/class-radiantthemes-style-highlight-box.php:91
+#: ihover/class-radiantthemes-style-ihover.php:90
+#: list/class-radiantthemes-style-list.php:86
+#: loan-calculator/class-radiantthemes-loan-calculator.php:64
+msgid "Design Options"
+msgstr ""
+
+#: beforeafter/class-radiantthemes-style-beforeafter.php:19
+msgid "Before-After"
+msgstr ""
+
+#: beforeafter/class-radiantthemes-style-beforeafter.php:21
+msgid "Add Before-After comparison effect"
+msgstr ""
+
+#: beforeafter/class-radiantthemes-style-beforeafter.php:29
+msgid "Before After Style"
+msgstr ""
+
+#: beforeafter/class-radiantthemes-style-beforeafter.php:40
+msgid "Before image"
+msgstr ""
+
+#: beforeafter/class-radiantthemes-style-beforeafter.php:45
+msgid "After image"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:19
+msgid "Blockquote"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:21
+msgid "Add Blockquote"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:29
+msgid "Blockquote Style"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:38
+msgid "Blockquote Align"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:42
+#: blockquote/class-radiantthemes-style-blockquote.php:53
+#: button/class-radiantthemes-style-button.php:48
+#: button/class-radiantthemes-style-button.php:73
+#: calltoaction/class-radiantthemes-style-calltoaction.php:63
+#: calltoaction/class-radiantthemes-style-calltoaction.php:86
+#: cf7/class-radiantthemes-style-cf7.php:145
+#: cf7/class-radiantthemes-style-cf7.php:185
+#: counterup/class-radiantthemes-style-counterup.php:85
+#: custom-button/class-radiantthemes-style-custom-button.php:48
+#: custom-button/class-radiantthemes-style-custom-button.php:73
+#: dropcap/class-radiantthemes-style-dropcap.php:50
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:262
+#: popup-video/class-radiantthemes-style-popup-video.php:44
+#: portfolio/class-radiantthemes-style-portfolio.php:71
+#: portfolio/class-radiantthemes-style-portfolio.php:82
+#: quote-box/class-radiantthemes-style-quote-box.php:48
+#: separator/class-radiantthemes-style-separator.php:76
+#: tabs/class-radiantthemes-style-tabs.php:150
+msgid "Left"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:43
+#: blockquote/class-radiantthemes-style-blockquote.php:54
+#: button/class-radiantthemes-style-button.php:50
+#: calltoaction/class-radiantthemes-style-calltoaction.php:64
+#: calltoaction/class-radiantthemes-style-calltoaction.php:87
+#: counterup/class-radiantthemes-style-counterup.php:86
+#: custom-button/class-radiantthemes-style-custom-button.php:50
+#: dropcap/class-radiantthemes-style-dropcap.php:51
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:264
+#: popup-video/class-radiantthemes-style-popup-video.php:45
+#: portfolio/class-radiantthemes-style-portfolio.php:73
+#: portfolio/class-radiantthemes-style-portfolio.php:84
+#: quote-box/class-radiantthemes-style-quote-box.php:49
+#: separator/class-radiantthemes-style-separator.php:77
+#: tabs/class-radiantthemes-style-tabs.php:151
+msgid "Center"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:44
+#: blockquote/class-radiantthemes-style-blockquote.php:55
+#: button/class-radiantthemes-style-button.php:49
+#: button/class-radiantthemes-style-button.php:74
+#: calltoaction/class-radiantthemes-style-calltoaction.php:65
+#: calltoaction/class-radiantthemes-style-calltoaction.php:88
+#: cf7/class-radiantthemes-style-cf7.php:125
+#: cf7/class-radiantthemes-style-cf7.php:165
+#: counterup/class-radiantthemes-style-counterup.php:87
+#: custom-button/class-radiantthemes-style-custom-button.php:49
+#: custom-button/class-radiantthemes-style-custom-button.php:74
+#: dropcap/class-radiantthemes-style-dropcap.php:52
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:263
+#: popup-video/class-radiantthemes-style-popup-video.php:46
+#: portfolio/class-radiantthemes-style-portfolio.php:72
+#: portfolio/class-radiantthemes-style-portfolio.php:83
+#: quote-box/class-radiantthemes-style-quote-box.php:50
+#: separator/class-radiantthemes-style-separator.php:75
+#: tabs/class-radiantthemes-style-tabs.php:152
+msgid "Right"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:49
+msgid "Blockquote Icon Position"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:60
+#: calltoaction/class-radiantthemes-style-calltoaction.php:40
+#: custom-button/class-radiantthemes-style-custom-button.php:293
+#: dropcap/class-radiantthemes-style-dropcap.php:57
+#: pricingtable/class-radiantthemes-style-pricing-table.php:109
+msgid "Background Color"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:63
+#: blockquote/class-radiantthemes-style-blockquote.php:70
+#: blockquote/class-radiantthemes-style-blockquote.php:77
+#: blockquote/class-radiantthemes-style-blockquote.php:84
+#: blockquote/class-radiantthemes-style-blockquote.php:106
+#: blockquote/class-radiantthemes-style-blockquote.php:127
+#: blockquote/class-radiantthemes-style-blockquote.php:134
+#: calltoaction/class-radiantthemes-style-calltoaction.php:120
+#: calltoaction/class-radiantthemes-style-calltoaction.php:127
+#: calltoaction/class-radiantthemes-style-calltoaction.php:134
+#: calltoaction/class-radiantthemes-style-calltoaction.php:141
+#: calltoaction/class-radiantthemes-style-calltoaction.php:148
+#: calltoaction/class-radiantthemes-style-calltoaction.php:155
+#: calltoaction/class-radiantthemes-style-calltoaction.php:162
+#: calltoaction/class-radiantthemes-style-calltoaction.php:169
+#: calltoaction/class-radiantthemes-style-calltoaction.php:176
+#: calltoaction/class-radiantthemes-style-calltoaction.php:183
+#: calltoaction/class-radiantthemes-style-calltoaction.php:190
+#: calltoaction/class-radiantthemes-style-calltoaction.php:197
+#: calltoaction/class-radiantthemes-style-calltoaction.php:204
+#: calltoaction/class-radiantthemes-style-calltoaction.php:211
+#: tabs/class-radiantthemes-style-tabs.php:148
+#: tabs/class-radiantthemes-style-tabs.php:163
+#: tabs/class-radiantthemes-style-tabs.php:176
+#: tabs/class-radiantthemes-style-tabs.php:189
+#: tabs/class-radiantthemes-style-tabs.php:202
+#: tabs/class-radiantthemes-style-tabs.php:216
+#: tabs/class-radiantthemes-style-tabs.php:242
+#: tabs/class-radiantthemes-style-tabs.php:255
+#: tabs/class-radiantthemes-style-tabs.php:267
+#: tabs/class-radiantthemes-style-tabs.php:279
+#: tabs/class-radiantthemes-style-tabs.php:291
+msgid "Typography & Color"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:67
+msgid "Border Width"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:74
+#: custom-button/class-radiantthemes-style-custom-button.php:300
+#: dropcap/class-radiantthemes-style-dropcap.php:64
+msgid "Border Color"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:81
+#: tabs/class-radiantthemes-style-tabs.php:213
+msgid "Border Style"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:86
+#: tabs/class-radiantthemes-style-tabs.php:219
+msgid "Theme Defaults"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:87
+#: cf7/class-radiantthemes-style-cf7.php:201
+#: cf7/class-radiantthemes-style-cf7.php:290
+#: tabs/class-radiantthemes-style-tabs.php:220
+msgid "Solid"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:88
+#: cf7/class-radiantthemes-style-cf7.php:202
+#: cf7/class-radiantthemes-style-cf7.php:291
+#: tabs/class-radiantthemes-style-tabs.php:221
+msgid "Dotted"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:89
+#: cf7/class-radiantthemes-style-cf7.php:203
+#: cf7/class-radiantthemes-style-cf7.php:292
+#: tabs/class-radiantthemes-style-tabs.php:222
+msgid "Dashed"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:90
+#: cf7/class-radiantthemes-style-cf7.php:200
+#: cf7/class-radiantthemes-style-cf7.php:289
+#: tabs/class-radiantthemes-style-tabs.php:223
+msgid "None"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:91
+#: cf7/class-radiantthemes-style-cf7.php:204
+#: cf7/class-radiantthemes-style-cf7.php:293
+#: tabs/class-radiantthemes-style-tabs.php:224
+msgid "Hidden"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:92
+#: cf7/class-radiantthemes-style-cf7.php:205
+#: cf7/class-radiantthemes-style-cf7.php:294
+#: tabs/class-radiantthemes-style-tabs.php:225
+msgid "Double"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:93
+#: cf7/class-radiantthemes-style-cf7.php:206
+#: cf7/class-radiantthemes-style-cf7.php:295
+#: tabs/class-radiantthemes-style-tabs.php:226
+msgid "Groove"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:94
+#: cf7/class-radiantthemes-style-cf7.php:207
+#: cf7/class-radiantthemes-style-cf7.php:296
+#: tabs/class-radiantthemes-style-tabs.php:227
+msgid "Ridge"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:95
+#: cf7/class-radiantthemes-style-cf7.php:208
+#: cf7/class-radiantthemes-style-cf7.php:297
+#: tabs/class-radiantthemes-style-tabs.php:228
+msgid "Inset"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:96
+#: cf7/class-radiantthemes-style-cf7.php:209
+#: cf7/class-radiantthemes-style-cf7.php:298
+#: tabs/class-radiantthemes-style-tabs.php:229
+msgid "Outset"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:97
+#: cf7/class-radiantthemes-style-cf7.php:210
+#: cf7/class-radiantthemes-style-cf7.php:299
+#: tabs/class-radiantthemes-style-tabs.php:230
+msgid "Initial"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:98
+#: cf7/class-radiantthemes-style-cf7.php:211
+#: cf7/class-radiantthemes-style-cf7.php:300
+#: tabs/class-radiantthemes-style-tabs.php:231
+msgid "Inherit"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:103
+#: tabs/class-radiantthemes-style-tabs.php:240
+msgid "Border Radius"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:124
+msgid "Color"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:131
+msgid "Icon Color"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:139
+msgid "Blockquote Content"
+msgstr ""
+
+#: blockquote/class-radiantthemes-style-blockquote.php:142
+msgid "Enter your content."
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:23
+msgid "All"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:45
+msgid "Blog"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:47
+msgid "Add Blog with multiple styles."
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:55
+msgid "Blog Style"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:66
+#: ihover/class-radiantthemes-style-ihover.php:41
+#: team/class-radiantthemes-style-team.php:40
+#: testimonial/class-radiantthemes-style-testimonial.php:40
+msgid "Style Nine"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:67
+#: team/class-radiantthemes-style-team.php:41
+#: testimonial/class-radiantthemes-style-testimonial.php:41
+msgid "Style Ten"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:73
+#: clients/class-radiantthemes-style-clients.php:40
+#: team/class-radiantthemes-style-team.php:48
+#: testimonial/class-radiantthemes-style-testimonial.php:102
+msgid "Carousel"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:76
+#: blog/class-radiantthemes-style-blog.php:92
+#: blog/class-radiantthemes-style-blog.php:120
+#: blog/class-radiantthemes-style-blog.php:149
+#: blog/class-radiantthemes-style-blog.php:163
+#: clients/class-radiantthemes-style-clients.php:43
+#: clients/class-radiantthemes-style-clients.php:53
+#: clients/class-radiantthemes-style-clients.php:81
+#: clients/class-radiantthemes-style-clients.php:110
+#: clients/class-radiantthemes-style-clients.php:124
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:272
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:43
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:53
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:94
+#: portfolio/class-radiantthemes-style-portfolio.php:105
+#: portfolio/class-radiantthemes-style-portfolio.php:115
+#: portfolio/class-radiantthemes-style-portfolio.php:125
+#: team/class-radiantthemes-style-team.php:51
+#: team/class-radiantthemes-style-team.php:61
+#: team/class-radiantthemes-style-team.php:89
+#: team/class-radiantthemes-style-team.php:118
+#: team/class-radiantthemes-style-team.php:132
+#: testimonial/class-radiantthemes-style-testimonial.php:105
+#: testimonial/class-radiantthemes-style-testimonial.php:115
+#: testimonial/class-radiantthemes-style-testimonial.php:143
+#: testimonial/class-radiantthemes-style-testimonial.php:171
+#: testimonial/class-radiantthemes-style-testimonial.php:185
+msgid "No"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:77
+#: blog/class-radiantthemes-style-blog.php:93
+#: blog/class-radiantthemes-style-blog.php:121
+#: blog/class-radiantthemes-style-blog.php:148
+#: blog/class-radiantthemes-style-blog.php:162
+#: clients/class-radiantthemes-style-clients.php:44
+#: clients/class-radiantthemes-style-clients.php:54
+#: clients/class-radiantthemes-style-clients.php:82
+#: clients/class-radiantthemes-style-clients.php:109
+#: clients/class-radiantthemes-style-clients.php:123
+#: counterup/class-radiantthemes-style-counterup.php:121
+#: custom-button/class-radiantthemes-style-custom-button.php:242
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:273
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:42
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:52
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:93
+#: portfolio/class-radiantthemes-style-portfolio.php:43
+#: portfolio/class-radiantthemes-style-portfolio.php:104
+#: portfolio/class-radiantthemes-style-portfolio.php:114
+#: portfolio/class-radiantthemes-style-portfolio.php:124
+#: portfolio/class-radiantthemes-style-portfolio.php:134
+#: pricingtable/class-radiantthemes-style-pricing-table.php:126
+#: team/class-radiantthemes-style-team.php:52
+#: team/class-radiantthemes-style-team.php:62
+#: team/class-radiantthemes-style-team.php:90
+#: team/class-radiantthemes-style-team.php:119
+#: team/class-radiantthemes-style-team.php:133
+#: testimonial/class-radiantthemes-style-testimonial.php:80
+#: testimonial/class-radiantthemes-style-testimonial.php:106
+#: testimonial/class-radiantthemes-style-testimonial.php:116
+#: testimonial/class-radiantthemes-style-testimonial.php:144
+#: testimonial/class-radiantthemes-style-testimonial.php:172
+#: testimonial/class-radiantthemes-style-testimonial.php:186
+msgid "Yes"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:83
+msgid "Category"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:89
+#: clients/class-radiantthemes-style-clients.php:50
+#: team/class-radiantthemes-style-team.php:58
+#: testimonial/class-radiantthemes-style-testimonial.php:112
+msgid "Allow Navigation?"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:103
+#: clients/class-radiantthemes-style-clients.php:64
+#: team/class-radiantthemes-style-team.php:72
+#: testimonial/class-radiantthemes-style-testimonial.php:126
+msgid "Navigation Style"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:117
+#: clients/class-radiantthemes-style-clients.php:78
+#: team/class-radiantthemes-style-team.php:86
+#: testimonial/class-radiantthemes-style-testimonial.php:140
+msgid "Allow Dots for Navigation?"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:131
+#: clients/class-radiantthemes-style-clients.php:92
+#: team/class-radiantthemes-style-team.php:100
+#: testimonial/class-radiantthemes-style-testimonial.php:154
+msgid "Navigation Dot Style"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:145
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:39
+#: team/class-radiantthemes-style-team.php:115
+msgid "Allow Loop"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:159
+#: clients/class-radiantthemes-style-clients.php:120
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:49
+#: team/class-radiantthemes-style-team.php:129
+#: testimonial/class-radiantthemes-style-testimonial.php:182
+msgid "Allow Autoplay?"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:173
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:59
+msgid "Autoplay Timeout (in millisecond)"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:183
+#: clients/class-radiantthemes-style-clients.php:144
+#: team/class-radiantthemes-style-team.php:154
+#: testimonial/class-radiantthemes-style-testimonial.php:206
+msgid "Order"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:186
+#: clients/class-radiantthemes-style-clients.php:147
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:130
+#: portfolio/class-radiantthemes-style-portfolio.php:190
+#: team/class-radiantthemes-style-team.php:157
+#: testimonial/class-radiantthemes-style-testimonial.php:209
+msgid "Ascending"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:187
+#: clients/class-radiantthemes-style-clients.php:148
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:131
+#: portfolio/class-radiantthemes-style-portfolio.php:191
+#: team/class-radiantthemes-style-team.php:158
+#: testimonial/class-radiantthemes-style-testimonial.php:210
+msgid "Descending"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:193
+#: clients/class-radiantthemes-style-clients.php:154
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:112
+#: portfolio/class-radiantthemes-style-portfolio.php:172
+#: team/class-radiantthemes-style-team.php:164
+#: testimonial/class-radiantthemes-style-testimonial.php:216
+msgid "Order By"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:196
+#: clients/class-radiantthemes-style-clients.php:157
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:115
+#: portfolio/class-radiantthemes-style-portfolio.php:175
+#: team/class-radiantthemes-style-team.php:167
+#: testimonial/class-radiantthemes-style-testimonial.php:219
+msgid "Date"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:197
+#: button/class-radiantthemes-style-button.php:30
+#: clients/class-radiantthemes-style-clients.php:158
+#: custom-button/class-radiantthemes-style-custom-button.php:30
+#: flip-box/class-radiantthemes-style-flip-box.php:79
+#: flip-box/class-radiantthemes-style-flip-box.php:99
+#: ihover/class-radiantthemes-style-ihover.php:53
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:117
+#: portfolio/class-radiantthemes-style-portfolio.php:177
+#: pricingtable/class-radiantthemes-style-pricing-table.php:45
+#: team/class-radiantthemes-style-team.php:168
+#: testimonial/class-radiantthemes-style-testimonial.php:220
+msgid "Title"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:198
+#: clients/class-radiantthemes-style-clients.php:159
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:116
+#: portfolio/class-radiantthemes-style-portfolio.php:176
+#: team/class-radiantthemes-style-team.php:169
+#: testimonial/class-radiantthemes-style-testimonial.php:221
+msgid "ID"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:199
+#: clients/class-radiantthemes-style-clients.php:160
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:119
+#: portfolio/class-radiantthemes-style-portfolio.php:179
+#: team/class-radiantthemes-style-team.php:170
+#: testimonial/class-radiantthemes-style-testimonial.php:222
+msgid "Random"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:200
+#: clients/class-radiantthemes-style-clients.php:161
+#: team/class-radiantthemes-style-team.php:171
+#: testimonial/class-radiantthemes-style-testimonial.php:223
+msgid "Last Modified"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:206
+#: clients/class-radiantthemes-style-clients.php:167
+#: team/class-radiantthemes-style-team.php:177
+#: testimonial/class-radiantthemes-style-testimonial.php:229
+msgid "Count"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:208
+#: clients/class-radiantthemes-style-clients.php:169
+#: team/class-radiantthemes-style-team.php:179
+#: testimonial/class-radiantthemes-style-testimonial.php:231
+msgid "Number of posts to show ( -1 for all posts )"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:213
+#: clients/class-radiantthemes-style-clients.php:173
+#: team/class-radiantthemes-style-team.php:184
+#: testimonial/class-radiantthemes-style-testimonial.php:235
+msgid "Number of Posts on Desktop"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:215
+msgid "Posts on Desktop (in single row)"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:224
+#: clients/class-radiantthemes-style-clients.php:184
+#: team/class-radiantthemes-style-team.php:195
+#: testimonial/class-radiantthemes-style-testimonial.php:246
+msgid "Number of Posts on Tab"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:226
+msgid "Posts on Tab (in single row)"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:235
+#: clients/class-radiantthemes-style-clients.php:195
+#: team/class-radiantthemes-style-team.php:206
+#: testimonial/class-radiantthemes-style-testimonial.php:257
+msgid "Number of Posts on Mobile"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:237
+msgid "Posts on Mobile (in single row)"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:246
+#: clients/class-radiantthemes-style-clients.php:206
+#: team/class-radiantthemes-style-team.php:217
+#: testimonial/class-radiantthemes-style-testimonial.php:268
+msgid "Number of Row Items"
+msgstr ""
+
+#: blog/class-radiantthemes-style-blog.php:248
+#: clients/class-radiantthemes-style-clients.php:208
+#: team/class-radiantthemes-style-team.php:219
+#: testimonial/class-radiantthemes-style-testimonial.php:270
+msgid "Select number of items you want to see in a row"
+msgstr ""
+
+#: blog/template/template-blog-item-eight.php:20
+#: blog/template/template-blog-item-eight.php:64
+#: blog/template/template-blog-item-one.php:36
+msgid "Comments ("
+msgstr ""
+
+#: blog/template/template-blog-item-eight.php:26
+#: blog/template/template-blog-item-eight.php:70
+#: blog/template/template-blog-item-five.php:33
+#: blog/template/template-blog-item-four.php:33
+#: blog/template/template-blog-item-one.php:37
+#: blog/template/template-blog-item-seven.php:40
+#: blog/template/template-blog-item-six.php:36
+#: blog/template/template-blog-item-three.php:33
+#: blog/template/template-blog-item-two.php:34
+#: team/template/template-team-item-six.php:54
+msgid "Read More"
+msgstr ""
+
+#: blog/template/template-blog-item-four.php:30
+msgid " Comments"
+msgstr ""
+
+#: blog/template/template-blog-item-nine.php:18
+msgid "By:"
+msgstr ""
+
+#: blog/template/template-blog-item-nine.php:19
+msgid "On:"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:20
+msgid "Theme Button"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:22
+msgid "Compatible with Color Scheme in Theme Options."
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:32
+#: custom-button/class-radiantthemes-style-custom-button.php:32
+msgid "Text on the button"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:37
+#: custom-button/class-radiantthemes-style-custom-button.php:37
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:294
+msgid "URL (Link)"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:39
+#: custom-button/class-radiantthemes-style-custom-button.php:39
+msgid "Add link to button."
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:43
+#: custom-button/class-radiantthemes-style-custom-button.php:43
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:258
+msgid "Alignment"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:45
+#: custom-button/class-radiantthemes-style-custom-button.php:45
+msgid "Select button alignment."
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:47
+#: custom-button/class-radiantthemes-style-custom-button.php:47
+msgid "Inline"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:55
+#: custom-button/class-radiantthemes-style-custom-button.php:55
+msgid "Set full width button?"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:64
+#: custom-button/class-radiantthemes-style-custom-button.php:64
+msgid "Add icon?"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:69
+#: custom-button/class-radiantthemes-style-custom-button.php:69
+msgid "Icon Alignment"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:70
+#: custom-button/class-radiantthemes-style-custom-button.php:70
+msgid "Select icon alignment."
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:83
+#: custom-button/class-radiantthemes-style-custom-button.php:83
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:102
+#: tabs/class-radiantthemes-style-tabs.php:367
+msgid "Icon library"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:85
+#: custom-button/class-radiantthemes-style-custom-button.php:85
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:104
+#: tabs/class-radiantthemes-style-tabs.php:369
+msgid "Font Awesome"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:86
+#: custom-button/class-radiantthemes-style-custom-button.php:86
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:105
+#: tabs/class-radiantthemes-style-tabs.php:371
+msgid "Open Iconic"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:87
+#: custom-button/class-radiantthemes-style-custom-button.php:87
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:106
+#: tabs/class-radiantthemes-style-tabs.php:372
+msgid "Typicons"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:88
+#: custom-button/class-radiantthemes-style-custom-button.php:88
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:107
+#: tabs/class-radiantthemes-style-tabs.php:370
+msgid "Entypo"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:89
+#: custom-button/class-radiantthemes-style-custom-button.php:89
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:108
+#: tabs/class-radiantthemes-style-tabs.php:373
+msgid "Linecons"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:90
+#: custom-button/class-radiantthemes-style-custom-button.php:90
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:109
+msgid "Mono Social"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:91
+#: custom-button/class-radiantthemes-style-custom-button.php:91
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:110
+#: tabs/class-radiantthemes-style-tabs.php:374
+msgid "Material"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:94
+#: custom-button/class-radiantthemes-style-custom-button.php:94
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:114
+#: tabs/class-radiantthemes-style-tabs.php:378
+msgid "Select icon library."
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:102
+#: button/class-radiantthemes-style-button.php:118
+#: button/class-radiantthemes-style-button.php:134
+#: button/class-radiantthemes-style-button.php:150
+#: button/class-radiantthemes-style-button.php:165
+#: button/class-radiantthemes-style-button.php:181
+#: button/class-radiantthemes-style-button.php:197
+#: custom-button/class-radiantthemes-style-custom-button.php:102
+#: custom-button/class-radiantthemes-style-custom-button.php:118
+#: custom-button/class-radiantthemes-style-custom-button.php:134
+#: custom-button/class-radiantthemes-style-custom-button.php:150
+#: custom-button/class-radiantthemes-style-custom-button.php:165
+#: custom-button/class-radiantthemes-style-custom-button.php:181
+#: custom-button/class-radiantthemes-style-custom-button.php:197
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:125
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:144
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:163
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:182
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:200
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:219
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:238
+#: tabs/class-radiantthemes-style-tabs.php:386
+#: tabs/class-radiantthemes-style-tabs.php:402
+#: tabs/class-radiantthemes-style-tabs.php:419
+#: tabs/class-radiantthemes-style-tabs.php:436
+#: tabs/class-radiantthemes-style-tabs.php:452
+#: tabs/class-radiantthemes-style-tabs.php:469
+msgid "Icon"
+msgstr ""
+
+#: button/class-radiantthemes-style-button.php:113
+#: button/class-radiantthemes-style-button.php:130
+#: button/class-radiantthemes-style-button.php:146
+#: button/class-radiantthemes-style-button.php:177
+#: button/class-radiantthemes-style-button.php:193
+#: button/class-radiantthemes-style-button.php:209
+#: custom-button/class-radiantthemes-style-custom-button.php:113
+#: custom-button/class-radiantthemes-style-custom-button.php:130
+#: custom-button/class-radiantthemes-style-custom-button.php:146
+#: custom-button/class-radiantthemes-style-custom-button.php:177
+#: custom-button/class-radiantthemes-style-custom-button.php:193
+#: custom-button/class-radiantthemes-style-custom-button.php:209
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:139
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:159
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:178
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:215
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:234
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:253
+#: tabs/class-radiantthemes-style-tabs.php:397
+#: tabs/class-radiantthemes-style-tabs.php:414
+#: tabs/class-radiantthemes-style-tabs.php:431
+#: tabs/class-radiantthemes-style-tabs.php:464
+#: tabs/class-radiantthemes-style-tabs.php:481
+msgid "Select icon from library."
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:19
+msgid "Call To Action"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:21
+msgid "Add Call To Action"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:29
+msgid "Call To Action Style"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:47
+msgid "Overlay Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:54
+msgid "Call To Action Title"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:56
+#: calltoaction/class-radiantthemes-style-calltoaction.php:240
+msgid "We are available 24x7 for you"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:60
+msgid "Title Align"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:71
+msgid "Call To Action Content"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:77
+msgid "Call To Action Subtitle"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:83
+msgid "Subtitle Align"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:94
+msgid "Button Title"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:100
+msgid "Button Link"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:117
+msgid "Title Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:124
+msgid "Title Font Size (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:131
+msgid "Title Line Height (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:138
+msgid "Content Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:145
+msgid "Content Font Size (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:152
+msgid "Content Line Height (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:159
+msgid "Subtitle Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:166
+msgid "Subtitle Font Size (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:173
+msgid "Subtitle Line Height (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:180
+msgid "Button Title Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:187
+msgid "Button Title Hover Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:194
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:201
+msgid "Button Font Size (in px)"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:208
+msgid "Button Font Weight"
+msgstr ""
+
+#: calltoaction/class-radiantthemes-style-calltoaction.php:217
+#: custom-button/class-radiantthemes-style-custom-button.php:289
+msgid "Button Design"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:19
+#: cf7/class-radiantthemes-style-cf7.php:387
+msgid "Contact Form 7"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:29
+msgid "Radiant Contact Form 7 Style"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:33
+msgid "Select Contact Form 7 Style"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:50
+msgid "Submit Button Background Color"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:52
+#: cf7/class-radiantthemes-style-cf7.php:63
+#: cf7/class-radiantthemes-style-cf7.php:74
+#: cf7/class-radiantthemes-style-cf7.php:85
+msgid "Submit Button Design"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:55
+msgid "Form here you can change the submit button color."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:61
+msgid "Submit Button Hover Color"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:66
+msgid "Form here you can change the submit button hover color."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:72
+msgid "Submit Button Text Color"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:77
+msgid "Form here you can change the submit button text color."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:83
+msgid "Submit Button Text Hover Color"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:88
+msgid "Form here you can change the submit button text hover color."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:94
+msgid "Background Color For Input Fields"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:96
+#: cf7/class-radiantthemes-style-cf7.php:107
+#: cf7/class-radiantthemes-style-cf7.php:119
+#: cf7/class-radiantthemes-style-cf7.php:129
+#: cf7/class-radiantthemes-style-cf7.php:139
+#: cf7/class-radiantthemes-style-cf7.php:149
+#: cf7/class-radiantthemes-style-cf7.php:159
+#: cf7/class-radiantthemes-style-cf7.php:169
+#: cf7/class-radiantthemes-style-cf7.php:179
+#: cf7/class-radiantthemes-style-cf7.php:189
+#: cf7/class-radiantthemes-style-cf7.php:197
+#: cf7/class-radiantthemes-style-cf7.php:220
+#: cf7/class-radiantthemes-style-cf7.php:231
+#: cf7/class-radiantthemes-style-cf7.php:240
+#: cf7/class-radiantthemes-style-cf7.php:249
+#: cf7/class-radiantthemes-style-cf7.php:258
+#: cf7/class-radiantthemes-style-cf7.php:267
+#: cf7/class-radiantthemes-style-cf7.php:277
+#: cf7/class-radiantthemes-style-cf7.php:286
+#: cf7/class-radiantthemes-style-cf7.php:309
+#: cf7/class-radiantthemes-style-cf7.php:320
+#: cf7/class-radiantthemes-style-cf7.php:329
+#: cf7/class-radiantthemes-style-cf7.php:338
+#: cf7/class-radiantthemes-style-cf7.php:347
+msgid "Contact Form 7 Input Box Setting"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:99
+msgid "Form here you can change the Background Color For Input Fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:105
+msgid "Font Color For Input Fields"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:110
+msgid "Form here you can change the Font Color For Input Fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:115
+#: cf7/class-radiantthemes-style-cf7.php:155
+msgid "Top"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:120
+msgid "Allow border radius top for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:130
+msgid "Allow border radius right for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:135
+#: cf7/class-radiantthemes-style-cf7.php:175
+msgid "Bottom"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:140
+msgid "Allow border radius bottom for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:150
+msgid "Allow border radius left for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:160
+msgid "Allow padding top for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:170
+msgid "Allow padding right for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:180
+msgid "Allow padding bottom for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:190
+msgid "Allow padding left for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:195
+msgid "Border For Input Fields"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:218
+msgid "Border Color For Input Fields"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:223
+msgid "Allow border color for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:227
+#: cf7/class-radiantthemes-style-cf7.php:316
+#: tabs/class-radiantthemes-style-tabs.php:174
+msgid "Border Top"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:232
+msgid "Allow border top for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:236
+#: cf7/class-radiantthemes-style-cf7.php:325
+#: tabs/class-radiantthemes-style-tabs.php:187
+msgid "Border Right"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:241
+msgid "Allow border right for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:245
+#: cf7/class-radiantthemes-style-cf7.php:334
+#: tabs/class-radiantthemes-style-tabs.php:200
+msgid "Border Bottom"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:250
+msgid "Allow border bottom for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:254
+#: cf7/class-radiantthemes-style-cf7.php:343
+#: tabs/class-radiantthemes-style-tabs.php:161
+msgid "Border Left"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:259
+msgid "Allow border left for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:265
+msgid "Font Color For Input Fields Focus"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:270
+msgid "Form here you can change the Focus Font Color For Input Fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:275
+msgid "Background Color For Input Fields Focus"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:280
+msgid "Form here you can change the Focus Background Color For Input Fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:284
+msgid "Focus Border style"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:307
+msgid "Focus Color For Input Fields"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:312
+msgid "Allow focus color for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:321
+msgid "Allow focus top for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:330
+msgid "Allow focus right for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:339
+msgid "Allow focus bottom for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:348
+msgid "Allow focus left for input fields."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:369
+msgid "Contact Form 7 Design"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:383
+msgid "No contact forms found"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:389
+#: cf7/class-radiantthemes-style-cf7.php:399
+msgid "Select contact form"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:403
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:407
+msgid "Search title"
+msgstr ""
+
+#: cf7/class-radiantthemes-style-cf7.php:410
+msgid "Enter optional title to search if no ID selected or cannot find by ID."
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:19
+msgid "Clients"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:21
+msgid "Add Clients with different styles"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:29
+msgid "Clients Style"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:106
+#: testimonial/class-radiantthemes-style-testimonial.php:168
+msgid "Allow Loop?"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:134
+#: team/class-radiantthemes-style-team.php:144
+#: testimonial/class-radiantthemes-style-testimonial.php:196
+msgid "Autoplay Timeout (in seconds)"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:175
+#: team/class-radiantthemes-style-team.php:186
+#: testimonial/class-radiantthemes-style-testimonial.php:237
+msgid "Posts on Desktop"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:186
+#: team/class-radiantthemes-style-team.php:197
+#: testimonial/class-radiantthemes-style-testimonial.php:248
+msgid "Posts on Tab"
+msgstr ""
+
+#: clients/class-radiantthemes-style-clients.php:197
+#: team/class-radiantthemes-style-team.php:208
+#: testimonial/class-radiantthemes-style-testimonial.php:259
+msgid "Posts on Mobile"
+msgstr ""
+
+#: countdown/class-radiantthemes-style-countdown.php:35
+msgid "Countdown"
+msgstr ""
+
+#: countdown/class-radiantthemes-style-countdown.php:37
+msgid "Add Countdown"
+msgstr ""
+
+#: countdown/class-radiantthemes-style-countdown.php:45
+msgid "Countdown Timer Style"
+msgstr ""
+
+#: countdown/class-radiantthemes-style-countdown.php:55
+msgid "Target Time For Countdown"
+msgstr ""
+
+#: countdown/class-radiantthemes-style-countdown.php:57
+msgid "Date and time format (yyyy/mm/dd hh:mm:ss)."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:19
+msgid "CounterUp"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:22
+msgid "Add Counterup"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:30
+msgid "Counterup Style"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:40
+msgid "Counterup Value"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:44
+msgid "Enter the numeric value for counting"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:48
+msgid "Counterup Time"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:52
+msgid "How long counting will run (in millisecond)"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:56
+msgid "Counterup Delay"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:60
+msgid "Counting will start after delay (in millisecond)"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:78
+msgid "Counterup Align"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:80
+#: counterup/class-radiantthemes-style-counterup.php:96
+#: counterup/class-radiantthemes-style-counterup.php:104
+#: counterup/class-radiantthemes-style-counterup.php:111
+#: counterup/class-radiantthemes-style-counterup.php:119
+#: counterup/class-radiantthemes-style-counterup.php:129
+#: custom-button/class-radiantthemes-style-custom-button.php:217
+#: custom-button/class-radiantthemes-style-custom-button.php:225
+#: custom-button/class-radiantthemes-style-custom-button.php:232
+#: custom-button/class-radiantthemes-style-custom-button.php:240
+#: custom-button/class-radiantthemes-style-custom-button.php:250
+msgid "Typography"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:83
+msgid "Select Counterup alignment."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:92
+#: custom-button/class-radiantthemes-style-custom-button.php:213
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:68
+#: testimonial/class-radiantthemes-style-testimonial.php:47
+msgid "Font Size"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:94
+#: custom-button/class-radiantthemes-style-custom-button.php:215
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:69
+#: testimonial/class-radiantthemes-style-testimonial.php:49
+msgid "Enter font size."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:100
+#: custom-button/class-radiantthemes-style-custom-button.php:221
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:76
+#: testimonial/class-radiantthemes-style-testimonial.php:54
+msgid "Line Height"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:102
+#: custom-button/class-radiantthemes-style-custom-button.php:223
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:77
+#: testimonial/class-radiantthemes-style-testimonial.php:56
+msgid "Enter line height."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:108
+msgid "Counterup Color"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:112
+msgid "Select Counterup color."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:117
+#: custom-button/class-radiantthemes-style-custom-button.php:238
+#: testimonial/class-radiantthemes-style-testimonial.php:76
+msgid "Use theme default font family?"
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:123
+#: custom-button/class-radiantthemes-style-custom-button.php:244
+#: testimonial/class-radiantthemes-style-testimonial.php:82
+msgid "Use font family from the theme."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:132
+#: custom-button/class-radiantthemes-style-custom-button.php:253
+#: testimonial/class-radiantthemes-style-testimonial.php:91
+msgid "Select font family."
+msgstr ""
+
+#: counterup/class-radiantthemes-style-counterup.php:133
+#: custom-button/class-radiantthemes-style-custom-button.php:254
+#: testimonial/class-radiantthemes-style-testimonial.php:92
+msgid "Select font styling."
+msgstr ""
+
+#: custom-button/class-radiantthemes-style-custom-button.php:20
+msgid "Custom Button"
+msgstr ""
+
+#: custom-button/class-radiantthemes-style-custom-button.php:22
+msgid "Add Button with multiple styles."
+msgstr ""
+
+#: custom-button/class-radiantthemes-style-custom-button.php:229
+#: custom-button/class-radiantthemes-style-custom-button.php:307
+#: testimonial/class-radiantthemes-style-testimonial.php:68
+msgid "Font Color"
+msgstr ""
+
+#: custom-button/class-radiantthemes-style-custom-button.php:233
+msgid "Select Button Text color."
+msgstr ""
+
+#: custom-button/class-radiantthemes-style-custom-button.php:296
+#: custom-button/class-radiantthemes-style-custom-button.php:303
+#: custom-button/class-radiantthemes-style-custom-button.php:310
+msgid "Button Hover"
+msgstr ""
+
+#: custom-menu/class-radiantthemes-style-menu.php:39
+msgid "Custom Menu"
+msgstr ""
+
+#: custom-menu/class-radiantthemes-style-menu.php:41
+msgid "Add Custom Menu with multiple styles."
+msgstr ""
+
+#: custom-menu/class-radiantthemes-style-menu.php:49
+msgid "Menu Style"
+msgstr ""
+
+#: custom-menu/class-radiantthemes-style-menu.php:58
+msgid "Menu"
+msgstr ""
+
+#: custom-menu/class-radiantthemes-style-menu.php:61
+msgid ""
+"Custom menus not found. Please visit <b>Appearance > Menus</b> page to "
+"create new menu."
+msgstr ""
+
+#: custom-menu/class-radiantthemes-style-menu.php:61
+msgid "Select menu to display."
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:20
+msgid "Dropcap"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:22
+msgid "Add Dropcap with multiple styles."
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:30
+msgid "Dropcap Style"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:41
+#: flip-box/class-radiantthemes-style-flip-box.php:86
+#: flip-box/class-radiantthemes-style-flip-box.php:106
+#: ihover/class-radiantthemes-style-ihover.php:60
+#: list/class-radiantthemes-style-list.php:43
+#: pricingtable/class-radiantthemes-style-pricing-table.php:52
+msgid "Content"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:43
+msgid "This is dropcap item element"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:47
+msgid "Dropcaps Direction"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:60
+#: pricingtable/class-radiantthemes-style-pricing-table.php:119
+msgid "Choose background color"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:67
+msgid "Choose border color"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:71
+msgid "Text Color"
+msgstr ""
+
+#: dropcap/class-radiantthemes-style-dropcap.php:74
+msgid "Choose text color"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:20
+msgid "Fancy Text Box"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:22
+msgid "Add Fancy Text Box with multiple styles."
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:30
+msgid "Fancy Text Box Style"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:33
+msgid "Style One (With Icon)"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:34
+msgid "Style Two (With Icon)"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:35
+msgid "Style Three (With Image)"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:36
+msgid "Style Four (With Image)"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:43
+msgid "Fancy Text Box Title"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:44
+msgid "I am a Fancy Text Box"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:50
+msgid "Element tag"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:51
+msgid "Select element tag."
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:71
+msgid "24"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:79
+msgid "35"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:84
+msgid "Fancy Text Box Content"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:85
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:346
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do."
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:90
+msgid "Add Image"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:260
+msgid "Select fancy box icon alignment."
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:269
+msgid "Enable Box Shadow?"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:274
+msgid "Only on Hover"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:279
+msgid "Do You want Button?"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:284
+msgid "Button Text"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:285
+msgid "Text on Button"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:296
+msgid "Add link"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:325
+msgid "Fancy Text Box Design"
+msgstr ""
+
+#: fancytextbox/class-radiantthemes-style-fancy-text-box.php:345
+msgid "I am Fancy Text Box"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:20
+msgid "Flip Box"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:22
+msgid "Add Flip Box with multiple styles."
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:30
+msgid "Flip Box Style"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:40
+msgid "Flip Box Axis"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:43
+msgid "Horizontal (X)"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:44
+msgid "Vertical (Y)"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:73
+#: highlight-box/class-radiantthemes-style-highlight-box.php:43
+#: ihover/class-radiantthemes-style-ihover.php:48
+#: quote-box/class-radiantthemes-style-quote-box.php:40
+msgid "Image"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:75
+#: flip-box/class-radiantthemes-style-flip-box.php:82
+#: flip-box/class-radiantthemes-style-flip-box.php:89
+#: flip-box/class-radiantthemes-style-flip-box.php:95
+msgid "First Card"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:81
+#: flip-box/class-radiantthemes-style-flip-box.php:146
+msgid "First Card Title"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:88
+#: flip-box/class-radiantthemes-style-flip-box.php:108
+#: flip-box/class-radiantthemes-style-flip-box.php:147
+#: flip-box/class-radiantthemes-style-flip-box.php:150
+#: highlight-box/class-radiantthemes-style-highlight-box.php:56
+#: highlight-box/class-radiantthemes-style-highlight-box.php:113
+#: ihover/class-radiantthemes-style-ihover.php:61
+#: ihover/class-radiantthemes-style-ihover.php:112
+msgid ""
+"A wonderful serenity has taken possession of my entire soul, like these "
+"sweet mornings of spring which I enjoy with my whole heart."
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:93
+#: flip-box/class-radiantthemes-style-flip-box.php:119
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:69
+#: quote-box/class-radiantthemes-style-quote-box.php:91
+#: quote-box/class-radiantthemes-style-quote-box.php:93
+msgid "Customizer"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:101
+#: flip-box/class-radiantthemes-style-flip-box.php:149
+msgid "Second Card Title"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:102
+#: flip-box/class-radiantthemes-style-flip-box.php:109
+#: flip-box/class-radiantthemes-style-flip-box.php:115
+#: flip-box/class-radiantthemes-style-flip-box.php:121
+msgid "Second Card"
+msgstr ""
+
+#: flip-box/class-radiantthemes-style-flip-box.php:113
+msgid "Button"
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:20
+msgid "Highlight Box"
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:22
+msgid "Add Highlight Box with multiple styles."
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:30
+msgid "Highlight Box Style"
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:48
+msgid "Highlight Box Title"
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:50
+#: highlight-box/class-radiantthemes-style-highlight-box.php:112
+msgid "I am a Title"
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:55
+msgid "Highlight Box Content"
+msgstr ""
+
+#: highlight-box/class-radiantthemes-style-highlight-box.php:61
+msgid "Highlight Box Link"
+msgstr ""
+
+#: ihover/class-radiantthemes-style-ihover.php:20
+msgid "ihover"
+msgstr ""
+
+#: ihover/class-radiantthemes-style-ihover.php:22
+msgid "Add ihover with multiple styles."
+msgstr ""
+
+#: ihover/class-radiantthemes-style-ihover.php:30
+msgid "ihover Style"
+msgstr ""
+
+#: ihover/class-radiantthemes-style-ihover.php:55
+#: ihover/class-radiantthemes-style-ihover.php:111
+msgid "Hover Title"
+msgstr ""
+
+#: image-gallery/class-radiantthemes-style-image-gallery.php:19
+msgid "Image Gallery"
+msgstr ""
+
+#: image-gallery/class-radiantthemes-style-image-gallery.php:21
+msgid "Add Image Gallery with multiple styles."
+msgstr ""
+
+#: image-gallery/class-radiantthemes-style-image-gallery.php:29
+msgid "Image Gallery Style"
+msgstr ""
+
+#: image-gallery/class-radiantthemes-style-image-gallery.php:39
+#: image-slider/class-radiantthemes-style-image-slider.php:39
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:40
+msgid "Upload Images"
+msgstr ""
+
+#: image-gallery/class-radiantthemes-style-image-gallery.php:42
+msgid "Upload Images for Gallery"
+msgstr ""
+
+#: image-gallery/class-radiantthemes-style-image-gallery.php:46
+msgid "Number of Items in small gallery"
+msgstr ""
+
+#: image-slider/class-radiantthemes-style-image-slider.php:19
+msgid "Image Slider"
+msgstr ""
+
+#: image-slider/class-radiantthemes-style-image-slider.php:21
+msgid "Add Image Slider."
+msgstr ""
+
+#: image-slider/class-radiantthemes-style-image-slider.php:29
+msgid "Image Slider Style"
+msgstr ""
+
+#: image-slider/class-radiantthemes-style-image-slider.php:42
+msgid "Upload Images for Slider"
+msgstr ""
+
+#: list/class-radiantthemes-style-list.php:20
+msgid "List"
+msgstr ""
+
+#: list/class-radiantthemes-style-list.php:22
+msgid "Add List with multiple styles."
+msgstr ""
+
+#: list/class-radiantthemes-style-list.php:30
+msgid "List Style"
+msgstr ""
+
+#: list/class-radiantthemes-style-list.php:56
+msgid "List Icon Color"
+msgstr ""
+
+#: list/class-radiantthemes-style-list.php:58
+msgid "Set your List Icon Color"
+msgstr ""
+
+#: list/class-radiantthemes-style-list.php:91
+msgid "List Icon ID"
+msgstr ""
+
+#: loan-calculator/class-radiantthemes-loan-calculator.php:20
+msgid "Loan Calculator"
+msgstr ""
+
+#: loan-calculator/class-radiantthemes-loan-calculator.php:22
+msgid "Add Loan Calculator."
+msgstr ""
+
+#: loan-calculator/class-radiantthemes-loan-calculator.php:30
+msgid "Choose Style"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:10
+msgid "EMI Calculator"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:11
+msgid "Savings Calculator"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:23
+msgid "Loan Amount"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:46
+msgid "Loan Term"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:49
+msgid "mo"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:69
+msgid "Interest Rate"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:90
+#: loan-calculator/template/template-loan-calculator-item-one.php:170
+msgid "Estimated Monthly Payments "
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:103
+msgid "Starting Balance"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:126
+#: loan-calculator/template/template-loan-calculator-item-one.php:149
+msgid "Investment Term"
+msgstr ""
+
+#: loan-calculator/template/template-loan-calculator-item-one.php:129
+msgid "year"
+msgstr ""
+
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:20
+msgid "Masonry Gallery"
+msgstr ""
+
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:22
+msgid "Add Masonry Gallery."
+msgstr ""
+
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:30
+msgid "Masonry Gallery Style"
+msgstr ""
+
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:43
+msgid "Upload Images for gallery"
+msgstr ""
+
+#: masonry-gallery/class-radiantthemes-style-masonry-gallery.php:71
+msgid "Hover Layer"
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:20
+msgid "Popup Video"
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:22
+msgid "Add video popup player."
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:30
+msgid "Popup Video Style"
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:40
+msgid "Popup Video Alignment"
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:42
+msgid "Choose alignment of the video."
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:52
+msgid "Upload image"
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:57
+msgid "Enter Youtube/Vimeo Video Link"
+msgstr ""
+
+#: popup-video/class-radiantthemes-style-popup-video.php:59
+msgid "Enter video link. E.g - https://vimeo.com/24850539"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:20
+msgid "Portfolio Slider"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:22
+msgid "Add Portfolio Slider."
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:30
+msgid "Portfolio Slider Style"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:69
+msgid "Number of Items on Desktop"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:71
+msgid "Items on Desktop (in single row)"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:76
+msgid "Number of Items on Tab"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:78
+msgid "Items on Tab (in single row)"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:83
+msgid "Number of Items on Mobile"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:85
+msgid "Items on Mobile (in single row)"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:90
+#: portfolio/class-radiantthemes-style-portfolio.php:101
+msgid "Enable Zoom?"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:118
+#: portfolio/class-radiantthemes-style-portfolio.php:178
+msgid "Modified"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:120
+#: portfolio/class-radiantthemes-style-portfolio.php:180
+msgid "Menu order"
+msgstr ""
+
+#: portfolio-slider/class-radiantthemes-style-portfolio-slider.php:127
+#: portfolio/class-radiantthemes-style-portfolio.php:187
+msgid "Sort Order"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:20
+msgid "Portfolio"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:22
+msgid "Add Portfolio with multiple styles."
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:30
+msgid "Portfolio Style"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:41
+msgid "Portfolio Display Filter"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:48
+msgid "Portfolio Filter Style"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:64
+msgid "Portfolio Filter Align"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:79
+msgid "Portfolio Box Align"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:90
+msgid "Portfolio Box Number"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:92
+msgid "Number of Portfolio Box to display in a grid."
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:111
+msgid "Portfolio Enable Title?"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:121
+msgid "Portfolio Enable excerpt?"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:131
+msgid "Enable Link Button?"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:132
+msgid "Button style can be controled from Theme Option > Button."
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:142
+msgid "Link Button Text"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:143
+msgid "Enter text for link button. E.g. Details"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:153
+msgid "Spacing between Portfolio Items"
+msgstr ""
+
+#: portfolio/class-radiantthemes-style-portfolio.php:155
+msgid "Enter only the spacing value without unit. E.g. 30"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:20
+msgid "Pricing Item"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:22
+msgid "Add pricing item with multiple styles."
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:30
+msgid "Pricing Style"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:47
+msgid "This is pricing item element"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:55
+msgid ""
+"<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Free Hand</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Gym Fitness</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>Running</li>\n"
+"\t\t\t\t\t\t\t  \t</ul>"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:65
+msgid "Price with Currency"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:72
+msgid "Period"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:74
+msgid "Per Month"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:79
+msgid "Button | Title"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:81
+msgid "Sign Up Now!"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:86
+msgid "Button | Link"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:94
+msgid "Button color"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:104
+msgid "Choose button color"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:123
+msgid "Highlight"
+msgstr ""
+
+#: pricingtable/class-radiantthemes-style-pricing-table.php:124
+msgid "If checked, item will be highlight By priority"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:19
+msgid "Progress Bar"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:21
+msgid "Radiant Theme Progress Bar"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:29
+msgid "Progressbar Title"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:36
+msgid "Progressbar Style"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:39
+msgid "Red"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:40
+msgid "Orange"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:41
+msgid "Green"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:42
+msgid "Blue"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:48
+msgid "Progressbar Height"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:49
+msgid "Enter measurement units (Example: px)"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:57
+msgid "Progress Percentage"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:76
+msgid "Progressbar Animation"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:79
+#: progressbar/class-radiantthemes-style-progressbar.php:89
+msgid "true"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:80
+#: progressbar/class-radiantthemes-style-progressbar.php:90
+msgid "false"
+msgstr ""
+
+#: progressbar/class-radiantthemes-style-progressbar.php:86
+msgid "Progressbar Striped"
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:20
+msgid "Quote Box"
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:22
+msgid "Add Quote Box with multiple styles."
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:30
+msgid "Quote Box Style"
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:45
+msgid "Quote Box Alignment"
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:57
+msgid "Quotation"
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:59
+#: quote-box/class-radiantthemes-style-quote-box.php:115
+msgid ""
+"You must not lose faith in humanity. Humanity is an ocean; if a few drops of "
+"the ocean are dirty, the ocean does not become dirty."
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:63
+msgid "Name"
+msgstr ""
+
+#: quote-box/class-radiantthemes-style-quote-box.php:65
+#: quote-box/class-radiantthemes-style-quote-box.php:116
+msgid "Mahatma Gandhi"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:19
+msgid "Separator"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:21
+msgid "Radiant Theme Separator"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:29
+msgid "Choose Unit for width"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:32
+msgid "Percentage"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:33
+msgid "Pixel"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:39
+msgid "Separator Width (Percentage)"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:50
+msgid "Separator Width (Pixel) eg. 250"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:60
+msgid "Separator Color"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:66
+msgid "Separator Background Color"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:72
+msgid "Separator Direction"
+msgstr ""
+
+#: separator/class-radiantthemes-style-separator.php:83
+msgid "Separator Style"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:118
+msgid "Tabs"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:128
+msgid "Tabbed Content"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:132
+msgid "Select Tabs Style"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:145
+msgid "Tab Text Alignment"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:252
+msgid "Tab Menu Color"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:254
+msgid "The font color of tab in normal mode."
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:264
+msgid "Tab Menu Background Color"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:266
+msgid "The background color of tab in normal mode."
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:276
+msgid "Tab Menu Hover Font Color"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:278
+msgid "The font color of tab when user hover or in current mode."
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:288
+msgid "Tab Menu Background Hover Color"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:290
+msgid "The background color of tab when user hover or in current mode."
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:300
+msgid "Container Width"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:302
+msgid ""
+"The width of the whole contaienr, default is 100%. You can specify it with a "
+"smaller value, like 80%, and it will align center automatically."
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:307
+msgid "Tab Width Auto Adjust"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:328
+msgid "Tab Menu Design"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:339
+msgid "Tab Content Design"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:351
+msgid "Tab Item"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:362
+msgid "Display Icons?"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:486
+msgid "Tab Title"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:493
+msgid "Tab Content"
+msgstr ""
+
+#: tabs/class-radiantthemes-style-tabs.php:498
+msgid "Tab ID"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:19
+msgid "Team"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:21
+msgid "Add Team with multiple styles."
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:29
+msgid "Team Style"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:42
+msgid "Style Eleven"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:229
+msgid "Add Animation?"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:234
+msgid "Animation Name"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:239
+msgid "Attention Seekers"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:240
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:241
+msgid "Bouncing Exits"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:242
+msgid "Fading Entrances"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:243
+msgid "Fading Exits"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:244
+msgid "Flippers"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:245
+msgid "Lightspeed"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:246
+msgid "Rotating Entrances"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:247
+msgid "Rotating Exits"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:248
+msgid "Sliding Entrances"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:249
+msgid "Sliding Exits"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:250
+msgid "Zoom Entrances"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:251
+msgid "Zoom Exits"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:252
+msgid "Specials"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:269
+msgid "Bounce"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:270
+msgid "Flash"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:271
+msgid "Pulse"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:272
+msgid "rubberBand"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:273
+msgid "shake"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:274
+msgid "swing"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:275
+msgid "tada"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:276
+msgid "wobble"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:277
+msgid "jello"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:292
+msgid "BounceIn"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:293
+msgid "BounceInDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:294
+msgid "BounceInLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:295
+msgid "BounceInRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:296
+msgid "BounceInUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:311
+msgid "bounceOut"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:312
+msgid "bounceOutDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:313
+msgid "bounceOutLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:314
+msgid "bounceOutRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:315
+msgid "bounceOutUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:330
+msgid "fadeIn"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:331
+msgid "fadeInDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:332
+msgid "fadeInDownBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:333
+msgid "fadeInLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:334
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:335
+msgid "fadeInRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:336
+msgid "fadeInRightBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:337
+msgid "fadeInUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:338
+msgid "fadeInUpBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:353
+msgid "fadeOut"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:354
+msgid "fadeOutDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:355
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:356
+msgid "fadeOutLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:357
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:358
+msgid "fadeOutRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:359
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:360
+msgid "fadeOutUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:361
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:376
+msgid "flip"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:377
+msgid "flipInX"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:378
+msgid "flipInY"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:379
+msgid "flipOutX"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:380
+msgid "flipOutY"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:395
+msgid "lightSpeedIn"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:396
+msgid "lightSpeedOut"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:410
+msgid "rotateIn"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:411
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:412
+msgid "rotateInDownRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:413
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:414
+msgid "rotateInUpRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:429
+msgid "rotateOut"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:430
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:431
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:432
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:433
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:448
+msgid "slideInUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:449
+msgid "slideInDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:450
+msgid "slideInLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:451
+msgid "slideInRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:466
+msgid "slideOutUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:467
+msgid "slideOutDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:468
+msgid "slideOutLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:469
+msgid "slideOutRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:484
+msgid "zoomIn"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:485
+msgid "zoomInDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:486
+msgid "zoomInLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:487
+msgid "zoomInRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:488
+msgid "zoomInUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:503
+msgid "zoomOut"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:504
+msgid "zoomOutDown"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:505
+msgid "zoomOutLeft"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:506
+msgid "zoomOutRight"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:507
+msgid "zoomOutUp"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:522
+msgid "hinge"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:523
+msgid "jackInTheBox"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:524
+msgid "rollIn"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:525
+msgid "rollOut"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:536
+msgid "Animation Duration"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:537
+msgid "Put time is seconds. Eg. 2s"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:548
+msgid "Animation Delay"
+msgstr ""
+
+#: team/class-radiantthemes-style-team.php:549
+msgid "Put time is seconds. Eg. 0s"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:19
+msgid "Testimonial"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:21
+msgid "Add Testimonial with different styles"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:29
+msgid "Testimonial Style"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:50
+#: testimonial/class-radiantthemes-style-testimonial.php:57
+#: testimonial/class-radiantthemes-style-testimonial.php:64
+#: testimonial/class-radiantthemes-style-testimonial.php:71
+#: testimonial/class-radiantthemes-style-testimonial.php:78
+#: testimonial/class-radiantthemes-style-testimonial.php:88
+msgid "Testimonial Content Typography"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:61
+msgid "Letter Spacing"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:63
+msgid "Enter letter pacing."
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:72
+msgid "Select content text color."
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:279
+msgid "Testimonial Image Style"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:282
+msgid "Square"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:283
+msgid "Rounded"
+msgstr ""
+
+#: testimonial/class-radiantthemes-style-testimonial.php:284
+msgid "Circle"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Radiantthemes Addons"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Includes Radiantthemes Addons elements like Blog, Team and Testimonials and "
+"more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Radiantthemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.radiantthemes.com"
+msgstr ""

@@ -1,0 +1,109 @@
+﻿/* rt-tab element-four */
+
+.rt-tab.element-four{
+}
+
+.rt-tab.element-four > ul.nav-tabs{
+	border:none;
+}
+
+.rt-tab.element-four > ul.nav-tabs:not(.nav-justified){
+	font-size:0;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li{
+	margin-right:3px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-four > ul.nav-tabs:not(.nav-justified) > li{
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+}
+
+.rt-tab.element-four > ul.nav-tabs:not(.nav-justified) > li:last-child,
+.rt-tab.element-four > ul.nav-tabs:not(.nav-justified) > li:only-child{
+	margin-right:0;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a{
+	position:relative;
+	display:block;
+	padding:14px 20px 15px 20px;
+	background-color:#fbfbfb;
+	border:1px #e9e9e9 solid !important;
+	border-right:none !important;
+	border-radius:0;
+	text-align:center;
+	font-weight:400;
+	font-size:16px;
+	line-height:22px;
+	letter-spacing:1px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li:last-child > a{
+	border-right:1px #e9e9e9 solid !important;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a:hover,
+.rt-tab.element-four > ul.nav-tabs > li.active > a{
+	background-color:#fff;
+	color:#7c7c7c;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a:before,
+.rt-tab.element-four > ul.nav-tabs > li > a:after{
+	top:100%;
+	left:50%;
+	border:solid transparent;
+	content:" ";
+	height:0;
+	width:0;
+	position:absolute;
+	pointer-events:none;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a:before{
+	border-color:rgba(233, 233, 233, 0);
+	border-top-color:#e9e9e9;
+	border-width:0;
+	margin-left:0;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a:after{
+	border-color:rgba(255, 255, 255, 0);
+	border-top-color:#fff;
+	border-width:0;
+	margin-left:0;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a:hover:before,
+.rt-tab.element-four > ul.nav-tabs > li.active > a:before{
+	border-width:8px;
+	margin-left:-8px;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a:hover:after,
+.rt-tab.element-four > ul.nav-tabs > li.active > a:after{
+	border-width:7px;
+	margin-left:-7px;
+}
+
+.rt-tab.element-four > ul.nav-tabs > li > a i{
+	display:block;
+	margin-bottom:7px;
+	font-size:120%;
+}
+
+.rt-tab.element-four > .tab-content{
+	padding:30px 30px 35px 30px;
+	background-color:#fff;
+	border:1px #e9e9e9 solid;
+	border-top:none;
+}

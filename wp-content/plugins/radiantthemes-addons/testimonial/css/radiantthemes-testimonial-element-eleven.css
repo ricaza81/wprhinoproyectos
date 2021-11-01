@@ -1,0 +1,180 @@
+﻿/* testimonial element-eleven */
+
+.testimonial.element-eleven{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.testimonial.element-eleven:not(.owl-carousel){
+	margin-left:0;
+	margin-right:0;
+}
+
+.testimonial.element-eleven:not(.owl-carousel):after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+.testimonial.element-eleven *{
+	margin:0 auto;
+}
+
+.testimonial.element-eleven .testimonial-item{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.testimonial.element-eleven:not(.owl-carousel) .testimonial-item{
+	float:left;
+	margin-bottom:30px;
+	padding-left:0;
+	padding-right:0;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder{
+	position:relative;
+	min-height:120px;
+	padding-left:138px;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .pic{
+	position:absolute;
+	top:2px;
+	left:0;
+	z-index:1;
+	text-align:center;
+}
+
+.testimonial.element-eleven .testimonial-item.no-image > .holder > .pic{
+	display:none;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .pic img{
+	width:115px;
+	border:3px #fff solid;
+	box-shadow:0px 0px 0px 2px #eaeaea;
+}
+
+.testimonial.element-eleven.image-square .testimonial-item > .holder > .pic img{
+	border-radius:0;
+}
+
+.testimonial.element-eleven.image-round .testimonial-item > .holder > .pic img{
+	border-radius:5px;
+}
+
+.testimonial.element-eleven.image-circle .testimonial-item > .holder > .pic img{
+	border-radius:50%;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data{
+	position:relative;
+	padding-left:23px;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data:before{
+	position:absolute;
+	top:17px;
+	left:0;
+	z-index:0;
+	content:" ";
+	width:3px;
+	height:calc(100% - 34px);
+	max-height:77px;
+	background-color:#c6d3e3;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote{
+	position:relative;
+	padding-top:22px;
+	padding-left:35px;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:'\201c';
+	font-family:MS PMincho;
+	font-size:72px;
+	color:#9dabbd;
+	line-height:72px;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote p{
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote cite{
+	display:block;
+	margin-top:9px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:13px;
+	color:#313d85;
+	line-height:25px;
+	font-style:normal;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote cite strong{
+	font-weight:inherit;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote cite strong:before{
+	content:"-";
+	margin-right:3px;
+}
+
+.testimonial.element-eleven .testimonial-item > .holder > .data blockquote cite strong:after{
+	content:",";
+	margin-right:5px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.testimonial.element-eleven:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.testimonial.element-eleven:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.testimonial.element-eleven:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}

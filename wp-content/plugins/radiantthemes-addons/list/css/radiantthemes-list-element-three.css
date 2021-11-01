@@ -1,0 +1,33 @@
+﻿/* rt-list element-three */
+
+.rt-list.element-three{
+}
+
+.rt-list.element-three > ul,
+.rt-list.element-three > ol{
+}
+
+.rt-list.element-three ul > li,
+.rt-list.element-three ol > li{
+	margin-bottom:15px;
+}
+
+.rt-list.element-three ul > li{
+	position:relative;
+	padding-left:25px;
+}
+
+.rt-list.element-three ul li:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:"\f185";
+	font-family:'FontAwesome';
+	font-size:90%;
+}
+
+.rt-list.element-three > ul > li ul,
+.rt-list.element-three > ul > li ol{
+	margin-top:10px;
+}

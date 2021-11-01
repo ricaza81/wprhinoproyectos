@@ -1,0 +1,150 @@
+﻿/* blog element-eleven */
+
+.blog.element-eleven{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.blog.element-eleven .blog-item{
+	padding:0px 15px 0px 15px;
+}
+
+.blog.element-eleven:not(.owl-carousel) .blog-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.blog.element-eleven .blog-item > .holder{
+}
+
+.blog.element-eleven .blog-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:25px;
+}
+
+.blog.element-eleven .blog-item > .holder > .pic > img{
+	width:100%;
+}
+
+.blog.element-eleven .blog-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background:center top no-repeat;
+	background-size:cover;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.blog.element-eleven .blog-item > .holder:hover > .pic > .holder{
+	transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+}
+
+.blog.element-eleven .blog-item > .holder > .data{
+	position:relative;
+	padding-top:18px;
+}
+
+.blog.element-eleven .blog-item > .holder > .data:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:" ";
+	width:45px;
+	height:6px;
+	background-color:#f5b315;
+}
+
+.blog.element-eleven .blog-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.blog.element-eleven .blog-item > .holder .data h4{
+	margin-bottom:10px;
+	margin:0px 0px 10px 0px;
+	font-weight:700;
+	font-size:20px;
+	color:#171c30;
+	line-height:28px;
+}
+
+.blog.element-eleven .blog-item > .holder .data h4 a{
+	color:inherit;
+}
+
+.blog.element-eleven .blog-item > .holder .data ul.meta{
+}
+
+.blog.element-eleven .blog-item > .holder .data ul.meta li{
+	display:inline-block;
+	vertical-align:top;
+	font-weight:400;
+	font-size:14px;
+	color:#171c30;
+	line-height:25px;
+}
+
+.blog.element-eleven .blog-item > .holder .data ul.meta li:last-child{
+	margin-right:0;
+}
+
+.blog.element-eleven .blog-item > .holder .data ul.meta li a{
+	color:inherit;
+}
+
+.blog.element-eleven .blog-item > .holder .data ul.meta li i{
+	margin-right:10px;
+	color:#f5b315;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* blog element-nine */
+
+	.blog.element-eleven:not(.owl-carousel) .blog-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* blog element-nine */
+
+	.blog.element-eleven:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* blog element-nine */
+
+	.blog.element-eleven:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}

@@ -1,0 +1,54 @@
+/* rt-quote-box element-one */
+
+.rt-quote-box.element-one{
+}
+
+.rt-quote-box.element-one > .holder{
+    position:relative;
+}
+
+.rt-quote-box.element-one > .holder.has-image{
+    padding-left:70px;
+}
+
+.rt-quote-box.element-one > .holder > .pic{
+    position:absolute;
+    top:5px;
+    left:0;
+    width:50px;
+    text-align:center;
+}
+
+.rt-quote-box.element-one > .holder > .pic{
+    position:absolute;
+    top:5px;
+    left:0;
+    width:50px;
+    text-align:center;
+}
+
+.rt-quote-box.element-one > .holder > .data{
+}
+
+.rt-quote-box.element-one > .holder > .data > *:last-child{
+    margin-bottom:0 !important;
+}
+
+.rt-quote-box.element-one > .holder > .data blockquote{
+    margin-bottom:15px;
+    font-weight:400;
+    font-size:18px;
+    color:#888;
+    line-height:30px;
+    font-style:italic;
+}
+
+.rt-quote-box.element-one > .holder > .data blockquote cite{
+    display:block;
+    margin-top:20px;
+    font-weight:600;
+    font-size:20px;
+    color:#333;
+    line-height:30px;
+    font-style:normal;
+}

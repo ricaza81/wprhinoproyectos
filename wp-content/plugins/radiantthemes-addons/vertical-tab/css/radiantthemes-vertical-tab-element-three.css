@@ -1,0 +1,89 @@
+﻿/* rt-tab element-three */
+
+.rt-tab.element-three{
+}
+
+.rt-tab.element-three > ul.nav-tabs{
+	border:none;
+}
+
+.rt-tab.element-three > ul.nav-tabs:not(.nav-justified){
+	font-size:0;
+}
+
+.rt-tab.element-three > ul.nav-tabs > li{
+	margin-right:3px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-three > ul.nav-tabs:not(.nav-justified) > li{
+	display:inline-block;
+	vertical-align:top;
+	float:none;
+}
+
+.rt-tab.element-three > ul.nav-tabs:not(.nav-justified) > li:last-child,
+.rt-tab.element-three > ul.nav-tabs:not(.nav-justified) > li:only-child{
+	margin-right:0;
+}
+
+.rt-tab.element-three > ul.nav-tabs > li > a{
+	position:relative;
+	display:block;
+	padding:15px 20px 10px 20px;
+	background-color:#fff;
+	border:1px #e9e9e9 solid !important;
+	border-right:none !important;
+	border-radius:0;
+	text-align:center;
+	font-weight:400;
+	font-size:16px;
+	color:#7e7e7e;
+	line-height:22px;
+	letter-spacing:1px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-three > ul.nav-tabs > li:last-child > a{
+	border-right:1px #e9e9e9 solid !important;
+}
+
+.rt-tab.element-three > ul.nav-tabs > li > a:hover,
+.rt-tab.element-three > ul.nav-tabs > li.active > a{
+}
+
+.rt-tab.element-three > ul.nav-tabs > li > a:before{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:0;
+	content:" ";
+	width:auto;
+	height:3px;
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-three > ul.nav-tabs > li > a:hover:before,
+.rt-tab.element-three > ul.nav-tabs > li.active > a:before{
+	transform:scaleX(1);
+	-webkit-transform:scaleX(1);
+}
+
+.rt-tab.element-three > ul.nav-tabs > li > a i{
+	display:block;
+	margin-bottom:7px;
+	font-size:120%;
+}
+
+.rt-tab.element-three > .tab-content{
+	padding:30px 30px 35px 30px;
+	background-color:#fff;
+	border:1px #e9e9e9 solid;
+	border-top:none;
+}

@@ -1,0 +1,56 @@
+/* rt-animated-link element-six */
+
+.rt-animated-link.element-six{
+}
+
+.rt-animated-link.element-six > .holder{
+    text-align:center;
+}
+
+.rt-animated-link.element-six > .holder > .main-link{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    padding-bottom:10px;
+    font-weight:400;
+    font-size:25px;
+    color:#fff;
+    line-height:35px;
+}
+
+.rt-animated-link.element-six > .holder > .main-link > .dot-holder{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    z-index:0;
+    height:4px;
+    opacity:0;
+    visibility:hidden;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-six > .holder > .main-link:hover > .dot-holder{
+    opacity:1;
+    visibility:visible;
+}
+
+.rt-animated-link.element-six > .holder > .main-link > .dot-holder > .dots{
+    display:inline-block;
+    vertical-align:top;
+    width:4px;
+    height:4px;
+    margin-left:0;
+    margin-right:0;
+    background-color:#fff;
+    border-radius:50%;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-six > .holder > .main-link:hover > .dot-holder > .dots{
+    margin-left:3px;
+    margin-right:3px;
+}

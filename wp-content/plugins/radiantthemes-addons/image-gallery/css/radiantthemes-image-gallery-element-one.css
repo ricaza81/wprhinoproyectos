@@ -1,0 +1,54 @@
+﻿/* rt-image-gallery element-one */
+
+.rt-image-gallery.element-one{
+}
+
+.rt-image-gallery.element-one > .rt-image-gallery-holder{
+}
+
+.rt-image-gallery.element-one > .rt-image-gallery-holder > .owl-stage-outer{
+	margin-bottom:14px;
+}
+
+.rt-image-gallery.element-one > .rt-image-gallery-holder > .owl-thumbs{
+	margin-left:-7px;
+	margin-right:-7px;
+}
+
+.rt-image-gallery.element-one > .rt-image-gallery-holder > .owl-thumbs > .owl-thumb-item{
+	padding-left:7px;
+	padding-right:7px;
+	background-color:initial;
+	border:none;
+	border-radius:0;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-image-gallery.element-one > .rt-image-gallery-holder > .owl-thumbs > .owl-thumb-item.active{
+	opacity:0.6;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

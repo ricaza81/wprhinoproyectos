@@ -1,0 +1,116 @@
+﻿/* testimonial element-ten */
+
+.testimonial.element-ten{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.testimonial.element-ten *{
+	margin:0 auto;
+}
+
+.testimonial.element-ten .testimonial-item{
+	padding:5px 15px 10px 15px;
+	text-align:center;
+}
+
+.testimonial.element-ten:not(.owl-carousel) .testimonial-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.testimonial.element-ten .testimonial-item > .holder{
+	width:100%;
+	max-width:900px;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data{
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data blockquote{
+	position:relative;
+	margin-bottom:20px;
+	padding-bottom:25px;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data blockquote:before{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	z-index:0;
+	content:" ";
+	width:28px;
+	height:4px;
+	margin-left:-14px;
+	background-color:#95afcc;
+	border-radius:2px;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data blockquote p{
+	margin-bottom:20px;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data h5{
+	margin-bottom:4px;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:13px;
+	color:#001a57;
+	line-height:26px;
+}
+
+.testimonial.element-ten .testimonial-item > .holder > .data .role{
+	margin-bottom:12px;
+	text-transform:uppercase;
+	font-size:12px;
+	color:#636363;
+	line-height:22px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.testimonial.element-ten:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.testimonial.element-ten:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.testimonial.element-ten:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}

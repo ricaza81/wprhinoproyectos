@@ -1,0 +1,154 @@
+﻿/* rt-pricing-table element-four */
+
+.rt-pricing-table.element-four{
+}
+
+.rt-pricing-table.element-four > .holder{
+	padding:35px 20px 40px 20px;
+	background-color:#fff;
+	border:1px #efefef solid;
+	text-align:center;
+}
+
+.rt-pricing-table.element-four.spotlight > .holder{
+	position:relative;
+	border-color:#fff;
+	box-shadow:0px 0px 30px rgba(5,6,6,0.14);
+}
+
+.rt-pricing-table.element-four > .holder > .heading{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-four > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-four > .holder > .heading .title{
+	margin-bottom:10px;
+	font-weight:700;
+	font-size:20px;
+	color:#222;
+	line-height:28px;
+}
+
+.rt-pricing-table.element-four > .holder > .heading .subtitle{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:13px;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-four > .holder > .pricing{
+	margin-bottom:30px;
+}
+
+.rt-pricing-table.element-four > .holder > .pricing > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-four > .holder > .pricing .price{
+	margin-bottom:30px;
+	font-weight:300;
+	font-size:90px;
+	line-height:0.75;
+}
+
+.rt-pricing-table.element-four > .holder > .pricing .price strong{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:3px;
+	margin-right:8px;
+	font-weight:400;
+	font-size:24px;
+	color:#9a9a9a;
+}
+
+.rt-pricing-table.element-four > .holder > .pricing .period{
+	display:inline-block;
+	vertical-align:top;
+	margin-bottom:25px;
+	padding:6px 20px 5px 20px;
+	background-color:rgba(0,0,0,0.08);
+	border-radius:30px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:11px;
+	color:#0c121f;
+	line-height:22px;
+}
+
+.rt-pricing-table.element-four.spotlight > .holder > .pricing .period{
+	color:#fff;
+}
+
+.rt-pricing-table.element-four > .holder > .pricing .tagline{
+	max-width:220px;
+	margin:0 auto 10px auto;
+	font-weight:400;
+	font-size:14px;
+	color:#0c121f;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-four > .holder > .list{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-four > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-four > .holder > .list ul{
+	max-width:200px;
+	margin:0 auto;
+}
+
+.rt-pricing-table.element-four > .holder > .list ul li{
+	margin-bottom:15px;
+	padding-bottom:15px;
+	border-bottom:1px #f3f3f3 solid;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#0c121f;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-four > .holder > .list ul li:last-child,
+.rt-pricing-table.element-four > .holder > .list ul li:only-child{
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-pricing-table.element-four > .holder > .more{
+}
+
+.rt-pricing-table.element-four > .holder > .more > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-four > .holder > .more .btn{
+	margin-bottom:15px;
+	padding:13px 37px 12px 37px;
+	background-color:transparent;
+	border-width:1px;
+	border-style:solid;
+	border-radius:35px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:14px;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-four.spotlight > .holder > .more .btn{
+	color:#fff !important;
+}
+
+.rt-pricing-table.element-four > .holder > .more .btn:hover{
+	box-shadow:0px 4px 20px -5px rgba(0,0,0,0.5);
+	transform:translateY(-5px);
+	-webkit-transform:translateY(-5px);
+}

@@ -1,0 +1,102 @@
+﻿/* clients element-four */
+
+.clients.element-four{
+	width:auto;
+	border-top:1px #e4e5e9 solid;
+	border-left:1px #e4e5e9 solid;
+}
+
+.clients.element-four:not(.owl-carousel):after{
+	display:block;
+	content:" ";
+	width:100%;
+	height:0;
+	clear:both;
+}
+
+.clients.element-four *{
+	margin:0 auto;
+}
+
+.clients.element-four .clients-item{
+	padding:20px 15px 20px 15px;
+	border-right:1px #e4e5e9 solid;
+	border-bottom:1px #e4e5e9 solid;
+}
+
+.clients.element-four:not(.owl-carousel) .clients-item{
+	float:left;
+}
+
+.clients.element-four .clients-item > .holder{
+	text-align:center;
+}
+
+.clients.element-four .clients-item > .holder > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.clients.element-four .clients-item > .holder > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+
+.clients.element-four .clients-item > .holder .pic{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.clients.element-four .clients-item > .holder .pic img{
+	opacity:0.75;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.clients.element-four .clients-item > .holder:hover .pic img{
+	opacity:1;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.clients.element-four:not(.owl-carousel) .clients-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.clients.element-four:not(.owl-carousel) .clients-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.clients.element-four:not(.owl-carousel) .clients-item{
+		width:100% !important;
+	}
+
+}

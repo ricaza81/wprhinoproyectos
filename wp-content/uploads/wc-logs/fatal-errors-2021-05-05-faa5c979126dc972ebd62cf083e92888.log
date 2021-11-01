@@ -1,0 +1,15 @@
+2021-05-05T00:26:12+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /var/www/html/wp-includes/formatting.php:1098
+Stack trace:
+#0 /var/www/html/wp-includes/formatting.php(4504): wp_check_invalid_utf8()
+#1 /var/www/html/wp-content/themes/brixel/inc/tgmpa/tgmpa.php(92): esc_attr()
+#2 /var/www/html/wp-includes/class-wp-hook.php(292): brixel_register_required_plugins()
+#3 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#4 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#5 /var/www/html/wp-content/themes/brixel/inc/tgmpa/class-tgm-plugin-activation.php(407): do_action()
+#6 /var/www/html/wp-includes/class-wp-hook.php(292): TGM_Plugin_Activation->init()
+#7 /var/www/html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters()
+#8 /var/www/html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#9 /var/www/html/wp-settings.php(560): do_action()
+#10 /var/www/html/wp-config.php(91): require_once('/var/www/html/w...')
+#11 /var/www/html/wp-load.php(37): require_once(' en /var/www/html/wp-includes/formatting.php en la línea 1098
+

@@ -1,0 +1,137 @@
+﻿/* rt-case-study-box element-one */
+
+.rt-case-study-box.element-one{
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item{
+	padding-left:0;
+	padding-right:0;
+	text-align:center;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder{
+	background-color:#f8f8f8;
+	border:1px #edebeb solid;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder:hover{
+	position:relative;
+	z-index:1;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .pic > img{
+	width:100%;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder:hover > .pic > .holder{
+	transform:scale(1.15);
+	-webkit-transform:scale(1.15);
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .data{
+	padding:25px 25px 27px 25px;
+}
+
+.rt-case-study-box.element-one[data-case-study-box-align=left] .rt-case-study-box-item > .holder > .data{
+	text-align:left;
+}
+
+.rt-case-study-box.element-one[data-case-study-box-align=center] .rt-case-study-box-item > .holder > .data{
+	text-align:center;
+}
+
+.rt-case-study-box.element-one[data-case-study-box-align=right] .rt-case-study-box-item > .holder > .data{
+	text-align:right;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .data p.category{
+	margin-bottom:7px;
+	font-weight:400;
+	font-size:15px;
+	color:#001040;
+	line-height:25px;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .data h4{
+	margin-bottom:7px;
+	font-weight:600;
+	font-size:17px;
+	color:#001040;
+	line-height:28px;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .data h4 a{
+	color:inherit;
+}
+
+.rt-case-study-box.element-one .rt-case-study-box-item > .holder > .data p{
+	margin-bottom:10px;
+	color:#001040;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-case-study-box.element-one .rt-case-study-box-item{
+		width:33.33% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.rt-case-study-box.element-one .rt-case-study-box-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.rt-case-study-box.element-one .rt-case-study-box-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-case-study-box.element-one .rt-case-study-box-item{
+		width:100% !important;
+	}
+
+}

@@ -1,0 +1,58 @@
+/* rt-fancy-text-box element-three */
+
+.rt-fancy-text-box.element-three{
+}
+
+.rt-fancy-text-box.element-three > .holder{
+	padding:30px 20px 45px 20px;
+	background-color:#fff;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-fancy-text-box.element-three > .holder:hover{
+	position:relative;
+	box-shadow:0px 0px 50px rgba(5,6,6,0.08);
+}
+
+.rt-fancy-text-box.element-three > .holder > .icon{
+	margin-bottom:20px;
+}
+
+.rt-fancy-text-box.element-three > .holder > .icon img{
+}
+
+.rt-fancy-text-box.element-three > .holder > .heading{
+	margin-bottom:10px;
+}
+
+.rt-fancy-text-box.element-three > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-three > .holder > .heading > .title{
+	margin-bottom:7px;
+	font-weight:700;
+	font-size:20px;
+	color:#010101;
+	line-height:30px;
+}
+
+.rt-fancy-text-box.element-three > .holder > .heading > .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:17px;
+	color:#010101;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-three > .holder > .content{
+}
+
+.rt-fancy-text-box.element-three > .holder > .content > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-three > .holder > .content{
+}

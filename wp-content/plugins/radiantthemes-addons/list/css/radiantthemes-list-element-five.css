@@ -1,0 +1,32 @@
+﻿/* rt-list element-five */
+
+.rt-list.element-five{
+}
+
+.rt-list.element-five > ul,
+.rt-list.element-five > ol{
+}
+
+.rt-list.element-five ul > li,
+.rt-list.element-five ol > li{
+	margin-bottom:15px;
+}
+
+.rt-list.element-five ul > li{
+	position:relative;
+	padding-left:25px;
+}
+
+.rt-list.element-five ul li:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:"\f0a9";
+	font-family:'FontAwesome';
+}
+
+.rt-list.element-five > ul > li ul,
+.rt-list.element-five > ul > li ol{
+	margin-top:15px;
+}

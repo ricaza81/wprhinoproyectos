@@ -1,0 +1,34 @@
+body{
+    font-family:"Rubik", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color:#09276f;
+}
+
+blockquote{
+    position:relative;
+    margin-left:0;
+    margin-right:0;
+    padding:20px 20px 20px 45px;
+    background-color:rgba(0,0,0,0.05);
+	font-size:120%;
+	line-height:160%;
+}
+
+blockquote:before{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	z-index:0;
+	content:" ";
+	width:23px;
+	background-color:rgba(0,0,0,0.15);
+}
+
+table thead tr th,
+table tbody tr td,
+table tbody tr th{
+	padding:10px 10px 10px 10px;
+}

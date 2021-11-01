@@ -1,0 +1,155 @@
+/* rt-flip-box element-one */
+
+.rt-flip-box.element-one{
+}
+
+.rt-flip-box.element-one > .holder{
+    position:relative;
+    perspective:1000px;
+}
+
+.rt-flip-box.element-one > .holder > .first-card,
+.rt-flip-box.element-one > .holder > .second-card{
+    width:100%;
+    height:100%;
+    text-align:center;
+    backface-visibility:hidden;
+    transform-style:preserve-3d;
+    -webkit-transform-style:preserve-3d;
+    transition:all 0.4s ease-out 0s;
+    -webkit-transition:all 0.4s ease-out 0s;
+}
+
+.rt-flip-box.element-one > .holder > .first-card{
+	position:absolute;
+    z-index:1;
+}
+
+.rt-flip-box.element-one > .holder.horizontal > .first-card{
+    transform:rotateY(0deg);
+    -webkit-transform:rotateY(0deg);
+}
+
+.rt-flip-box.element-one > .holder.horizontal:hover > .first-card{
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+}
+
+.rt-flip-box.element-one > .holder.vertical > .first-card{
+    transform:rotateX(0deg);
+    -webkit-transform:rotateX(0deg);
+}
+
+.rt-flip-box.element-one > .holder.vertical:hover > .first-card{
+    transform:rotateX(180deg);
+    -webkit-transform:rotateX(180deg);
+}
+
+.rt-flip-box.element-one > .holder > .second-card{
+    position:relative;
+    z-index:0;
+}
+
+.rt-flip-box.element-one > .holder.horizontal > .second-card{
+    transform:rotateY(-180deg);
+    -webkit-transform:rotateY(-180deg);
+}
+
+.rt-flip-box.element-one > .holder.horizontal:hover > .second-card{
+    transform:rotateY(0deg);
+    -webkit-transform:rotateY(0deg);
+}
+
+.rt-flip-box.element-one > .holder.vertical > .second-card{
+    transform:rotateX(-180deg);
+    -webkit-transform:rotateX(-180deg);
+}
+
+.rt-flip-box.element-one > .holder.vertical:hover > .second-card{
+    transform:rotateX(0deg);
+    -webkit-transform:rotateX(0deg);
+}
+
+.rt-flip-box.element-one > .holder > .first-card > .table,
+.rt-flip-box.element-one > .holder > .second-card > .table{
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+.rt-flip-box.element-one > .holder > .first-card > .table > .table-cell,
+.rt-flip-box.element-one > .holder > .second-card > .table > .table-cell{
+    display:table-cell;
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+
+.rt-flip-box.element-one > .holder > .first-card > .table > .table-cell > *:last-child,
+.rt-flip-box.element-one > .holder > .second-card > .table > .table-cell > *:last-child{
+    margin-bottom:0 !important;
+}
+
+.rt-flip-box.element-one > .holder > .first-card img,
+.rt-flip-box.element-one > .holder > .second-card img{
+    margin-bottom:15px;
+}
+
+.rt-flip-box.element-one > .holder > .first-card h4,
+.rt-flip-box.element-one > .holder > .second-card h4{
+    margin-bottom:15px;
+    font-weight:600;
+    font-size:18px;
+    color:#010101;
+    line-height:28px;
+}
+
+.rt-flip-box.element-one > .holder > .second-card h4{
+    margin-top:15px;
+    margin-bottom:17px;
+}
+
+.rt-flip-box.element-one > .holder > .first-card p,
+.rt-flip-box.element-one > .holder > .second-card p{
+    margin-bottom:30px;
+    font-weight:400;
+    font-size:15px;
+    color:rgba(0,0,0,0.6);
+    line-height:25px;
+}
+
+.rt-flip-box.element-one > .holder > .second-card .btn{
+    margin-bottom:20px !important;
+    padding:8px 20px;
+    background-color:initial;
+    border:1px #fff solid;
+    border-radius:30px;
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:12px;
+    color:#fff;
+    line-height:25px;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-flip-box.element-one > .holder > .second-card .btn:hover{
+    background-color:#fff;
+    color:#252525;
+}
+
+.rt-flip-box.element-one > .holder > .second-card .btn:after{
+    margin-left:0px;
+    content:"\f105";
+    font-family:"FontAwesome";
+    opacity:0;
+    visibility:hidden;
+}
+
+.rt-flip-box.element-one > .holder > .second-card .btn:hover:after{
+    margin-left:12px;
+    opacity:1;
+    visibility:visible;
+}

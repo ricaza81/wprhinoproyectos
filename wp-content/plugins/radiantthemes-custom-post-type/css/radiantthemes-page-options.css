@@ -1,0 +1,140 @@
+/*--------------------------------------------------------------
+>>> RadiantThemes Page Options CSS
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# RadiantThemes Page Options
+# RadiantThemes Page Options Title
+# RadiantThemes Page Options Body
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# RadiantThemes Page Options
+--------------------------------------------------------------*/
+
+.radiantthemes-page-options{
+}
+
+/*--------------------------------------------------------------
+# RadiantThemes Page Options Title
+--------------------------------------------------------------*/
+
+.radiantthemes-page-options-title{
+	margin-top:5px;
+	margin-bottom:15px;
+	padding:11px 10px 10px 10px;
+	background-color:#e3ebff;
+	border-left:5px #c3cee9 solid;
+}
+
+.radiantthemes-page-options-title p{
+	margin:0;
+	font-family:'Poppins', Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-weight:500;
+	font-size:16px;
+	color:#001545;
+	line-height:25px;
+}
+
+/*--------------------------------------------------------------
+# RadiantThemes Page Options Body
+--------------------------------------------------------------*/
+
+.radiantthemes-page-options-body{
+}
+
+.radiantthemes-page-options-body-image-selector{
+	font-size:0;
+}
+
+.radiantthemes-page-options-body-image-selector ul > li{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:15px;
+	margin-bottom:15px;
+	background:0px 0px no-repeat;
+	background-size:100% 100%;
+	border:3px rgba(0,0,0,0.1) solid;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.selected{
+	border-color:rgba(0,0,0,0.3);
+	box-shadow:0px 2px 3px rgba(0,0,0,0.3);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li > input[type=radio]{
+	width:100px;
+	height:100px;
+	margin:0;
+	opacity:0;
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-default{
+	background-image:url(../images/headers/Header-Style-Default.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-one{
+	background-image:url(../images/headers/Header-Style-One.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-two{
+	background-image:url(../images/headers/Header-Style-Two.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-three{
+	background-image:url(../images/headers/Header-Style-Three.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-four{
+	background-image:url(../images/headers/Header-Style-Four.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-five{
+	background-image:url(../images/headers/Header-Style-Five.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-six{
+	background-image:url(../images/headers/Header-Style-Six.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-seven{
+	background-image:url(../images/headers/Header-Style-Seven.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-eight{
+	background-image:url(../images/headers/Header-Style-Eight.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-nine{
+	background-image:url(../images/headers/Header-Style-Nine.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.header-ten{
+	background-image:url(../images/headers/Header-Style-Ten.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.bannerbreadcumbs{
+	background-image:url(../images/banners/Banner-With-Breadcrumb.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.banneronly{
+	background-image:url(../images/banners/Banner-Only.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.breadcumbsonly{
+	background-image:url(../images/banners/Breadcrumb-Only.png);
+}
+
+.radiantthemes-page-options-body-image-selector ul > li.nobannerbreadcumbs{
+	background-image:url(../images/banners/Banner-None.png);
+}
+
+.radiantthemes-page-options-body-form{
+}
+
+.radiantthemes-page-options-body-form input[type=text]{
+	width:100%;
+	height:40px;
+	padding:0px 10px 0px 10px;
+}

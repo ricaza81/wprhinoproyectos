@@ -1,0 +1,53 @@
+/* rt-animated-link element-two */
+
+.rt-animated-link.element-two{
+}
+
+.rt-animated-link.element-two > .holder{
+    text-align:center;
+}
+
+.rt-animated-link.element-two > .holder > .main-link{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    font-weight:400;
+    font-size:25px;
+    color:#fff;
+    line-height:35px;
+}
+
+.rt-animated-link.element-two > .holder > .main-link:before,
+.rt-animated-link.element-two > .holder > .main-link:after{
+    position:absolute;
+    top:-2px;
+    z-index:0;
+    opacity:0;
+    visibility:hidden;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-two > .holder > .main-link:hover:before,
+.rt-animated-link.element-two > .holder > .main-link:hover:after{
+    opacity:1;
+    visibility:visible;
+}
+
+.rt-animated-link.element-two > .holder > .main-link:before{
+    left:0;
+    content:"[";
+}
+
+.rt-animated-link.element-two > .holder > .main-link:hover:before{
+    left:-20px;
+}
+
+.rt-animated-link.element-two > .holder > .main-link:after{
+    right:0;
+    content:"]";
+}
+
+.rt-animated-link.element-two > .holder > .main-link:hover:after{
+    right:-20px;
+}

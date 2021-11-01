@@ -1,0 +1,74 @@
+﻿/* rt-separator element-four */
+
+.rt-separator.element-four{
+}
+
+.rt-separator.element-four *{
+	margin:0 auto;
+}
+
+.rt-separator.element-four > .block{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	height:1px;
+}
+
+.rt-separator.element-four > .block > .gap{
+	position:absolute;
+	top:0;
+	z-index:0;
+	display:inline-block;
+	vertical-align:top;
+	height:1px;
+}
+
+.rt-separator.element-four[data-separator-direction=center] > .block > .gap{
+	left:0;
+	right:0;
+	width:20px;
+}
+
+.rt-separator.element-four[data-separator-direction=left] > .block > .gap{
+	left:0;
+	width:10px;
+}
+
+.rt-separator.element-four[data-separator-direction=right] > .block > .gap{
+	right:0;
+	width:10px;
+}
+
+.rt-separator.element-four > .block > .bar{
+	position:relative;
+	z-index:1;
+	display:inline-block;
+	vertical-align:top;
+	width:3px;
+	height:23px;
+	margin-top:-11px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

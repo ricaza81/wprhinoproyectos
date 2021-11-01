@@ -1,0 +1,178 @@
+.rt-sub-menu {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	background: #fff;
+}
+
+.rt-mega-menu {
+	visibility: hidden;
+	opacity: 0;
+	z-index: 2;
+	position: absolute;
+	background: #fff;
+}
+
+.rt-mega-menu .rt-sub-menu {
+	position: static;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.rt-mega-menu-row {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rt-mega-menu-col {
+	display: table-cell;
+}
+
+li.rt-mega-menu-open > .rt-sub-menu,
+li.rt-mega-menu-open > .rt-mega-menu,
+li.rt-mega-menu-open > .rt-mega-menu .rt-sub-menu {
+	height: auto;
+	visibility: visible;
+	opacity: 1;
+}
+
+.rt-mega-menu-full-width {
+	position: static;
+}
+
+.rt-mega-menu-full-width .rt-mega-menu {
+	left: 0;
+	right: 0;
+}
+
+.rt-mega-menu-tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #eee;
+}
+
+.rt-mega-menu-tabs .rt-mega-menu-tab {
+	position: static;
+	width: 100%;
+}
+
+.rt-mega-menu-tabs .rt-mega-menu-tab > a {
+	width: 20%;
+	color: #333;
+}
+
+.rt-mega-menu-tabs .rt-mega-menu-tab .rt-mega-menu-tab-content {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	display: none;
+}
+
+.rt-mega-menu-tabs .rt-mega-menu-tab-open .rt-mega-menu-tab-content {
+	display: block;
+	width: 80%;
+	background: #fff;
+}
+
+.rt-mega-menu-tabs .rt-mega-menu-tab-content > .rt-sub-menu > li {
+	position: static;
+}
+
+
+/* slide transfrom */
+.rt-mega-menu-transition-slide > .rt-mega-menu-open > .rt-mega-menu,
+.rt-mega-menu-transition-slide > .rt-mega-menu-open > .rt-sub-menu {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.rt-mega-menu-transition-slide > li > .rt-mega-menu,
+.rt-mega-menu-transition-slide > li > .rt-sub-menu {
+	visibility: hidden;
+	opacity: 0;
+	transform: translate(0, 10%);
+	-webkit-transform: translate(0,10%);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+
+/* elastic transform */
+.rt-mega-menu-transition-elastic > .rt-mega-menu-open > .rt-mega-menu,
+.rt-mega-menu-transition-elastic > .rt-mega-menu-open > .rt-sub-menu {
+	visibility: visible;
+	opacity: 1;
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.rt-mega-menu-transition-elastic > li > .rt-mega-menu,
+.rt-mega-menu-transition-elastic > li > .rt-sub-menu {
+	visibility: hidden;
+	opacity: 0;
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+
+/* scale transform */
+.rt-mega-menu-transition-zoom > .rt-mega-menu-open > .rt-mega-menu,
+.rt-mega-menu-transition-zoom > .rt-mega-menu-open > .rt-sub-menu {
+	visibility: visible;
+	opacity: 1;
+	transform: scale(1,1);
+	-webkit-transform: scale(1,1);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.rt-mega-menu-transition-zoom > li > .rt-mega-menu,
+.rt-mega-menu-transition-zoom > li > .rt-sub-menu {
+	visibility: hidden;
+	opacity: 0;
+	transform: scale(0.5,0.5);
+	-webkit-transform: scale(0.5,0.5);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+/* transition fading */
+.rt-mega-menu-transition-fading > .rt-mega-menu-open > .rt-mega-menu,
+.rt-mega-menu-transition-fading > .rt-mega-menu-open > .rt-sub-menu {
+	visibility: visible;
+	opacity: 1;
+	transition: all 1s;
+}
+
+.rt-mega-menu-transition-fading > li > .rt-mega-menu,
+.rt-mega-menu-transition-fading > li > .rt-sub-menu {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 1s;
+}
+
+/* transition default */
+.rt-mega-menu-transition-default > .rt-mega-menu-open > .rt-mega-menu,
+.rt-mega-menu-transition-default > .rt-mega-menu-open > .rt-sub-menu {
+	visibility: visible;
+	opacity: 1;
+}
+
+.rt-mega-menu-transition-default > li > .rt-mega-menu,
+.rt-mega-menu-transition-default > li > .rt-sub-menu {
+	visibility: hidden;
+	opacity: 0;
+}

@@ -1,0 +1,53 @@
+﻿/* rt-accordion element-six */
+
+.rt-accordion.element-six{
+}
+
+.rt-accordion.element-six .rt-accordion-item{
+	margin-bottom:25px;
+	padding:15px 25px 16px 25px;
+	border-radius:17px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.rt-accordion.element-six .rt-accordion-item:last-child,
+.rt-accordion.element-six .rt-accordion-item:only-child{
+	margin-bottom:0;
+}
+
+.rt-accordion.element-six .rt-accordion-item > .rt-accordion-item-title{
+	position:relative;
+	padding-right:35px;
+	cursor:pointer;
+}
+
+.rt-accordion.element-six .rt-accordion-item > .rt-accordion-item-title > .rt-accordion-item-title-icon{
+	position:absolute;
+	top:3px;
+	right:0;
+	z-index:1;
+}
+
+.rt-accordion.element-six .rt-accordion-item > .rt-accordion-item-title > .rt-accordion-item-title-icon .symbol:before{
+	display:block;
+	content:"\f055";
+	font-family:"FontAwesome";
+	font-size:25px;
+	line-height:25px;
+}
+
+.rt-accordion.element-six .rt-accordion-item.rt-active > .rt-accordion-item-title > .rt-accordion-item-title-icon .symbol:before{
+	content:"\f056";
+}
+
+.rt-accordion.element-six .rt-accordion-item > .rt-accordion-item-title > .panel-title{
+	margin:0;
+	font-weight:700;
+	font-size:18px;
+	line-height:30px;
+}
+
+.rt-accordion.element-six .rt-accordion-item > .rt-accordion-item-body{
+	padding-top:15px;
+	padding-bottom:10px;
+}

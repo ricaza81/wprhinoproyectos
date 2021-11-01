@@ -1,0 +1,135 @@
+﻿/* testimonial element-five */
+
+.testimonial.element-five{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.testimonial.element-five *{
+	margin:0 auto;
+}
+
+.testimonial.element-five .testimonial-item{
+	padding:5px 15px 10px 15px;
+}
+
+.testimonial.element-five:not(.owl-carousel) .testimonial-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.testimonial.element-five .testimonial-item > .holder{
+}
+
+.testimonial.element-five .testimonial-item > .holder > .data{
+	padding:20px 25px 70px 25px;
+	text-align:center;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .data blockquote{
+	margin:0px 0px 20px 0px;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .data blockquote:before{
+	display:block;
+	margin-bottom:10px;
+	content:"\f10d";
+	font-family:'FontAwesome';
+	font-size:40px;
+	color:#827668;
+	line-height:40px;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .data blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .data blockquote p{
+	margin:0px 0px 20px 0px;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .title{
+	text-align:center;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .title > .pic{
+	margin-bottom:20px;
+}
+
+.testimonial.element-five .testimonial-item.no-image> .holder > .title > .pic{
+}
+
+.testimonial.element-five .testimonial-item > .holder > .title > .pic img{
+	width:75px;
+	margin-top:-40px;
+	border:2px #fff solid;
+	box-shadow:0px 0px 5px rgba(1,1,1,0.25);
+}
+
+.testimonial.element-five.image-square .testimonial-item > .holder > .title > .pic img{
+	border-radius:0;
+}
+
+.testimonial.element-five.image-round .testimonial-item > .holder > .title > .pic img{
+	border-radius:5px;
+}
+
+.testimonial.element-five.image-circle .testimonial-item > .holder > .title > .pic img{
+	border-radius:50%;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .title h5{
+	margin:0px 0px 3px 0px;
+	text-transform:uppercase;
+	font-size:15px;
+	line-height:25px;
+}
+
+.testimonial.element-five .testimonial-item > .holder > .title p{
+	font-size:15px;
+	line-height:25px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.testimonial.element-five:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.testimonial.element-five:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.testimonial.element-five:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+}

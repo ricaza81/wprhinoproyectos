@@ -1,0 +1,159 @@
+﻿/* rt-case-study-box element-two */
+
+.rt-case-study-box.element-two{
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item{
+	padding-left:0;
+	padding-right:0;
+	text-align:center;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder{
+	background-color:#f8f8f8;
+	transition:all 0.25s ease-in-out;
+	-webkit-transition:all 0.25s ease-in-out;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder:hover{
+	transform:translateY(-7px);
+	-webkit-transform:translateY(-7px);
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic:before{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	content:" ";
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.75+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > img{
+	width:100%;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder:hover > .pic > .holder{
+	transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .data{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:3;
+	padding:18px 25px 18px 25px;
+}
+
+.rt-case-study-box.element-two[data-case-study-box-align=left] .rt-case-study-box-item > .holder > .pic > .data{
+	text-align:left;
+}
+
+.rt-case-study-box.element-two[data-case-study-box-align=center] .rt-case-study-box-item > .holder > .pic > .data{
+	text-align:center;
+}
+
+.rt-case-study-box.element-two[data-case-study-box-align=right] .rt-case-study-box-item > .holder > .pic > .data{
+	text-align:right;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .data p.category{
+	margin-bottom:5px;
+	font-weight:400;
+	font-size:14px;
+	color:#fff;
+	line-height:22px;
+	opacity:0.9;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .data h4{
+	margin-bottom:7px;
+	font-weight:600;
+	font-size:16px;
+	color:#fff;
+	line-height:25px;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .data h4 a{
+	color:inherit;
+}
+
+.rt-case-study-box.element-two .rt-case-study-box-item > .holder > .pic > .data p{
+	margin-bottom:10px;
+	color:#fff;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-case-study-box.element-two .rt-case-study-box-item{
+		width:33.33% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.rt-case-study-box.element-two .rt-case-study-box-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.rt-case-study-box.element-two .rt-case-study-box-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-case-study-box.element-two .rt-case-study-box-item{
+		width:100% !important;
+	}
+
+}

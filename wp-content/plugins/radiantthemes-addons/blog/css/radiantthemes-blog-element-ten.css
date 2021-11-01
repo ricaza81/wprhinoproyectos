@@ -1,0 +1,131 @@
+﻿/* blog element-ten */
+
+.blog.element-ten{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.blog.element-ten .blog-item{
+	padding:0px 15px 0px 15px;
+}
+
+.blog.element-ten:not(.owl-carousel) .blog-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.blog.element-ten .blog-item > .holder{
+}
+
+.blog.element-ten .blog-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:17px;
+}
+
+.blog.element-ten .blog-item > .holder > .pic > img{
+	width:100%;
+}
+
+.blog.element-ten .blog-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	left:-75px;
+	z-index:1;
+	width:calc(100% + 150px);
+}
+
+.blog.element-ten .blog-item > .holder > .pic > .holder img{
+	width:100%;
+}
+
+.blog.element-ten .blog-item > .holder > .data{
+}
+
+.blog.element-ten .blog-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.blog.element-ten .blog-item > .holder .data ul.meta{
+}
+
+.blog.element-ten .blog-item > .holder .data ul.meta li{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:20px;
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:15px;
+	color:#fff;
+	line-break:28px;
+}
+
+.blog.element-ten .blog-item > .holder .data ul.meta li:last-child{
+	margin-right:0;
+}
+
+.blog.element-ten .blog-item > .holder .data ul.meta li a{
+	color:inherit;
+}
+
+.blog.element-ten .blog-item > .holder .data ul.meta li i{
+	margin-right:10px;
+}
+
+.blog.element-ten .blog-item > .holder .data h4{
+	margin:0px 0px 10px 0px;
+	font-weight:600;
+	font-size:18px;
+	color:#fff;
+	line-height:27px;
+}
+
+.blog.element-ten .blog-item > .holder .data h4 a{
+	color:inherit;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* blog element-nine */
+		
+	.blog.element-ten:not(.owl-carousel) .blog-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* blog element-nine */
+		
+	.blog.element-ten:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* blog element-nine */
+		
+	.blog.element-ten:not(.owl-carousel) .blog-item{
+		width:100% !important;
+	}
+
+}

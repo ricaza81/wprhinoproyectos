@@ -1,0 +1,49 @@
+﻿/* rt-accordion element-four */
+
+.rt-accordion.element-four{
+}
+
+.rt-accordion.element-four .rt-accordion-item{
+	padding-bottom:20px;
+}
+
+.rt-accordion.element-four .rt-accordion-item:last-child{
+	padding-bottom:0;
+}
+
+.rt-accordion.element-four .rt-accordion-item > .rt-accordion-item-title{
+	position:relative;
+	padding-left:35px;
+	padding-bottom:10px;
+	cursor:pointer;
+}
+
+.rt-accordion.element-four .rt-accordion-item > .rt-accordion-item-title > .rt-accordion-item-title-icon{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-accordion.element-four .rt-accordion-item.rt-active > .rt-accordion-item-title > .rt-accordion-item-title-icon{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+}
+
+.rt-accordion.element-four .rt-accordion-item > .rt-accordion-item-title > .rt-accordion-item-title-icon i{
+	font-size:22px;
+	line-height:30px;
+}
+
+.rt-accordion.element-four .rt-accordion-item > .rt-accordion-item-title > .panel-title{
+	margin:0;
+	font-weight:600;
+	font-size:18px;
+	line-height:30px;
+}
+
+.rt-accordion.element-four .rt-accordion-item > .rt-accordion-item-body{
+	padding-left:35px;
+}

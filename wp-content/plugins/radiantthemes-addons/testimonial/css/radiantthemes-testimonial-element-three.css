@@ -1,0 +1,175 @@
+﻿/* testimonial element-three */
+
+.testimonial.element-three{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.testimonial.element-three *{
+	margin:0 auto;
+}
+
+.testimonial.element-three .testimonial-item{
+	padding:5px 15px 10px 15px;
+}
+
+.testimonial.element-three:not(.owl-carousel) .testimonial-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.testimonial.element-three .testimonial-item > .holder{
+	position:relative;
+	padding-left:135px;
+}
+
+.testimonial.element-three .testimonial-item.no-image > .holder{
+	padding-left:0;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .pic{
+	position:absolute;
+	top:5px;
+	left:0;
+	z-index:1;
+	width:auto;
+	height:auto;
+	margin-bottom:25px;
+	text-align:center;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .pic img{
+	width:110px;
+	border:2px #fff solid;
+	box-shadow:0px 0px 5px rgba(1,1,1,0.25);
+}
+
+.testimonial.element-three.image-square .testimonial-item > .holder > .pic img{
+	border-radius:0;
+}
+
+.testimonial.element-three.image-round .testimonial-item > .holder > .pic img{
+	border-radius:5px;
+}
+
+.testimonial.element-three.image-circle .testimonial-item > .holder > .pic img{
+	border-radius:50%;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data{
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data blockquote{
+	margin:0px 0px 20px 0px;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data blockquote:before{
+	display:block;
+	margin-bottom:5px;
+	content:"\f10d";
+	font-family:'FontAwesome';
+	font-size:40px;
+	color:#807e7d;
+	line-height:40px;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data blockquote p{
+	margin:0px 0px 20px 0px;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data h5{
+	margin:0px 0px 5px 0px;
+	text-transform:uppercase;
+	font-size:17px;
+	line-height:25px;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data ul.rating{
+	margin:0px 0px 10px 0px;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data ul.rating li{
+	display:inline-block;
+	vertical-align:top;
+	margin:0px 3px 0px 0px;
+}
+
+.testimonial.element-three .testimonial-item > .holder > .data ul.rating li i{
+	font-size:12px;
+	line-height:12px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.testimonial.element-three:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+	.testimonial.element-three .testimonial-item > .holder{
+		padding-left:0;
+	}
+
+	.testimonial.element-three .testimonial-item > .holder > .pic{
+		position:static;
+		width:100%;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.testimonial.element-three:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+	.testimonial.element-three .testimonial-item > .holder{
+		padding-left:0;
+	}
+
+	.testimonial.element-three .testimonial-item > .holder > .pic{
+		position:static;
+		width:100%;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.testimonial.element-three:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+	.testimonial.element-three .testimonial-item > .holder{
+		padding-left:0;
+	}
+
+	.testimonial.element-three .testimonial-item > .holder > .pic{
+		position:static;
+		width:100%;
+	}
+
+}

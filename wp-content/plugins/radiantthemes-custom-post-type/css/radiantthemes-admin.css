@@ -1,0 +1,6 @@
+#featured-icon-image-container img, #featured-footer-image-container-hover img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    vertical-align: top;
+}

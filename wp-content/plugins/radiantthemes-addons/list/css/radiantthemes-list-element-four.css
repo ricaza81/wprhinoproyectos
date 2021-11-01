@@ -1,0 +1,32 @@
+﻿/* rt-list element-four */
+
+.rt-list.element-four{
+}
+
+.rt-list.element-four > ul,
+.rt-list.element-four > ol{
+}
+
+.rt-list.element-four ul > li,
+.rt-list.element-four ol > li{
+	margin-bottom:15px;
+}
+
+.rt-list.element-four ul > li{
+	position:relative;
+	padding-left:20px;
+}
+
+.rt-list.element-four ul li:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:"\f0da";
+	font-family:'FontAwesome';
+}
+
+.rt-list.element-four > ul > li ul,
+.rt-list.element-four > ul > li ol{
+	margin-top:10px;
+}

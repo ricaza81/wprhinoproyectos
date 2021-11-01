@@ -1,0 +1,316 @@
+﻿/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-first,
+	.order-second{
+		order:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce ul.products li.product.rt-shop-column-3,
+	.woocommerce ul.products li.product.rt-shop-column-4{
+		width:50%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:50% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# 404 Error Page
+	--------------------------------------------------------------*/
+
+	.wraper_error_main > .container{
+		padding-top:80px !important;
+		padding-bottom:90px !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/*--------------------------------------------------------------
+	# Gallery Columns
+	--------------------------------------------------------------*/
+
+	.gallery-item,
+	.gallery-columns-1 .gallery-item,
+	.gallery-columns-2 .gallery-item,
+	.gallery-columns-3 .gallery-item,
+	.gallery-columns-4 .gallery-item{
+		width:100%;
+		max-width:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-first,
+	.order-second{
+		order:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce .woocommerce-products-header,
+	.woocommerce .woocommerce-result-count,
+	.woocommerce .woocommerce-ordering{
+		width:100%;
+		text-align:center;
+	}
+
+	.woocommerce ul.products li.product.rt-shop-column-3,
+	.woocommerce ul.products li.product.rt-shop-column-4{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:100% !important;
+		margin:0px 0px 7px 0px !important;
+	}
+
+	.woocommerce input.button[name=apply_coupon]{
+		width:100% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Checkout Page
+	--------------------------------------------------------------*/
+
+	.woocommerce form #customer_details,
+	.woocommerce form #order_review_heading,
+	.woocommerce form #order_review{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# 404 Error Page
+	--------------------------------------------------------------*/
+
+	.wraper_error_main > .container{
+		padding-top:50px !important;
+		padding-bottom:60px !important;
+	}
+
+	.error_main p{
+		display:block;
+		margin-top:0;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/*--------------------------------------------------------------
+	# Gallery Columns
+	--------------------------------------------------------------*/
+
+	.gallery-item,
+	.gallery-columns-1 .gallery-item,
+	.gallery-columns-2 .gallery-item,
+	.gallery-columns-3 .gallery-item,
+	.gallery-columns-4 .gallery-item{
+		width:100%;
+		max-width:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Common
+	--------------------------------------------------------------*/
+
+	.order-first,
+	.order-second{
+		order:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# Shop Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Product Listing Page
+	--------------------------------------------------------------*/
+
+	.woocommerce .woocommerce-products-header,
+	.woocommerce .woocommerce-result-count,
+	.woocommerce .woocommerce-ordering{
+		width:100%;
+		text-align:center;
+	}
+
+	.woocommerce ul.products li.product.rt-shop-column-3,
+	.woocommerce ul.products li.product.rt-shop-column-4{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Cart Page
+	--------------------------------------------------------------*/
+
+	.woocommerce input.input-text[name=coupon_code]{
+		width:100% !important;
+		margin:0px 0px 7px 0px !important;
+	}
+
+	.woocommerce input.button[name=apply_coupon]{
+		width:100% !important;
+	}
+
+	/*--------------------------------------------------------------
+	# Checkout Page
+	--------------------------------------------------------------*/
+
+	.woocommerce form #customer_details,
+	.woocommerce form #order_review_heading,
+	.woocommerce form #order_review{
+		width:100%;
+	}
+
+	/*--------------------------------------------------------------
+	# Event Page
+	--------------------------------------------------------------*/
+
+	/*--------------------------------------------------------------
+	# Event List View Page
+	--------------------------------------------------------------*/
+
+	.radiantthemes-event-list-item > .row{
+		display:block;
+	}
+
+	.radiantthemes-event-list-item-pic,
+	.radiantthemes-event-list-item-data,
+	.radiantthemes-event-list-item-button{
+		max-width:initial;
+	}
+
+	.radiantthemes-event-list-item-pic{
+		position:static;
+		background-image:initial;
+	}
+
+	/*--------------------------------------------------------------
+	# 404 Error Page
+	--------------------------------------------------------------*/
+
+	.wraper_error_main > .container{
+		padding-top:50px !important;
+		padding-bottom:60px !important;
+	}
+
+	.error_main p{
+		display:block;
+		margin-top:0;
+	}
+
+}

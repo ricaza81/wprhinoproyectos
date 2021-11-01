@@ -1,0 +1,16 @@
+﻿/* rt-progress-bar element-one */
+
+.rt-progress-bar.element-one > .title{
+	margin-bottom:5px;
+}
+
+.rt-progress-bar.element-one > .title > .progress-width{
+	float:right;
+	margin-top:2px;
+	padding:2px 5px 2px 5px;
+	background-color:#252525;
+	border-radius:3px;
+	font-size:11px;
+	color:#fff;
+	line-height:18px;
+}

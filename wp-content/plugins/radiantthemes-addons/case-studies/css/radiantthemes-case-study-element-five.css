@@ -1,0 +1,166 @@
+﻿/* rt-case-study-box element-five */
+
+.rt-case-study-box.element-five{
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item{
+	padding-left:0;
+	padding-right:0;
+	text-align:center;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder{
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .pic > img{
+	width:100%;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder:hover > .pic > .holder{
+	transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data{
+	position:relative;
+	padding-right:75px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder:hover > .data{
+	border-color:rgba(255,255,255,0);
+}
+
+.rt-case-study-box.element-five[data-case-study-box-align=left] .rt-case-study-box-item > .holder > .data{
+	text-align:left;
+}
+
+.rt-case-study-box.element-five[data-case-study-box-align=center] .rt-case-study-box-item > .holder > .data{
+	text-align:center;
+}
+
+.rt-case-study-box.element-five[data-case-study-box-align=right] .rt-case-study-box-item > .holder > .data{
+	text-align:right;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data p.category{
+	margin-bottom:3px;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:15px;
+	color:#1b273d;
+	line-height:28px;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data h4{
+	margin-bottom:10px;
+	font-weight:700;
+	font-size:18px;
+	color:#1b273d;
+	line-height:30px;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data h4 a{
+	color:inherit;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data p{
+	margin-bottom:20px;
+	color:#505050;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data .arrow-link{
+	position:absolute;;
+	top:5px;
+	right:0;
+	z-index:1;
+	width:40px;
+	height:40px;
+	border:3px #fdbe21 solid;
+	border-radius:50%;
+	text-align:center;
+	font-size:18px;
+	color:#fdbe21;
+	line-height:32px;
+	cursor:pointer;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data .arrow-link:hover{
+	background-color:#fdbe21;
+	color:#fff;
+}
+
+.rt-case-study-box.element-five .rt-case-study-box-item > .holder > .data .arrow-link i{
+    margin-right:-2px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-case-study-box.element-five .rt-case-study-box-item{
+		width:33.33% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.rt-case-study-box.element-five .rt-case-study-box-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.rt-case-study-box.element-five .rt-case-study-box-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-case-study-box.element-five .rt-case-study-box-item{
+		width:100% !important;
+	}
+
+}

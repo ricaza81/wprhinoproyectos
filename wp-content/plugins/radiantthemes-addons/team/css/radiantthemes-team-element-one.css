@@ -1,0 +1,166 @@
+﻿/* team element-one */
+
+.team.element-one{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.team.element-one .team-item{
+	padding:5px 15px 10px 15px;
+}
+
+.team.element-one:not(.owl-carousel) .team-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.team.element-one .team-item > .holder{
+	text-align:center;
+}
+
+.team.element-one .team-item > .holder > .pic{
+	margin-bottom:-85px;
+}
+
+.team.element-one .team-item > .holder > .pic > .pic-box{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	width:150px;
+	border-radius:50%;
+	overflow:hidden;
+}
+
+.team.element-one .team-item > .holder > .pic > .pic-box:before{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	content:" ";
+	border:10px rgba(255,255,255,0.5) solid;
+	border-radius:50%;
+}
+
+.team.element-one .team-item > .holder > .pic > .pic-box > img{
+	width:100%;
+}
+
+.team.element-one .team-item > .holder > .pic > .pic-box > .holder{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	width:100%;
+}
+
+.team.element-one .team-item > .holder > .pic > .pic-box > .holder img{
+	width:100%;
+}
+
+.team.element-one .team-item > .holder > .data{
+	padding:100px 20px 30px 20px;
+	background-color:#fff;
+	border:1px #e8e8d9 solid;
+	border-radius:70px 0px 70px 0px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-one .team-item > .holder:hover > .data{
+}
+
+.team.element-one .team-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.team.element-one .team-item > .holder > .data h5{
+	margin:0px 0px 5px 0px;
+	font-size:18px;
+	line-height:25px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-one .team-item > .holder:hover > .data h5,
+.team.element-one .team-item > .holder:hover > .data h5 a,
+.team.element-one .team-item > .holder:hover > .data p{
+	color:#fff;
+}
+
+.team.element-one .team-item > .holder > .data h5 a{
+	color:inherit;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-one .team-item > .holder > .data p{
+	margin:0px 0px 17px 0px;
+	font-size:14px;
+	color:#252525;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-one .team-item > .holder > .data ul.social{
+	margin:0px 0px 5px 0px;
+	font-size:0;
+}
+
+.team.element-one .team-item > .holder > .data ul.social li{
+	display:inline-block;
+	vertical-align:top;
+	margin:0px 5px 7px 5px;
+}
+
+.team.element-one .team-item > .holder > .data ul.social li a{
+	display:block;
+	width:30px;
+	height:30px;
+	background-color:#ececd8;
+	border-radius:50%;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-one .team-item > .holder:hover > .data ul.social li a{
+	background:#fff;
+}
+
+.team.element-one .team-item > .holder > .data ul.social li a i{
+	font-size:17px;
+	color:#a4a498;
+	line-height:30px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-one .team-item > .holder:hover > .data ul.social li a i{
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

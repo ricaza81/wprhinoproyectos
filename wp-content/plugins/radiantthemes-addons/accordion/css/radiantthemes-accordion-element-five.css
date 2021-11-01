@@ -1,0 +1,53 @@
+﻿/* rt-accordion element-five */
+
+.rt-accordion.element-five{
+}
+
+.rt-accordion.element-five .rt-accordion-item{
+	padding-top:13px;
+	padding-bottom:13px;
+	border-bottom:1px #e4e3eb solid;
+}
+
+.rt-accordion.element-five .rt-accordion-item:last-child{
+	border-bottom:none;
+}
+
+.rt-accordion.element-five .rt-accordion-item > .rt-accordion-item-title{
+	position:relative;
+	padding-right:35px;
+	cursor:pointer;
+}
+
+.rt-accordion.element-five .rt-accordion-item > .rt-accordion-item-title > .rt-accordion-item-title-icon{
+	position:absolute;
+	top:5px;
+	right:0;
+	z-index:1;
+}
+
+.rt-accordion.element-five .rt-accordion-item > .rt-accordion-item-title > .rt-accordion-item-title-icon .symbol:before{
+	display:block;
+	content:" ";
+	width:20px;
+	height:20px;
+	background-image:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUyIDUyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MiA1MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxwYXRoIGQ9Ik0yNiwwQzExLjY2NCwwLDAsMTEuNjYzLDAsMjZzMTEuNjY0LDI2LDI2LDI2czI2LTExLjY2MywyNi0yNlM0MC4zMzYsMCwyNiwweiBNMjYsNTBDMTIuNzY3LDUwLDIsMzkuMjMzLDIsMjYgICBTMTIuNzY3LDIsMjYsMnMyNCwxMC43NjcsMjQsMjRTMzkuMjMzLDUwLDI2LDUweiIgZmlsbD0iIzg1ODY4OCIvPgoJPHBhdGggZD0iTTM4LjUsMjVIMjdWMTRjMC0wLjU1My0wLjQ0OC0xLTEtMXMtMSwwLjQ0Ny0xLDF2MTFIMTMuNWMtMC41NTIsMC0xLDAuNDQ3LTEsMXMwLjQ0OCwxLDEsMUgyNXYxMmMwLDAuNTUzLDAuNDQ4LDEsMSwxICAgczEtMC40NDcsMS0xVjI3aDExLjVjMC41NTIsMCwxLTAuNDQ3LDEtMVMzOS4wNTIsMjUsMzguNSwyNXoiIGZpbGw9IiM4NTg2ODgiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.rt-accordion.element-five .rt-accordion-item.rt-active > .rt-accordion-item-title > .rt-accordion-item-title-icon .symbol:before{
+	background-image:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjA1OSAzMS4wNTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjA1OSAzMS4wNTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTUuNTI5LDMxLjA1OUM2Ljk2NiwzMS4wNTksMCwyNC4wOTIsMCwxNS41MjlDMCw2Ljk2Niw2Ljk2NiwwLDE1LjUyOSwwICAgIHMxNS41MjksNi45NjYsMTUuNTI5LDE1LjUyOUMzMS4wNTksMjQuMDkyLDI0LjA5MiwzMS4wNTksMTUuNTI5LDMxLjA1OXogTTE1LjUyOSwxLjc3NGMtNy41ODQsMC0xMy43NTQsNi4xNzEtMTMuNzU0LDEzLjc1NSAgICBzNi4xNywxMy43NTQsMTMuNzU0LDEzLjc1NGM3LjU4NCwwLDEzLjc1NC02LjE3LDEzLjc1NC0xMy43NTRTMjMuMTE0LDEuNzc0LDE1LjUyOSwxLjc3NHoiIGZpbGw9IiM4NTg2ODgiLz4KCTwvZz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMS42NTIsMTYuNDE2SDkuNDA2Yy0wLjQ5LDAtMC44ODctMC4zOTYtMC44ODctMC44ODdjMC0wLjQ5LDAuMzk4LTAuODg4LDAuODg3LTAuODg4aDEyLjI0NiAgICBjMC40OSwwLDAuODg3LDAuMzk4LDAuODg3LDAuODg4QzIyLjUzOSwxNi4wMiwyMi4xNDMsMTYuNDE2LDIxLjY1MiwxNi40MTZ6IiBmaWxsPSIjODU4Njg4Ii8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+
+.rt-accordion.element-five .rt-accordion-item > .rt-accordion-item-title > .panel-title{
+	margin:0;
+	font-weight:600;
+	font-size:18px;
+	line-height:30px;
+}
+
+.rt-accordion.element-five .rt-accordion-item > .rt-accordion-item-body{
+	padding-top:20px;
+	padding-right:35px;
+}

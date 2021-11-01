@@ -1,0 +1,52 @@
+﻿/* rt-beforeafter element-two */
+
+.rt-beforeafter.element-two{
+    position:relative;
+    overflow:hidden;
+}
+
+.rt-beforeafter.element-two img{
+    width:100%;
+    display:block;
+    max-width:none;
+}
+
+.rt-beforeafter.element-two .resize{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:50%;
+    overflow:hidden;
+}
+
+.rt-beforeafter.element-two .handle{
+    position:absolute;
+    left:50%;
+    top:0;
+    bottom:0;
+    width:2px;
+    margin-left:-1px;
+    background:rgba(255,255,255,1);
+    cursor:ew-resize;
+}
+
+.rt-beforeafter.element-two .handle:after{
+    position:absolute;
+    top:50%;
+    width:24px;
+    height:13px;
+    margin-top:-6px;
+    margin-left:-11px;
+    content:" ";
+    background:url('../images/beforeafter-element-two-icon.png') 0px 0px no-repeat;
+    border:none;
+    border-radius:50%;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-beforeafter.element-two .handle.ba-draggable:after{
+	transform:scale(0.8);
+	-webkit-transform:scale(0.8);
+}

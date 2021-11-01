@@ -1,0 +1,121 @@
+/* rt-highlight-box element-one */
+
+.rt-highlight-box.element-one{
+}
+
+.rt-highlight-box.element-one > .holder{
+    margin-right:0;
+    margin-left:0;
+}
+
+.rt-highlight-box.element-one > .holder > [class*='col-']{
+    padding-right:0;
+    padding-left:0;
+}
+
+.rt-highlight-box.element-one > .holder .pic{
+    padding-left:5px;
+    padding-right:5px;
+    overflow:hidden;
+    text-align:center;
+}
+
+.rt-highlight-box.element-one > .holder .pic > .table{
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+.rt-highlight-box.element-one > .holder .pic > .table > .table-cell{
+    display:table-cell;
+    width:100%;
+    height:100%;
+    vertical-align:bottom;
+}
+
+.rt-highlight-box.element-one > .holder .pic img{
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-highlight-box.element-one > .holder:hover .pic img{
+    transform:translateY(15px);
+    -webkit-transform:translateY(15px);
+}
+
+.rt-highlight-box.element-one > .holder .data{
+    padding:22px 25px 25px 25px;
+    text-align:left;
+}
+
+.rt-highlight-box.element-one > .holder .data > .table{
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+.rt-highlight-box.element-one > .holder .data > .table > .table-cell{
+    display:table-cell;
+    width:100%;
+    height:100%;
+    vertical-align:middle;
+}
+
+.rt-highlight-box.element-one > .holder .data > .table > .table-cell > *:last-child{
+    margin-bottom:0 !important;
+}
+
+.rt-highlight-box.element-one > .holder .data h4{
+    margin-bottom:7px;
+    font-weight:300;
+    font-size:40px;
+    color:#fff;
+    line-height:50px;
+}
+
+.rt-highlight-box.element-one > .holder .data p{
+    margin-bottom:30px;
+    font-weight:400;
+    font-size:16px;
+    color:rgba(0,0,0,0.6);
+    line-height:28px;
+}
+
+.rt-highlight-box.element-one > .holder .data .btn{
+    margin-bottom:30px;
+    padding:9px 25px 12px 25px;
+    background-color:initial;
+    border:1px #fff solid;
+    border-radius:35px;
+    font-weight:400;
+    font-size:18px;
+    color:#fff;
+    line-height:30px;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-highlight-box.element-one > .holder .data .btn:hover{
+    background-color:#fff;
+    color:#252525;
+}
+
+.rt-highlight-box.element-one > .holder .data .btn:after{
+    margin-left:0px;
+    content:"\f105";
+    font-family:"FontAwesome";
+    opacity:0;
+    visibility:hidden;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-highlight-box.element-one > .holder .data .btn:hover:after{
+    margin-left:12px;
+    opacity:1;
+    visibility:visible;
+}

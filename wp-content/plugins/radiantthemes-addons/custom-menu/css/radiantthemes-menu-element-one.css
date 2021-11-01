@@ -1,0 +1,32 @@
+/* rt-menu element-one  */
+
+.rt-menu.element-one{
+}
+
+.rt-menu.element-one ul.menu{
+}
+
+.rt-menu.element-one ul.menu li{
+}
+
+.rt-menu.element-one ul.menu li a{
+    display:block;
+    padding:5px 25px 9px 25px;
+    font-weight:400;
+    font-size:17px;
+    color:#fff;
+    line-height:27px;
+    opacity:0.9;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-menu.element-one ul.menu li a:hover,
+.rt-menu.element-one ul.menu li.current-menu-item a{
+    opacity:1;
+    background-color:rgba(255,255,255,0.12);
+}
+
+.rt-menu.element-one ul.menu li ul li a{
+    padding-left:40px;
+}

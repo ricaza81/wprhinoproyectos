@@ -1,0 +1,59 @@
+/* rt-animated-link element-five */
+
+.rt-animated-link.element-five{
+}
+
+.rt-animated-link.element-five > .holder{
+    text-align:center;
+}
+
+.rt-animated-link.element-five > .holder > .main-link{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:400;
+    font-size:25px;
+    color:#fff;
+    line-height:35px;
+}
+
+.rt-animated-link.element-five > .holder > .main-link:before{
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    z-index:0;
+    content:" ";
+    height:1px;
+    background-color:#fff;
+    opacity:0;
+    visibility:hidden;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-five > .holder > .main-link:hover:before{
+    top:0;
+    opacity:1;
+    visibility:visible;
+}
+
+.rt-animated-link.element-five > .holder > .main-link:after{
+    position:absolute;
+    bottom:0;
+    left:15px;
+    right:15px;
+    z-index:0;
+    content:" ";
+    height:1px;
+    background-color:#fff;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-five > .holder > .main-link:hover:after{
+    left:0;
+    right:0;
+}

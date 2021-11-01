@@ -1,0 +1,91 @@
+/* rt-highlight-box element-three */
+
+.rt-highlight-box.element-three{
+}
+
+.rt-highlight-box.element-three > .holder{
+    position:relative;
+    overflow:hidden;
+}
+
+.rt-highlight-box.element-three > .holder > .pic{
+    position:absolute;
+    top:-20%;
+    left:-30%;
+    z-index:1;
+    width:160%;
+    opacity:0.85;
+    transition:all 0.7s ease-in-out;
+    -webkit-transition:all 0.7s ease-in-out;
+}
+
+.rt-highlight-box.element-three > .holder:hover > .pic{
+    transform:translateY(40px);
+    -webkit-transform:translateY(40px);
+}
+
+.rt-highlight-box.element-three > .holder > .pic img{
+    width:100%;
+}
+
+.rt-highlight-box.element-three > .holder > .data{
+    position:relative;
+    z-index:2;
+    padding:55px 25px 60px 25px;
+    text-align:center;
+}
+
+.rt-highlight-box.element-three > .holder > .data > *:last-child{
+    margin-bottom:0 !important;
+}
+
+.rt-highlight-box.element-three > .holder .data h4{
+    margin-bottom:7px;
+    font-weight:300;
+    font-size:35px;
+    color:#fff;
+    line-height:45px;
+}
+
+.rt-highlight-box.element-three > .holder .data p{
+    margin-bottom:20px;
+    font-weight:400;
+    font-size:16px;
+    color:rgba(255,255,255,0.8);
+    line-height:28px;
+}
+
+.rt-highlight-box.element-three > .holder .data .btn{
+    margin-bottom:30px;
+    padding:9px 25px 12px 25px;
+    background-color:initial;
+    border:1px #fff solid;
+    border-radius:35px;
+    font-weight:400;
+    font-size:18px;
+    color:#fff;
+    line-height:30px;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-highlight-box.element-three > .holder .data .btn:hover{
+    background-color:#fff;
+    color:#252525;
+}
+
+.rt-highlight-box.element-three > .holder .data .btn:after{
+    margin-left:0px;
+    content:"\f105";
+    font-family:"FontAwesome";
+    opacity:0;
+    visibility:hidden;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-highlight-box.element-three > .holder .data .btn:hover:after{
+    margin-left:12px;
+    opacity:1;
+    visibility:visible;
+}

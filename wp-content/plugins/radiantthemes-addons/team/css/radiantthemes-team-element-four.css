@@ -1,0 +1,141 @@
+﻿/* team element-four */
+
+.team.element-four{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.team.element-four .team-item{
+	padding:18px 15px 15px 15px;
+}
+
+.team.element-four:not(.owl-carousel) .team-item{
+	float:left;
+	margin-bottom:40px;
+}
+
+.team.element-four .team-item > .holder{
+	position:relative;
+	border:1px #e3e3e3 solid;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-four .team-item > .holder:hover{
+	box-shadow:0px 0px 15px rgba(58,58,58,0.2);
+}
+
+.team.element-four .team-item > .holder:before{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index:2;
+	content:" ";
+	height:3px;
+	transform:scaleX(0);
+	-webkit-transform:scaleX(0);
+	background-color:#161616;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+}
+
+.team.element-four .team-item > .holder:hover:before{
+	transform:scaleX(1);
+	-webkit-transform:scaleX(1);
+}
+
+.team.element-four .team-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+}
+
+.team.element-four .team-item > .holder > .pic:before{
+	position:absolute;
+	top:50%;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	content:" ";
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.team.element-four .team-item > .holder > .pic > img{
+	width:100%;
+}
+
+.team.element-four .team-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background:center top no-repeat;
+	background-size:cover;
+}
+
+.team.element-four .team-item > .holder > .pic > .data{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:3;
+	padding:10px 10px 13px 10px;
+}
+
+.team.element-four .team-item > .holder > .pic > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.team.element-four .team-item > .holder > .pic > .data h5{
+	margin-bottom:3px;
+	font-weight:700;
+	font-size:17px;
+	color:#fff;
+	line-height:25px;
+}
+
+.team.element-four .team-item > .holder > .pic > .data h5 a{
+	color:inherit;
+}
+
+.team.element-four .team-item > .holder > .pic > .data p{
+	margin:0px;
+	text-transform:capitalize;
+	font-size:14px;
+	color:#fff;
+	line-height:22px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

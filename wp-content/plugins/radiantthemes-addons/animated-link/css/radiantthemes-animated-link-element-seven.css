@@ -1,0 +1,59 @@
+/* rt-animated-link element-seven */
+
+.rt-animated-link.element-seven{
+}
+
+.rt-animated-link.element-seven > .holder{
+    text-align:center;
+}
+
+.rt-animated-link.element-seven > .holder > .main-link{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight:400;
+    font-size:25px;
+    color:#fff;
+    line-height:35px;
+}
+
+.rt-animated-link.element-seven > .holder > .main-link:before,
+.rt-animated-link.element-seven > .holder > .main-link:after{
+    position:absolute;
+    left:0;
+    right:0;
+    z-index:0;
+    content:" ";
+    height:2px;
+    background-color:#fff;
+    opacity:0.8;
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-animated-link.element-seven > .holder > .main-link:before{
+    top:0;
+}
+
+.rt-animated-link.element-seven > .holder > .main-link:after{
+    bottom:0;
+}
+
+.rt-animated-link.element-seven > .holder > .main-link:hover:before,
+.rt-animated-link.element-seven > .holder > .main-link:hover:after{
+    opacity:0.4;
+}
+
+.rt-animated-link.element-seven > .holder > .main-link:hover:before{
+    top:50%;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
+
+.rt-animated-link.element-seven > .holder > .main-link:hover:after{
+    bottom:50%;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}

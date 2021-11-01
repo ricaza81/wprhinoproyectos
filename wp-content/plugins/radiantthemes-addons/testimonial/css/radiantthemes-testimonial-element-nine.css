@@ -1,0 +1,186 @@
+﻿/* testimonial element-nine */
+
+.testimonial.element-nine{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.testimonial.element-nine *{
+	margin:0 auto;
+}
+
+.testimonial.element-nine .testimonial-item{
+	padding:5px 15px 30px 15px;
+}
+
+.testimonial.element-nine:not(.owl-carousel) .testimonial-item{
+	float:left;
+	margin-bottom:30px;
+}
+
+.testimonial.element-nine .testimonial-item > .holder{
+	position:relative;
+	padding:20px 25px 30px 25px;
+}
+
+.testimonial.element-nine .testimonial-item > .holder:before{
+	position:absolute;
+	top:100%;
+	left:0;
+	right:0;
+	z-index:0;
+	content:" ";
+	width:100%;
+	height:30px;
+	background:url('../images/radianttheme-testimonial-element-nine-shadow.png') center top no-repeat;
+	background-size:100% auto;
+	opacity:0.7;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .pic{
+	position:absolute;
+	top:25px;
+	left:25px;
+	z-index:1;
+	width:auto;
+	height:auto;
+	text-align:center;
+}
+
+.testimonial.element-nine .testimonial-item.no-image > .holder > .pic{
+	display:none;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .pic > .holder{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .pic > .holder img{
+	width:100px;
+	border:2px #fff solid;
+	box-shadow:0px 0px 5px rgba(1,1,1,0.25);
+}
+
+.testimonial.element-nine.image-square .testimonial-item > .holder > .pic > .holder img{
+	border-radius:0;
+}
+
+.testimonial.element-nine.image-round .testimonial-item > .holder > .pic > .holder img{
+	border-radius:5px;
+}
+
+.testimonial.element-nine.image-circle .testimonial-item > .holder > .pic > .holder img{
+	border-radius:50%;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data{
+	padding-left:125px;
+}
+
+.testimonial.element-nine .testimonial-item.no-image > .holder > .data{
+	padding-left:0;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data blockquote{
+	margin-bottom:15px;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data blockquote:before{
+	display:block;
+	margin-bottom:10px;
+	content:"\f10d";
+	font-family:'FontAwesome';
+	font-size:30px;
+	color:rgba(0,0,0,0.25);
+	line-height:30px;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data blockquote p{
+	margin-bottom:20px;
+}
+
+.testimonial.element-nine .testimonial-item > .holder > .data h5{
+	margin-bottom:15px;
+	text-transform:uppercase;
+	font-size:15px;
+	line-height:25px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	.testimonial.element-nine:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+	.testimonial.element-nine .testimonial-item > .holder > .pic{
+		position:static;
+		width:100%;
+		margin-bottom:25px;
+	}
+
+	.testimonial.element-nine .testimonial-item > .holder > .data{
+		padding-left:0;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	.testimonial.element-nine:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+	.testimonial.element-nine .testimonial-item > .holder > .pic{
+		position:static;
+		width:100%;
+		margin-bottom:25px;
+	}
+
+	.testimonial.element-nine .testimonial-item > .holder > .data{
+		padding-left:0;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.testimonial.element-nine:not(.owl-carousel) .testimonial-item{
+		width:100% !important;
+	}
+
+	.testimonial.element-nine .testimonial-item > .holder > .pic{
+		position:static;
+		width:100%;
+		margin-bottom:25px;
+	}
+
+	.testimonial.element-nine .testimonial-item > .holder > .data{
+		padding-left:0;
+	}
+
+}
